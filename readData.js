@@ -1,7 +1,7 @@
 
 // Temp
 
-$.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/97200/period/latest-day/data.json", function( data ) {
+$.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/97200/period/latest-day/data.json", function( data ) {
   var plot1 = []
   var plot2 = []
   var plot3 = []
@@ -11,13 +11,13 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
     var d = new Date(observTemp.value[i].date)
     plot1.push({'x': d,'y':Number(observTemp.value[i].value)})
   }
-  $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/98210/period/latest-day/data.json", function( data ) {
+  $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/98210/period/latest-day/data.json", function( data ) {
     var observTemp2 = data
     for (var i = 0; i < observTemp2.value.length; i++) {
       var d = new Date(observTemp2.value[i].date)
       plot2.push({'x': d,'y':Number(observTemp2.value[i].value)})
     }
-    $.getJSON( "http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
+    $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
       var plot3 = []
       var temp = data
       for (var i = 0; i < temp.timeSeries.length; i++) {
@@ -31,7 +31,7 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
 
 
 
-$.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/98210/period/latest-months/data.json", function( data ) {
+$.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/98210/period/latest-months/data.json", function( data ) {
   var plot1 = []
   var plot2 = []
   var observTemp = data
@@ -39,7 +39,7 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
     var d = new Date(observTemp.value[i].date)
     plot1.push({'x': d,'y':Number(observTemp.value[i].value)})
   }
-  $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/98210/period/latest-day/data.json", function( data ) {
+  $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/98210/period/latest-day/data.json", function( data ) {
     var observTemp2 = data
     for (var i = 0; i < observTemp2.value.length; i++) {
       var d = new Date(observTemp2.value[i].date)
@@ -53,7 +53,7 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
 // Vind
 
 
-$.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/97200/period/latest-day/data.json", function( data ) {
+$.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/97200/period/latest-day/data.json", function( data ) {
   var plot1 = []
   var plot2 = []
   var plot3 = []
@@ -63,13 +63,13 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
     var d = new Date(observTemp.value[i].date)
     plot1.push({'x': d,'y':Number(observTemp.value[i].value)})
   }
-  $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/98210/period/latest-day/data.json", function( data ) {
+  $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/98210/period/latest-day/data.json", function( data ) {
     var observTemp2 = data
     for (var i = 0; i < observTemp2.value.length; i++) {
       var d = new Date(observTemp2.value[i].date)
       plot2.push({'x': d,'y':Number(observTemp2.value[i].value)})
     }
-    $.getJSON( "http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
+    $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
       var plot3 = []
       var temp = data
       for (var i = 0; i < temp.timeSeries.length; i++) {
@@ -83,7 +83,7 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
 
 
 
-$.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/21/station/97280/period/latest-months/data.json", function( data ) {
+$.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/21/station/97280/period/latest-months/data.json", function( data ) {
   var plot1 = []
   var plot2 = []
   var observTemp = data
@@ -91,7 +91,7 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
     var d = new Date(observTemp.value[i].date)
     plot1.push({'x': d,'y':Number(observTemp.value[i].value)})
   }
-  $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/97280/period/latest-day/data.json", function( data ) {
+  $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/97280/period/latest-day/data.json", function( data ) {
     var observTemp2 = data
     for (var i = 0; i < observTemp2.value.length; i++) {
       var d = new Date(observTemp2.value[i].date)
@@ -107,13 +107,13 @@ var nedbPlotObsDay = [];
 var nedbPlotObslMonth = [];
 
 
-$.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/5/station/98210/period/latest-months/data.json", function( data ) {
+$.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/5/station/98210/period/latest-months/data.json", function( data ) {
   observnedb = data
   for (var i = 0; i < observnedb.value.length; i++) {
     var d = new Date(observnedb.value[i].to)
     nedbPlotObslMonth.push({'x': d,'y':Number(observnedb.value[i].value)})
   }
-  $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/5/station/98210/period/latest-day/data.json", function( data ) {
+  $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/5/station/98210/period/latest-day/data.json", function( data ) {
     observnedb2 = data
     for (var i = 0; i < observnedb2.value.length; i++) {
       var d = new Date(observnedb2.value[i].to)
@@ -129,7 +129,7 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
 // Molnmängd Total
 
 
-$.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/16/station/98210/period/latest-day/data.json", function( data ) {
+$.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/16/station/98210/period/latest-day/data.json", function( data ) {
   var plot1 = []
   var plot2 = []
   var plot3 = []
@@ -139,13 +139,13 @@ $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter
     var d = new Date(observTemp.value[i].date)
     plot1.push({'x': d,'y':((Number(observTemp.value[i].value)/100) * 8)})
   }
-  $.getJSON( "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/16/station/98210/period/latest-day/data.json", function( data ) {
+  $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/16/station/98210/period/latest-day/data.json", function( data ) {
     var observTemp2 = data
     for (var i = 0; i < observTemp2.value.length; i++) {
       var d = new Date(observTemp2.value[i].date)
       plot2.push({'x': d,'y':Number(observTemp2.value[i].value)})
     }
-    $.getJSON( "http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
+    $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
       var plot3 = []
       var temp = data
       for (var i = 0; i < temp.timeSeries.length; i++) {
