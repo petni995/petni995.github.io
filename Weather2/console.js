@@ -16,7 +16,7 @@ var rawDataDebug
 
 ///
 
-$.getJSON( "http://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
+$.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
       rawDataDebug = data
 
       for (var i = 0; i < 25; i++) {
