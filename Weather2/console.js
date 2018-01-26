@@ -41,8 +41,8 @@ function update() {
 
   for (var i = 0; i < 25; i++) {
 
-    display.drawText(2,  2 , "Date    temp  tempGraph    Cloudcover   Precipation");
-    display.drawText(2,  3 , "_____________________________________________________");
+    display.drawText(2,  2 , "Date    temp  tempGraph    Cloudcover      Precipation");
+    display.drawText(2,  3 , "______________________________________________________");
 
     datumD = weatherData[i]['tid'] + ""
     datum = datumD.slice(0,2) + " " + datumD.slice(16,18)
@@ -66,7 +66,11 @@ function update() {
     molnTD = weatherData[i]['tcc_mean'] + ""
     display.drawText(30,  4 + i, molnTD);
 
+    display.drawText(33,  4 + i, "['''''''']");
 
+    for (var id = 0; id < molnTD; id++) {
+      display.drawText(34 + id,  4 + i, "%b{white}8");
+    }
 
   }
 
