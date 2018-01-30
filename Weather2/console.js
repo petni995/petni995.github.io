@@ -85,7 +85,11 @@ function update() {
     molnTD = weatherData[i]['tcc_mean'] + ""
     display.drawText(30,  4 + i, molnTD);
 
-    display.drawText(33,  4 + i, "['''''''']");
+    if (weatherData[i]['daytime'] == 'day') {
+          display.drawText(33,  4 + i, "[%b{#00bfff}''''''''%b{}]");  
+    } else {
+          display.drawText(33,  4 + i, "['''''''']");
+    }
 
     for (var id = 0; id < molnTD; id++) {
       display.drawText(34 + id,  4 + i, "%b{white}8");
