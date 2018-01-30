@@ -14,6 +14,9 @@ var weatherData = []
 
 var rawDataDebug
 
+
+
+
 ///
 
 $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
@@ -27,8 +30,20 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         pcatindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'pcat'; });
 
         var d = new Date(data.timeSeries[i].validTime)
+
+        // Get sunset sunrise
+        var times = SunCalc.getTimes(d, 59.32, 18.06);
+        var sunrisesunset = ''
+
+        if (d>times.sunrise && d < times.sunset) {
+          sunrisesunset = 'day'
+        } else {
+          sunrisesunset = 'night'
+        }
+
         weatherData.push({
         'tid': d,
+        'daytime' : sunrisesunset,
         'tcc_mean':Number(data.timeSeries[i].parameters[tcc_meanindex].values[0]),
         't':Number(data.timeSeries[i].parameters[tindex].values[0]),
         'pcat':Number(data.timeSeries[i].parameters[pcatindex].values[0]),
@@ -88,6 +103,8 @@ function update() {
     }
 
     display.drawText(49,  4 + i, pcatD);
+
+    display.drawText(55,  4 + i, weatherData[i]['daytime']);
 
   }
 
