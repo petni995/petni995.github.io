@@ -60,7 +60,7 @@ function update() {
 
   for (var i = 0; i < 50; i++) {
 
-    display.drawText(2,  2 , "Date    temp  tempGraph    Cloudcover      mm/h(mean)");
+    display.drawText(2,  2 , "Date    temp  tempGraph    Cloudcover     mm/h  ");
     display.drawText(2,  3 , "______________________________________________________");
 
     datumD = weatherData[i]['tid'] + ""
@@ -83,20 +83,25 @@ function update() {
     }
 
     molnTD = weatherData[i]['tcc_mean'] + ""
-    display.drawText(30,  4 + i, molnTD);
 
     if (weatherData[i]['daytime'] == 'day') {
-          display.drawText(33,  4 + i, "[%b{#00bfff}''''''''%b{}]");  
+          display.drawText(29,  4 + i, "[%b{#00bfff}''''''''%b{}]");
     } else {
-          display.drawText(33,  4 + i, "['''''''']");
+          display.drawText(29,  4 + i, "['''''''']");
     }
 
     for (var id = 0; id < molnTD; id++) {
-      display.drawText(34 + id,  4 + i, "%b{white}8");
+      display.drawText(30 + id,  4 + i, "%b{white}8");
+    }
+
+    if (weatherData[i]['daytime'] == 'day') {
+          display.drawText(40,  4 + i, "%c{yellow}o");
+    } else {
+          display.drawText(40,  4 + i, "%c{white}o");
     }
 
     pmeanD = weatherData[i]['pmean'] + ""
-    display.drawText(45,  4 + i, pmeanD);
+    display.drawText(44,  4 + i, pmeanD);
 
     if (weatherData[i]['pcat'] == 1) {
       pcatD = "*"
@@ -106,9 +111,9 @@ function update() {
       pcatD = "'"
     }
 
-    display.drawText(49,  4 + i, pcatD);
+    display.drawText(48,  4 + i, pcatD);
 
-    display.drawText(55,  4 + i, weatherData[i]['daytime']);
+
 
   }
 
