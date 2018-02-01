@@ -47,6 +47,7 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         'tcc_mean':Number(data.timeSeries[i].parameters[tcc_meanindex].values[0]),
         't':Number(data.timeSeries[i].parameters[tindex].values[0]),
         'pcat':Number(data.timeSeries[i].parameters[pcatindex].values[0]),
+        'moon': SunCalc.getMoonIllumination(d).fraction,
         'pmean':Number(data.timeSeries[i].parameters[pmeanindex].values[0])})
         }
 
@@ -97,7 +98,12 @@ function update() {
     if (weatherData[i]['daytime'] == 'day') {
           display.drawText(40,  4 + i, "%c{yellow}o");
     } else {
-          display.drawText(40,  4 + i, "%c{white}o");
+          if (weatherData[i]['moon'] > 0.75) {
+              display.drawText(40,  4 + i, "%c{white}o");
+          } else if (weatherData[i]['moon'] > 0.25 && weatherData[i]['moon'] <0.75 ) {
+              display.drawText(40,  4 + i, "%c{white}<");
+          }
+
     }
 
     pmeanD = weatherData[i]['pmean'] + ""
