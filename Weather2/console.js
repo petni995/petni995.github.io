@@ -28,6 +28,8 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         tcc_meanindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'tcc_mean'; });
         pmeanindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'pmean'; });
         pcatindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'pcat'; });
+        wsindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'ws'; });
+
 
         var d = new Date(data.timeSeries[i].validTime)
 
@@ -47,6 +49,7 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         'tcc_mean':Number(data.timeSeries[i].parameters[tcc_meanindex].values[0]),
         't':Number(data.timeSeries[i].parameters[tindex].values[0]),
         'pcat':Number(data.timeSeries[i].parameters[pcatindex].values[0]),
+        'ws':Number(data.timeSeries[i].parameters[wsindex].values[0]),
         'moon': SunCalc.getMoonIllumination(d).fraction,
         'pmean':Number(data.timeSeries[i].parameters[pmeanindex].values[0])})
         }
@@ -61,7 +64,7 @@ function update() {
 
   for (var i = 0; i < 50; i++) {
 
-    display.drawText(2,  2 , "Date    temp  tempGraph    Cloudcover     mm/h  ");
+    display.drawText(2,  2 , "Date    temp  tempGraph    Cloudcover     mm/h    m/s");
     display.drawText(2,  3 , "______________________________________________________");
 
     datumD = weatherData[i]['tid'] + ""
@@ -107,19 +110,25 @@ function update() {
     }
 
     pmeanD = weatherData[i]['pmean'] + ""
-    display.drawText(44,  4 + i, pmeanD);
 
-    if (weatherData[i]['pcat'] == 1) {
-      pcatD = "*"
-    } else if (weatherData[i]['pcat'] == 0) {
-      pcatD = ""
-    } else {
-      pcatD = "'"
+    if (weatherData[i]['pmean'] > 0) {
+      display.drawText(44,  4 + i, pmeanD);
+
+      if (weatherData[i]['pcat'] == 1) {
+        pcatD = "*"
+      } else if (weatherData[i]['pcat'] == 0) {
+        pcatD = ""
+      } else {
+        pcatD = "'"
+      }
+
+      display.drawText(48,  4 + i, pcatD);
+
     }
 
-    display.drawText(48,  4 + i, pcatD);
 
-
+    wsD = Math.round(weatherData[i]['ws']) + ""
+    display.drawText(52,  4 + i, wsD);
 
   }
 
