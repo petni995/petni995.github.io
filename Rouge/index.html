@@ -2,11 +2,49 @@
 <html>
   <head>
     <title>Javascript Roguelike</title>
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          padding: 10px;
+        }
+        .grid-item {
+
+          padding: 20px;
+          font-size: 30px;
+          text-align: center;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+</style>
   </head>
   <body>
     <script src="libraries/rot.js"></script>
     <script src="game.js"></script>
     <script src="screens.js"></script>
-    <button onclick="Game._currentScreen.handleInput('keydown', 'return')">return</button>
+    <div id="console">
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item"><input type="button" class="button" value="return" onclick="Game._currentScreen.handleInput('keydown', 'return')"></div>
+        <div class="grid-item">8</div>
+        <div class="grid-item"><button onclick="Game._currentScreen.handleInput('keydown', 'return')">return</button></div>
+      </div>
+
   </body>
 </html>
