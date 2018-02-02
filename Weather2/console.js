@@ -28,6 +28,7 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         tcc_meanindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'tcc_mean'; });
         pmeanindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'pmean'; });
         pcatindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'pcat'; });
+        gustindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'gust'; });
         wsindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'ws'; });
 
 
@@ -50,6 +51,7 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         't':Number(data.timeSeries[i].parameters[tindex].values[0]),
         'pcat':Number(data.timeSeries[i].parameters[pcatindex].values[0]),
         'ws':Number(data.timeSeries[i].parameters[wsindex].values[0]),
+        'gust':Number(data.timeSeries[i].parameters[gustindex].values[0]),
         'moon': SunCalc.getMoonIllumination(d).fraction,
         'pmean':Number(data.timeSeries[i].parameters[pmeanindex].values[0])})
         }
@@ -128,7 +130,8 @@ function update() {
 
 
     wsD = Math.round(weatherData[i]['ws']) + ""
-    display.drawText(52,  4 + i, wsD);
+    gustD = Math.round(weatherData[i]['gust']) + ""
+    display.drawText(52,  4 + i, wsD + " (" + gustD + ")");
 
   }
 
