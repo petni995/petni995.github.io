@@ -66,14 +66,19 @@ function update() {
 
   for (var i = 0; i < 50; i++) {
 
-    display.drawText(2,  2 , "Date    temp  tempGraph    Cloudcover     mm/h    m/s");
-    display.drawText(2,  3 , "______________________________________________________");
+    display.drawText(2,  2 , "Date    temp  tempGraph    Cloudcover     mm/h    m/s    windGraph");
+    display.drawText(2,  3 , "__________________________________________________________________");
+
+    // Tid
 
     datumD = weatherData[i]['tid'] + ""
     datum = datumD.slice(0,2) + " " + datumD.slice(16,18)
     display.drawText(2,  4 + i, datum);
 
     display.drawText(8,  4 + i, "|");
+
+
+    // Temp
 
     tempD = Math.round(weatherData[i]['t']) + ""
     display.drawText(11,  4 + i, tempD);
@@ -88,6 +93,8 @@ function update() {
           display.drawText(14,  4 + i, "[----|%b{blue}-%b{}-----]");
     }
 
+    // Moln
+
     molnTD = weatherData[i]['tcc_mean'] + ""
 
     if (weatherData[i]['daytime'] == 'day') {
@@ -100,6 +107,8 @@ function update() {
       display.drawText(30 + id,  4 + i, "%b{white}8");
     }
 
+    // SUN/MOON
+
     if (weatherData[i]['daytime'] == 'day') {
           display.drawText(40,  4 + i, "%c{yellow}o");
     } else {
@@ -110,6 +119,8 @@ function update() {
           }
 
     }
+
+    // Nederbörd
 
     pmeanD = weatherData[i]['pmean'] + ""
 
@@ -128,11 +139,49 @@ function update() {
 
     }
 
+    // Vind
 
     wsD = Math.round(weatherData[i]['ws']) + ""
     gustD = Math.round(weatherData[i]['gust']) + ""
     display.drawText(52,  4 + i, wsD + " (" + gustD + ")");
 
-  }
+    if (gustD < 0.2) {
+      display.drawText(59,  4 + i, "[        ]");
+      plotWS()
+    } else if (gustD > 0.2 && gustD <= 1.5 ) {
+      display.drawText(59,  4 + i, "[-       ]");
+      plotWS()
+    } else if (gustD > 1.5 && gustD <= 3.3 ) {
+      display.drawText(59,  4 + i, "[--      ]");
+      plotWS()
+    } else if (gustD > 3.3 && gustD <= 5.4 ) {
+      display.drawText(59,  4 + i, "[---     ]");
+      plotWS()
+    } else if (gustD > 5.5 && gustD <= 7.9 ) {
+      display.drawText(59,  4 + i, "[----    ]");
+      plotWS()
+    } else if (gustD > 7.9 && gustD <= 10.7 ) {
+      display.drawText(59,  4 + i, "[-----   ]");
+      plotWS()
+    } else if (gustD > 10.7 && gustD <= 13.8 ) {
+      display.drawText(59,  4 + i, "[-----%c{yellow}-%c{}  ]");
+      plotWS()
+    }
 
-}
+    function plotWS() {
+      if (wsD > 0.2 && wsD <= 1.5 ) {
+        display.drawText(59,  4 + i, "[>");
+      } else if (wsD > 1.5 && wsD <= 3.3 ) {
+        display.drawText(59,  4 + i, "[>>");
+      } else if (wsD > 3.3 && wsD <= 5.4 ) {
+        display.drawText(59,  4 + i, "[>>>");
+      } else if (wsD > 5.5 && wsD <= 7.9 ) {
+        display.drawText(59,  4 + i, "[>>>>");
+      } else if (wsD > 7.9 && wsD <= 10.7 ) {
+        display.drawText(59,  4 + i, "[>>>>>");
+      } else if (wsD > 10.7 && wsD <= 13.8 ) {
+        display.drawText(59,  4 + i, "[>>>>>%c{yellow}>%c{}  ]");
+      }
+      }
+
+}}
