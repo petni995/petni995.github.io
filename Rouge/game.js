@@ -5,7 +5,7 @@ var Game =  {
 	    // Any necessary initialization will go here.
 	    this._display = new ROT.Display({width: 80, height: 24});
 			this._display.setOptions({
-			    fontSize: 22
+			    fontSize: 20
 
 			});
 	    // Create a helper function for binding to an event
