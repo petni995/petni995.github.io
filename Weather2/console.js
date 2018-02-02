@@ -83,7 +83,9 @@ function update() {
     tempD = Math.round(weatherData[i]['t']) + ""
     display.drawText(11,  4 + i, tempD);
 
-    if (tempD > -10 && tempD <= -5) {
+    if (tempD > -15 && tempD <= -10) {
+          display.drawText(14,  4 + i, "[-%b{#0080ff}-%b{}--|------]");
+    } else if (tempD > -10 && tempD <= -5) {
           display.drawText(14,  4 + i, "[--%b{#00bfff}-%b{}-|------]");
     } else if (tempD > -5 && tempD <= 0) {
           display.drawText(14,  4 + i, "[---%b{#00ffff}-%b{}|------]");
