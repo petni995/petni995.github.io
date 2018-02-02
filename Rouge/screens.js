@@ -31,9 +31,9 @@ Game.Screen.playScreen = {
         if (inputType === 'keydown') {
             // If enter is pressed, go to the win screen
             // If escape is pressed, go to lose screen
-            if (inputData.keyCode === ROT.VK_RETURN) {
+            if (inputData.keyCode === ROT.VK_RETURN || inputData=='return') {
                 Game.switchScreen(Game.Screen.winScreen);
-            } else if (inputData.keyCode === ROT.VK_ESCAPE) {
+            } else if (inputData.keyCode === ROT.VK_ESCAPE || inputData=='escape') {
                 Game.switchScreen(Game.Screen.loseScreen);
             }
         }
