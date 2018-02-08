@@ -52,7 +52,7 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         'pcat':Number(data.timeSeries[i].parameters[pcatindex].values[0]),
         'ws':Number(data.timeSeries[i].parameters[wsindex].values[0]),
         'gust':Number(data.timeSeries[i].parameters[gustindex].values[0]),
-        'moon': SunCalc.getMoonIllumination(d).fraction,
+        'moon': SunCalc.getMoonIllumination(d).phase,
         'pmean':Number(data.timeSeries[i].parameters[pmeanindex].values[0])})
         }
 
@@ -114,10 +114,14 @@ function update() {
     if (weatherData[i]['daytime'] == 'day') {
           display.drawText(40,  4 + i, "%c{yellow}o");
     } else {
-          if (weatherData[i]['moon'] > 0.75) {
+          if (weatherData[i]['moon'] > 0.1 && weatherData[i]['moon'] <= 0.25) {
+              display.drawText(40,  4 + i, "%c{white}>");
+          } else if (weatherData[i]['moon'] > 0.25 && weatherData[i]['moon'] <= 0.75 ) {
               display.drawText(40,  4 + i, "%c{white}o");
-          } else if (weatherData[i]['moon'] > 0.25 && weatherData[i]['moon'] <0.75 ) {
+          } else if (weatherData[i]['moon'] > 0.75 && weatherData[i]['moon'] <= 0.9 ) {
               display.drawText(40,  4 + i, "%c{white}<");
+          } else if (weatherData[i]['moon'] > 0.9 || weatherData[i]['moon'] < 0.1 ) {
+              display.drawText(40,  4 + i, "%c{black}<");
           }
 
     }
