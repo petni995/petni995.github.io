@@ -7,5 +7,5 @@ Game.Tile.prototype.getGlyph = function() {
 };
 
 Game.Tile.nullTile = new Game.Tile(new Game.Glyph());
-Game.Tile.floorTile = new Game.Tile(new Game.Glyph('.'));
-Game.Tile.wallTile = new Game.Tile(new Game.Glyph('#', 'goldenrod'));
+Game.Tile.floorTile = new Game.Tile(new Game.Glyph('.','grey'));
+Game.Tile.wallTile = new Game.Tile(new Game.Glyph('#', 'green'));
