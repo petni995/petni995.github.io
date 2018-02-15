@@ -7,7 +7,7 @@ var Game =  {
 	    // Any necessary initialization will go here.
 	    this._display = new ROT.Display({widht: this._screenWidth, height: this._screenHeight});
 			this._display.setOptions({
-			    fontSize: 24
+			    fontSize: 26
 
 			});
 	    // Create a helper function for binding to an event
