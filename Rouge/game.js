@@ -1,13 +1,13 @@
 var Game =  {
 	_display: null,
 	_currentScreen: null,
-	_screenWidth: 80,
+	_screenWidth: 60,
 	_screenHeight: 24,
 	init: function() {
 	    // Any necessary initialization will go here.
 	    this._display = new ROT.Display({widht: this._screenWidth, height: this._screenHeight});
 			this._display.setOptions({
-			    fontSize: 26
+			    fontSize: 32
 
 			});
 	    // Create a helper function for binding to an event
