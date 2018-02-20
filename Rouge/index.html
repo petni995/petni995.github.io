@@ -40,7 +40,7 @@
     <script src="assets/map.js"></script>
     <div id="console">
     </div>
-    <div class="grid-container">
+    <!-- <div class="grid-container">
         <div class="grid-item">1</div>
         <div class="grid-item"><input type="button" class="button" value="2" onclick="Game._currentScreen.handleInput('keydown', 'J')"></div>
         <div class="grid-item">3</div>
@@ -50,7 +50,24 @@
         <div class="grid-item"><input type="button" class="button" value="enter" onclick="Game._currentScreen.handleInput('keydown', 'return')"></div>
         <div class="grid-item"><input type="button" class="button" value="8" onclick="Game._currentScreen.handleInput('keydown', 'K')"></div>
         <div class="grid-item"><input type="button" class="button" value="escape" onclick="Game._currentScreen.handleInput('keydown', 'escape')"></div>
-      </div>
+      </div> -->
+
+    <input type="text" id="myInput" oninput="myFunction()">
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myInput").value;
+        if (x == "2") {
+          Game._currentScreen.handleInput('keydown', 'J')
+          document.getElementById("myInput").value = ""
+        }
+        if (x == "8") {
+          Game._currentScreen.handleInput('keydown', 'K')
+          document.getElementById("myInput").value = ""
+        }
+
+    }
+    </script>
 
   </body>
 </html>
