@@ -172,6 +172,9 @@ function update() {
     } else if (gustD > 10.7 && gustD <= 13.8 ) {
       display.drawText(59,  4 + i, "[-----%c{yellow}-%c{}  ]");
       plotWS()
+    } else if (gustD > 13.9 && gustD <= 17.1 ) {
+      display.drawText(59,  4 + i, "[-----%c{yellow}--%c{} ]");
+      plotWS()
     }
 
     function plotWS() {
