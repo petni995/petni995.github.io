@@ -52,13 +52,11 @@ Game.Screen.playScreen = {
               map[x][y] = Game.Tile.wallTile;
           }
       });
-      // Create our map from the tiles
-      this._map = new Game.Map(map);
-      // Create our player and set the position
+      // Create our map from the tiles and player
       this._player = new Game.Entity(Game.PlayerTemplate);
-      var position = this._map.getRandomFloorPosition();
-      this._player.setX(position.x);
-      this._player.setY(position.y);
+      this._map = new Game.Map(map, this._player);
+      // Start the map's engine
+      this._map.getEngine().start();
     },
     exit: function() { console.log("Exited play screen."); },
     render: function(display) {
@@ -86,14 +84,23 @@ Game.Screen.playScreen = {
                      tile.getBackground())
              }
          }
-         // Render the player
-         display.draw(
-             this._player.getX() - topLeftX,
-             this._player.getY() - topLeftY,
-             this._player.getChar(),
-             this._player.getForeground(),
-             this._player.getBackground()
-         );
+         // Render the entities
+         var entities = this._map.getEntities();
+         for (var i = 0; i < entities.length; i++) {
+             var entity = entities[i];
+             // Only render the entitiy if they would show up on the screen
+             if (entity.getX() >= topLeftX && entity.getY() >= topLeftY &&
+                 entity.getX() < topLeftX + screenWidth &&
+                 entity.getY() < topLeftY + screenHeight) {
+                 display.draw(
+                     entity.getX() - topLeftX,
+                     entity.getY() - topLeftY,
+                     entity.getChar(),
+                     entity.getForeground(),
+                     entity.getBackground()
+                 );
+             }
+         }
     },
     handleInput: function(inputType, inputData) {
         if (inputType === 'keydown') {
@@ -107,28 +114,14 @@ Game.Screen.playScreen = {
             // Movement
             if (inputData.keyCode === ROT.VK_H || inputData=='H') {
               this.move(-1, 0);
-              // Clear the screen
-              Game._display.clear();
-              // Render the screen
-              Game._currentScreen.render(Game._display);
             } else if (inputData.keyCode === ROT.VK_L || inputData=='L') {
               this.move(1, 0);
-              // Clear the screen
-              Game._display.clear();
-              // Render the screen
-              Game._currentScreen.render(Game._display);
             } else if (inputData.keyCode === ROT.VK_J || inputData=='J') {
               this.move(0, -1);
-              // Clear the screen
-              Game._display.clear();
-              // Render the screen
-              Game._currentScreen.render(Game._display);
             } else if (inputData.keyCode === ROT.VK_K || inputData=='K') {
               this.move(0, 1); }
-              // Clear the screen
-              Game._display.clear();
-              // Render the screen
-              Game._currentScreen.render(Game._display);
+              // Unlock the engine
+              this._map.getEngine().unlock();
 
         }
     },
