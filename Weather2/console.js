@@ -72,8 +72,8 @@ function update() {
 
   for (var i = 0; i < 50; i++) {
 
-    display.drawText(2,  2 , "Date    temp  tempGraph    Cloud   mm/h   m/s    windGraph");
-    display.drawText(2,  3 , "___________________________________________________________");
+    display.drawText(2,  2 , "Date    temp  tempGraph    Cloud     mm/h   m/s    windGraph");
+    display.drawText(2,  3 , "_____________________________________________________________");
 
     // Tid
 
@@ -110,48 +110,48 @@ function update() {
     molnHD = weatherData[i]['hcc_mean'] + ""
 
     if (molnLD == 0 ) {
-      display.drawText(29,  4 + i, "%b{#00ace6}" + "'");
+      display.drawText(29,  4 + i, "%b{#00ace6}" + "''");
     } else if (molnLD > 0 && molnLD <= 3 ) {
-      display.drawText(29,  4 + i, "%b{#33ccff}" + "~");
+      display.drawText(29,  4 + i, "%b{#33ccff}" + "~~");
     } else if (molnLD > 3 && molnLD <= 6 ) {
-      display.drawText(29,  4 + i, "%b{#b3ecff}" + "%");
+      display.drawText(29,  4 + i, "%b{#b3ecff}" + "%%");
     } else if (molnLD > 6 ) {
-      display.drawText(29,  4 + i, "%b{#ffffff}" + "8");
+      display.drawText(29,  4 + i, "%b{#ffffff}" + "88");
     }
 
     if (molnMD == 0 ) {
-      display.drawText(30,  4 + i, "%b{#00ace6}" + "'");
+      display.drawText(31,  4 + i, "%b{#00ace6}" + "''");
     } else if (molnMD > 0 && molnMD <= 3 ) {
-      display.drawText(30,  4 + i, "%b{#33ccff}" + "~");
+      display.drawText(31,  4 + i, "%b{#33ccff}" + "~~");
     } else if (molnMD > 3 && molnMD <= 6 ) {
-      display.drawText(30,  4 + i, "%b{#b3ecff}" + "%");
+      display.drawText(31,  4 + i, "%b{#b3ecff}" + "%%");
     } else if (molnMD > 6 ) {
-      display.drawText(30,  4 + i, "%b{#ffffff}" + "8");
+      display.drawText(31,  4 + i, "%b{#ffffff}" + "88");
     }
 
     if (molnHD == 0 ) {
-      display.drawText(31,  4 + i, "%b{#00ace6}" + "'" );
+      display.drawText(33,  4 + i, "%b{#00ace6}" + "''" );
     } else if (molnHD > 0 && molnHD <= 3 ) {
-      display.drawText(31,  4 + i, "%b{#33ccff}" + "~");
+      display.drawText(33,  4 + i, "%b{#33ccff}" + "~~");
     } else if (molnHD > 3 && molnHD <= 6 ) {
-      display.drawText(31,  4 + i, "%b{#b3ecff}" + "%");
+      display.drawText(33,  4 + i, "%b{#b3ecff}" + "%%");
     } else if (molnHD > 6 ) {
-      display.drawText(31,  4 + i, "%b{#ffffff}" + "8");
+      display.drawText(33,  4 + i, "%b{#ffffff}" + "88");
     }
 
     // SUN/MOON
 
     if (weatherData[i]['daytime'] == 'day') {
-          display.drawText(33,  4 + i, "%c{yellow}o");
+          display.drawText(36,  4 + i, "%c{yellow}o");
     } else {
           if (weatherData[i]['moon'] > 0.1 && weatherData[i]['moon'] <= 0.25) {
-              display.drawText(33,  4 + i, "%c{white}>");
+              display.drawText(36,  4 + i, "%c{white}>");
           } else if (weatherData[i]['moon'] > 0.25 && weatherData[i]['moon'] <= 0.75 ) {
-              display.drawText(33,  4 + i, "%c{white}o");
+              display.drawText(36,  4 + i, "%c{white}o");
           } else if (weatherData[i]['moon'] > 0.75 && weatherData[i]['moon'] <= 0.9 ) {
-              display.drawText(33,  4 + i, "%c{white}<");
+              display.drawText(36,  4 + i, "%c{white}<");
           } else if (weatherData[i]['moon'] > 0.9 || weatherData[i]['moon'] < 0.1 ) {
-              display.drawText(33,  4 + i, "%c{black}<");
+              display.drawText(36,  4 + i, "%c{black}<");
           }
 
     }
@@ -161,7 +161,7 @@ function update() {
     pmeanD = weatherData[i]['pmean'] + ""
 
     if (weatherData[i]['pmean'] > 0) {
-      display.drawText(35,  4 + i, pmeanD);
+      display.drawText(38,  4 + i, pmeanD);
 
       if (weatherData[i]['pcat'] == 1) {
         pcatD = "*"
@@ -171,7 +171,7 @@ function update() {
         pcatD = "'"
       }
 
-      display.drawText(39,  4 + i, pcatD);
+      display.drawText(42,  4 + i, pcatD);
 
     }
 
@@ -179,47 +179,47 @@ function update() {
 
     wsD = Math.round(weatherData[i]['ws']) + ""
     gustD = Math.round(weatherData[i]['gust']) + ""
-    display.drawText(43,  4 + i, wsD + " (" + gustD + ")");
+    display.drawText(46,  4 + i, wsD + " (" + gustD + ")");
 
     if (gustD < 0.2) {
-      display.drawText(50,  4 + i, "[        ]");
+      display.drawText(53,  4 + i, "[        ]");
       plotWS()
     } else if (gustD > 0.2 && gustD <= 1.5 ) {
-      display.drawText(50,  4 + i, "[-       ]");
+      display.drawText(53,  4 + i, "[-       ]");
       plotWS()
     } else if (gustD > 1.5 && gustD <= 3.3 ) {
-      display.drawText(50,  4 + i, "[--      ]");
+      display.drawText(53,  4 + i, "[--      ]");
       plotWS()
     } else if (gustD > 3.3 && gustD <= 5.4 ) {
-      display.drawText(50,  4 + i, "[---     ]");
+      display.drawText(53,  4 + i, "[---     ]");
       plotWS()
     } else if (gustD > 5.5 && gustD <= 7.9 ) {
-      display.drawText(50,  4 + i, "[----    ]");
+      display.drawText(53,  4 + i, "[----    ]");
       plotWS()
     } else if (gustD > 7.9 && gustD <= 10.7 ) {
-      display.drawText(50,  4 + i, "[-----   ]");
+      display.drawText(53,  4 + i, "[-----   ]");
       plotWS()
     } else if (gustD > 10.7 && gustD <= 13.8 ) {
-      display.drawText(50,  4 + i, "[-----%c{yellow}-%c{}  ]");
+      display.drawText(53,  4 + i, "[-----%c{yellow}-%c{}  ]");
       plotWS()
     } else if (gustD > 13.9 && gustD <= 17.1 ) {
-      display.drawText(50,  4 + i, "[-----%c{yellow}--%c{} ]");
+      display.drawText(53,  4 + i, "[-----%c{yellow}--%c{} ]");
       plotWS()
     }
 
     function plotWS() {
       if (wsD > 0.2 && wsD <= 1.5 ) {
-        display.drawText(50,  4 + i, "[>");
+        display.drawText(53,  4 + i, "[>");
       } else if (wsD > 1.5 && wsD <= 3.3 ) {
-        display.drawText(50,  4 + i, "[>>");
+        display.drawText(53,  4 + i, "[>>");
       } else if (wsD > 3.3 && wsD <= 5.4 ) {
-        display.drawText(50,  4 + i, "[>>>");
+        display.drawText(53,  4 + i, "[>>>");
       } else if (wsD > 5.5 && wsD <= 7.9 ) {
-        display.drawText(50,  4 + i, "[>>>>");
+        display.drawText(53,  4 + i, "[>>>>");
       } else if (wsD > 7.9 && wsD <= 10.7 ) {
-        display.drawText(50,  4 + i, "[>>>>>");
+        display.drawText(53,  4 + i, "[>>>>>");
       } else if (wsD > 10.7 && wsD <= 13.8 ) {
-        display.drawText(50,  4 + i, "[>>>>>%c{yellow}>%c{}  ]");
+        display.drawText(53,  4 + i, "[>>>>>%c{yellow}>%c{}  ]");
       }
     }
 
