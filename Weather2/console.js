@@ -33,6 +33,7 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         pcatindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'pcat'; });
         gustindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'gust'; });
         wsindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'ws'; });
+        wdindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'wd'; });
 
 
         var d = new Date(data.timeSeries[i].validTime)
@@ -57,6 +58,7 @@ $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version
         't':Number(data.timeSeries[i].parameters[tindex].values[0]),
         'pcat':Number(data.timeSeries[i].parameters[pcatindex].values[0]),
         'ws':Number(data.timeSeries[i].parameters[wsindex].values[0]),
+        'wd':Number(data.timeSeries[i].parameters[wdindex].values[0]),
         'gust':Number(data.timeSeries[i].parameters[gustindex].values[0]),
         'moon': SunCalc.getMoonIllumination(d).phase,
         'pmean':Number(data.timeSeries[i].parameters[pmeanindex].values[0])})
@@ -72,8 +74,8 @@ function update() {
 
   for (var i = 0; i < 50; i++) {
 
-    display.drawText(2,  2 , "Date    temp  tempGraph    Cloud     mm/h   m/s    windGraph");
-    display.drawText(2,  3 , "_____________________________________________________________");
+    display.drawText(2,  2 , "Date    temp  tempGraph    Cloud     mm/h   m/s    windGraph  Dir");
+    display.drawText(2,  3 , "_________________________________________________________________");
 
     // Tid
 
@@ -223,7 +225,17 @@ function update() {
       }
     }
 
+    // Vind
 
-
+    wdD = Math.round(weatherData[i]['wd']) + ""
+    if (wdD > 315 || wdD <= 45) {
+      display.drawText(65,  4 + i, "v");
+    } else if (wdD > 45 && wdD <= 135 ) {
+      display.drawText(65,  4 + i, "<");
+    } else if (wdD > 135 && wdD <= 225 ) {
+      display.drawText(65,  4 + i, "^");
+    } else if (wdD > 225 && wdD <= 315 ) {
+      display.drawText(65,  4 + i, ">");
+    }
 
 }}
