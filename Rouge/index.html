@@ -34,23 +34,33 @@
     function myFunction() {
         var x = document.getElementById("myInput").value;
         if (x == "2") {
-          Game._currentScreen.handleInput('keydown', 'J')
-          document.getElementById("myInput").value = ""
-        }
-        if (x == "8") {
           Game._currentScreen.handleInput('keydown', 'K')
           document.getElementById("myInput").value = ""
-        }
-        if (x == "4") {
+        } else if (x == "8") {
+          Game._currentScreen.handleInput('keydown', 'J')
+          document.getElementById("myInput").value = ""
+        } else if (x == "4") {
           Game._currentScreen.handleInput('keydown', 'H')
           document.getElementById("myInput").value = ""
-        }
-        if (x == "6") {
+        } else if (x == "6") {
           Game._currentScreen.handleInput('keydown', 'L')
           document.getElementById("myInput").value = ""
-        }
-        if (x == "e") {
+        } else if (x == "7") {
+          Game._currentScreen.handleInput('keydown', 'Y')
+          document.getElementById("myInput").value = ""
+        } else if (x == "9") {
+          Game._currentScreen.handleInput('keydown', 'U')
+          document.getElementById("myInput").value = ""
+        } else if (x == "1") {
+          Game._currentScreen.handleInput('keydown', 'B')
+          document.getElementById("myInput").value = ""
+        } else if (x == "3") {
+          Game._currentScreen.handleInput('keydown', 'N')
+          document.getElementById("myInput").value = ""
+        } else if (x == "e") {
           Game._currentScreen.handleInput('keydown', 'return')
+          document.getElementById("myInput").value = ""
+        } else {
           document.getElementById("myInput").value = ""
         }
 

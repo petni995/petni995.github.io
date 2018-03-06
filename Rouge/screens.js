@@ -26,8 +26,8 @@ Game.Screen.playScreen = {
     enter: function() {
       var map = [];
       // Create a map based on our size parameters
-      var mapWidth = 500;
-      var mapHeight = 500;
+      var mapWidth = 100;
+      var mapHeight = 48;
       for (var x = 0; x < mapWidth; x++) {
           // Create the nested array for the y values
           map.push([]);
@@ -119,7 +119,16 @@ Game.Screen.playScreen = {
             } else if (inputData.keyCode === ROT.VK_J || inputData=='J') {
               this.move(0, -1);
             } else if (inputData.keyCode === ROT.VK_K || inputData=='K') {
-              this.move(0, 1); }
+              this.move(0, 1);
+            } else if (inputData.keyCode === ROT.VK_Y || inputData=='Y') {
+              this.move(-1, -1);
+            } else if (inputData.keyCode === ROT.VK_U || inputData=='U') {
+                this.move(1, -1);
+            } else if (inputData.keyCode === ROT.VK_B || inputData=='B') {
+                this.move(-1, 1);
+            } else if (inputData.keyCode === ROT.VK_N || inputData=='N') {
+                this.move(1, 1); 
+            }
               // Unlock the engine
               this._map.getEngine().unlock();
 
