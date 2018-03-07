@@ -85,10 +85,20 @@ Game.Mixins.FungusActor = {
 }
 
 Game.Mixins.Destructible = {
-    name: 'Destructible',
-    init: function() {
-        this._hp = 1;
-    },
+  name: 'Destructible',
+  init: function(template) {
+      this._maxHp = template['maxHp'] || 10;
+      // We allow taking in health from the template incase we want
+      // the entity to start with a different amount of HP than the
+      // max specified.
+      this._hp = template['hp'] || this._maxHp;
+  },
+  getHp: function() {
+      return this._hp;
+  },
+  getMaxHp: function() {
+      return this._maxHp;
+  },
     takeDamage: function(attacker, damage) {
         this._hp -= damage;
         // If have 0 or less HP, then remove ourseles from the map
