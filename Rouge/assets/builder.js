@@ -46,3 +46,45 @@ Game.Builder.prototype._generateLevel = function() {
     });
     return map;
 };
+
+Game.Builder.prototype._canFillRegion = function(x, y, z) {
+    // Make sure the tile is within bounds
+    if (x < 0 || y < 0 || z < 0 || x >= this._width ||
+        y >= this._height || z >= this._depth) {
+        return false;
+    }
+    // Make sure the tile does not already have a region
+    if (this._regions[z][x][y] != 0) {
+        return false;
+    }
+    // Make sure the tile is walkable
+    return this._tiles[z][x][y].isWalkable();
+}
+
+Game.Builder.prototype._fillRegion = function(region, x, y, z) {
+    var tilesFilled = 1;
+    var tiles = [{x:x, y:y}];
+    var tile;
+    var neighbors;
+    // Update the region of the original tile
+    this._regions[z][x][y] = region;
+    // Keep looping while we still have tiles to process
+    while (tiles.length > 0) {
+        tile = tiles.pop();
+        // Get the neighbors of the tile
+        neighbors = Game.getNeighborPositions(tile.x, tile.y);
+        // Iterate through each neighbor, checking if we can use it to fill
+        // and if so updating the region and adding it to our processing
+        // list.
+        while (neighbors.length > 0) {
+            tile = neighbors.pop();
+            if (this._canFillRegion(tile.x, tile.y, z)) {
+                this._regions[z][tile.x][tile.y] = region;
+                tiles.push(tile);
+                tilesFilled++;
+            }
+        }
+
+    }
+    return tilesFilled;
+}
