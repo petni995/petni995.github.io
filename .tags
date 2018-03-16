@@ -1,0 +1,1289 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Array	.\Rouge\libraries\rot.js	/^Array.prototype.random = Array.prototype.random || function() {$/;"	c
+Array	.\Weather2\rot.js	/^Array.prototype.random = Array.prototype.random || function() {$/;"	c
+Array.random	.\Rouge\libraries\rot.js	/^Array.prototype.random = Array.prototype.random || function() {$/;"	m
+Array.random	.\Weather2\rot.js	/^Array.prototype.random = Array.prototype.random || function() {$/;"	m
+Array.randomize	.\Rouge\libraries\rot.js	/^Array.prototype.randomize = Array.prototype.randomize || function() {$/;"	m
+Array.randomize	.\Weather2\rot.js	/^Array.prototype.randomize = Array.prototype.randomize || function() {$/;"	m
+BIND_FLAG	.\Weather2\lodash.js	/^  var BIND_FLAG = 1,$/;"	v
+BIND_FLAG	.\libraries\lodash.js	/^  var BIND_FLAG = 1,$/;"	v
+DEFAULT_HEIGHT	.\Rouge\libraries\rot.js	/^	DEFAULT_HEIGHT: 25,$/;"	p
+DEFAULT_HEIGHT	.\Weather2\rot.js	/^	DEFAULT_HEIGHT: 25,$/;"	p
+DEFAULT_TRUNC_LENGTH	.\Weather2\lodash.js	/^  var DEFAULT_TRUNC_LENGTH = 30,$/;"	v
+DEFAULT_TRUNC_LENGTH	.\libraries\lodash.js	/^  var DEFAULT_TRUNC_LENGTH = 30,$/;"	v
+DEFAULT_WIDTH	.\Rouge\libraries\rot.js	/^	DEFAULT_WIDTH: 80,$/;"	p
+DEFAULT_WIDTH	.\Weather2\rot.js	/^	DEFAULT_WIDTH: 80,$/;"	p
+DIRS	.\Rouge\libraries\rot.js	/^	DIRS: {$/;"	p
+DIRS	.\Weather2\rot.js	/^	DIRS: {$/;"	p
+FUNC_ERROR_TEXT	.\Weather2\lodash.js	/^  var FUNC_ERROR_TEXT = 'Expected a function';$/;"	v
+FUNC_ERROR_TEXT	.\libraries\lodash.js	/^  var FUNC_ERROR_TEXT = 'Expected a function';$/;"	v
+Game.Builder	.\Rouge\assets\builder.js	/^Game.Builder = function(width, height, depth) {$/;"	c
+Game.Builder._canFillRegion	.\Rouge\assets\builder.js	/^Game.Builder.prototype._canFillRegion = function(x, y, z) {$/;"	m
+Game.Builder._connectAllRegions	.\Rouge\assets\builder.js	/^Game.Builder.prototype._connectAllRegions = function() {$/;"	m
+Game.Builder._connectRegions	.\Rouge\assets\builder.js	/^Game.Builder.prototype._connectRegions = function(z, r1, r2) {$/;"	m
+Game.Builder._fillRegion	.\Rouge\assets\builder.js	/^Game.Builder.prototype._fillRegion = function(region, x, y, z) {$/;"	m
+Game.Builder._findRegionOverlaps	.\Rouge\assets\builder.js	/^Game.Builder.prototype._findRegionOverlaps = function(z, r1, r2) {$/;"	m
+Game.Builder._generateLevel	.\Rouge\assets\builder.js	/^Game.Builder.prototype._generateLevel = function() {$/;"	m
+Game.Builder._removeRegion	.\Rouge\assets\builder.js	/^Game.Builder.prototype._removeRegion = function(region, z) {$/;"	m
+Game.Builder._setupRegions	.\Rouge\assets\builder.js	/^Game.Builder.prototype._setupRegions = function(z) {$/;"	m
+Game.Builder.getDepth	.\Rouge\assets\builder.js	/^Game.Builder.prototype.getDepth = function () {$/;"	m
+Game.Builder.getHeight	.\Rouge\assets\builder.js	/^Game.Builder.prototype.getHeight = function () {$/;"	m
+Game.Builder.getTiles	.\Rouge\assets\builder.js	/^Game.Builder.prototype.getTiles = function () {$/;"	m
+Game.Builder.getWidth	.\Rouge\assets\builder.js	/^Game.Builder.prototype.getWidth = function () {$/;"	m
+Game.Entity	.\Rouge\assets\entity.js	/^Game.Entity = function(properties) {$/;"	c
+Game.Entity.getMap	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getMap = function() {$/;"	m
+Game.Entity.getName	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getName = function() {$/;"	m
+Game.Entity.getX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getX = function() {$/;"	m
+Game.Entity.getY	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getY   = function() {$/;"	m
+Game.Entity.getZ	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getZ = function() {$/;"	m
+Game.Entity.hasMixin	.\Rouge\assets\entity.js	/^Game.Entity.prototype.hasMixin = function(obj) {$/;"	m
+Game.Entity.setMap	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setMap = function(map) {$/;"	m
+Game.Entity.setName	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setName = function(name) {$/;"	m
+Game.Entity.setPosition	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setPosition = function(x, y, z) {$/;"	m
+Game.Entity.setX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setX = function(x) {$/;"	m
+Game.Entity.setY	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setY = function(y) {$/;"	m
+Game.Entity.setZ	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setZ = function(z) {$/;"	m
+Game.FungusTemplate.character	.\Rouge\assets\entities.js	/^    character: 'F',$/;"	p
+Game.FungusTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'green',$/;"	p
+Game.FungusTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 10,$/;"	p
+Game.FungusTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.FungusActor, Game.Mixins.Destructible]$/;"	p
+Game.FungusTemplate.name	.\Rouge\assets\entities.js	/^    name: 'fungus',$/;"	p
+Game.Glyph	.\Rouge\assets\glyph.js	/^Game.Glyph = function(properties) {$/;"	c
+Game.Glyph.getBackground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getBackground = function(){$/;"	m
+Game.Glyph.getChar	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getChar = function(){$/;"	m
+Game.Glyph.getForeground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getForeground = function(){$/;"	m
+Game.Map	.\Rouge\assets\map.js	/^Game.Map = function(tiles, player) {$/;"	c
+Game.Map.addEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntity = function(entity) {$/;"	m
+Game.Map.addEntityAtRandomPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntityAtRandomPosition = function(entity, z) {$/;"	m
+Game.Map.dig	.\Rouge\assets\map.js	/^Game.Map.prototype.dig = function(x, y, z) {$/;"	m
+Game.Map.getDepth	.\Rouge\assets\map.js	/^Game.Map.prototype.getDepth = function() {$/;"	m
+Game.Map.getEngine	.\Rouge\assets\map.js	/^Game.Map.prototype.getEngine = function() {$/;"	m
+Game.Map.getEntities	.\Rouge\assets\map.js	/^Game.Map.prototype.getEntities = function() {$/;"	m
+Game.Map.getEntitiesWithinRadius	.\Rouge\assets\map.js	/^Game.Map.prototype.getEntitiesWithinRadius = function(centerX, centerY,$/;"	m
+Game.Map.getEntityAt	.\Rouge\assets\map.js	/^Game.Map.prototype.getEntityAt = function(x, y, z){$/;"	m
+Game.Map.getHeight	.\Rouge\assets\map.js	/^Game.Map.prototype.getHeight = function() {$/;"	m
+Game.Map.getRandomFloorPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.getRandomFloorPosition = function(z) {$/;"	m
+Game.Map.getTile	.\Rouge\assets\map.js	/^Game.Map.prototype.getTile = function(x, y, z) {$/;"	m
+Game.Map.getWidth	.\Rouge\assets\map.js	/^Game.Map.prototype.getWidth = function() {$/;"	m
+Game.Map.isEmptyFloor	.\Rouge\assets\map.js	/^Game.Map.prototype.isEmptyFloor = function(x, y, z) {$/;"	m
+Game.Map.removeEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.removeEntity = function(entity) {$/;"	m
+Game.Mixins.Attacker.attack	.\Rouge\assets\entities.js	/^    attack: function(target) {$/;"	m
+Game.Mixins.Attacker.getAttackValue	.\Rouge\assets\entities.js	/^    getAttackValue: function() {$/;"	m
+Game.Mixins.Attacker.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Attacker',$/;"	p
+Game.Mixins.Attacker.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
+Game.Mixins.Attacker.name	.\Rouge\assets\entities.js	/^    name: 'Attacker',$/;"	p
+Game.Mixins.Destructible.getDefenseValue	.\Rouge\assets\entities.js	/^  getDefenseValue: function() {$/;"	m
+Game.Mixins.Destructible.getHp	.\Rouge\assets\entities.js	/^  getHp: function() {$/;"	m
+Game.Mixins.Destructible.getMaxHp	.\Rouge\assets\entities.js	/^  getMaxHp: function() {$/;"	m
+Game.Mixins.Destructible.init	.\Rouge\assets\entities.js	/^  init: function(template) {$/;"	m
+Game.Mixins.Destructible.name	.\Rouge\assets\entities.js	/^  name: 'Destructible',$/;"	p
+Game.Mixins.Destructible.takeDamage	.\Rouge\assets\entities.js	/^  takeDamage: function(attacker, damage) {$/;"	m
+Game.Mixins.FungusActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
+Game.Mixins.FungusActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
+Game.Mixins.FungusActor.init	.\Rouge\assets\entities.js	/^    init: function() {$/;"	m
+Game.Mixins.FungusActor.name	.\Rouge\assets\entities.js	/^    name: 'FungusActor',$/;"	p
+Game.Mixins.MessageRecipient.clearMessages	.\Rouge\assets\entities.js	/^    clearMessages: function() {$/;"	m
+Game.Mixins.MessageRecipient.getMessages	.\Rouge\assets\entities.js	/^    getMessages: function() {$/;"	m
+Game.Mixins.MessageRecipient.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
+Game.Mixins.MessageRecipient.name	.\Rouge\assets\entities.js	/^    name: 'MessageRecipient',$/;"	p
+Game.Mixins.MessageRecipient.receiveMessage	.\Rouge\assets\entities.js	/^    receiveMessage: function(message) {$/;"	m
+Game.Mixins.Moveable.name	.\Rouge\assets\entities.js	/^    name: 'Moveable',$/;"	p
+Game.Mixins.Moveable.tryMove	.\Rouge\assets\entities.js	/^    tryMove: function(x, y, z, map) {$/;"	m
+Game.Mixins.PlayerActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
+Game.Mixins.PlayerActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
+Game.Mixins.PlayerActor.name	.\Rouge\assets\entities.js	/^    name: 'PlayerActor',$/;"	p
+Game.PlayerTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 10,$/;"	p
+Game.PlayerTemplate.character	.\Rouge\assets\entities.js	/^    character: '@',$/;"	p
+Game.PlayerTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'white',$/;"	p
+Game.PlayerTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 40,$/;"	p
+Game.PlayerTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.Moveable, Game.Mixins.PlayerActor,$/;"	p
+Game.Screen.loseScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered lose screen."); },$/;"	m
+Game.Screen.loseScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited lose screen."); },$/;"	m
+Game.Screen.loseScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
+Game.Screen.loseScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
+Game.Screen.playScreen._map	.\Rouge\assets\screens.js	/^  _map: null,$/;"	p
+Game.Screen.playScreen._player	.\Rouge\assets\screens.js	/^  _player: null,$/;"	p
+Game.Screen.playScreen.enter	.\Rouge\assets\screens.js	/^  enter: function() {$/;"	m
+Game.Screen.playScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited play screen."); },$/;"	m
+Game.Screen.playScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
+Game.Screen.playScreen.move	.\Rouge\assets\screens.js	/^    move: function(dX, dY, dZ) {$/;"	m
+Game.Screen.playScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
+Game.Screen.startScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered start screen."); },$/;"	m
+Game.Screen.startScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited start screen."); },$/;"	m
+Game.Screen.startScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
+Game.Screen.startScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
+Game.Screen.winScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered win screen."); },$/;"	m
+Game.Screen.winScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited win screen."); },$/;"	m
+Game.Screen.winScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
+Game.Screen.winScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
+Game.Tile	.\Rouge\assets\tile.js	/^Game.Tile = function(properties) {$/;"	c
+Game.Tile.isDiggable	.\Rouge\assets\tile.js	/^Game.Tile.prototype.isDiggable = function() {$/;"	m
+Game.Tile.isWalkable	.\Rouge\assets\tile.js	/^Game.Tile.prototype.isWalkable = function() {$/;"	m
+Game._currentScreen	.\Rouge\game.js	/^	_currentScreen: null,$/;"	p
+Game._display	.\Rouge\game.js	/^	_display: null,$/;"	p
+Game._screenHeight	.\Rouge\game.js	/^	_screenHeight: 24,$/;"	p
+Game._screenWidth	.\Rouge\game.js	/^	_screenWidth: 40,$/;"	p
+Game.getDisplay	.\Rouge\game.js	/^	getDisplay: function() { return this._display; },$/;"	m
+Game.getDisplay	.\Rouge\game.js	/^	getDisplay: function() {$/;"	m
+Game.getNeighborPositions	.\Rouge\assets\tile.js	/^Game.getNeighborPositions = function(x, y) {$/;"	f
+Game.getScreenHeight	.\Rouge\game.js	/^	getScreenHeight: function() { return this._screenHeight; },$/;"	m
+Game.getScreenWidth	.\Rouge\game.js	/^	getScreenWidth: function() { return this._screenWidth; },$/;"	m
+Game.init	.\Rouge\game.js	/^	init: function() {$/;"	m
+Game.init.bindEventToScreen	.\Rouge\game.js	/^	    var bindEventToScreen = function(event) {$/;"	m
+Game.refresh	.\Rouge\game.js	/^	refresh: function() {$/;"	m
+Game.sendMessage	.\Rouge\assets\entities.js	/^Game.sendMessage = function(recipient, message, args) {$/;"	f
+Game.sendMessageNearby	.\Rouge\assets\entities.js	/^Game.sendMessageNearby = function(map, centerX, centerY, centerZ, message, args) {$/;"	f
+Game.switchScreen	.\Rouge\game.js	/^	switchScreen: function(screen) {$/;"	m
+HASH_UNDEFINED	.\Weather2\lodash.js	/^  var HASH_UNDEFINED = '__lodash_hash_undefined__';$/;"	v
+HASH_UNDEFINED	.\libraries\lodash.js	/^  var HASH_UNDEFINED = '__lodash_hash_undefined__';$/;"	v
+HOT_COUNT	.\Weather2\lodash.js	/^  var HOT_COUNT = 150,$/;"	v
+HOT_COUNT	.\libraries\lodash.js	/^  var HOT_COUNT = 150,$/;"	v
+INFINITY	.\Weather2\lodash.js	/^  var INFINITY = 1 \/ 0,$/;"	v
+INFINITY	.\libraries\lodash.js	/^  var INFINITY = 1 \/ 0,$/;"	v
+J0	.\Weather2\suncalc.js	/^var J0 = 0.0009;$/;"	v
+LARGE_ARRAY_SIZE	.\Weather2\lodash.js	/^  var LARGE_ARRAY_SIZE = 200;$/;"	v
+LARGE_ARRAY_SIZE	.\libraries\lodash.js	/^  var LARGE_ARRAY_SIZE = 200;$/;"	v
+LAZY_FILTER_FLAG	.\Weather2\lodash.js	/^  var LAZY_FILTER_FLAG = 1,$/;"	v
+LAZY_FILTER_FLAG	.\libraries\lodash.js	/^  var LAZY_FILTER_FLAG = 1,$/;"	v
+LazyWrapper	.\Weather2\lodash.js	/^    LazyWrapper.prototype.compact = function() {$/;"	c
+LazyWrapper	.\libraries\lodash.js	/^    LazyWrapper.prototype.compact = function() {$/;"	c
+LazyWrapper.clone	.\Weather2\lodash.js	/^    LazyWrapper.prototype.clone = lazyClone;$/;"	m
+LazyWrapper.clone	.\libraries\lodash.js	/^    LazyWrapper.prototype.clone = lazyClone;$/;"	m
+LazyWrapper.compact	.\Weather2\lodash.js	/^    LazyWrapper.prototype.compact = function() {$/;"	m
+LazyWrapper.compact	.\libraries\lodash.js	/^    LazyWrapper.prototype.compact = function() {$/;"	m
+LazyWrapper.find	.\Weather2\lodash.js	/^    LazyWrapper.prototype.find = function(predicate) {$/;"	m
+LazyWrapper.find	.\libraries\lodash.js	/^    LazyWrapper.prototype.find = function(predicate) {$/;"	m
+LazyWrapper.findLast	.\Weather2\lodash.js	/^    LazyWrapper.prototype.findLast = function(predicate) {$/;"	m
+LazyWrapper.findLast	.\libraries\lodash.js	/^    LazyWrapper.prototype.findLast = function(predicate) {$/;"	m
+LazyWrapper.invokeMap	.\Weather2\lodash.js	/^    LazyWrapper.prototype.invokeMap = baseRest(function(path, args) {$/;"	m
+LazyWrapper.invokeMap	.\libraries\lodash.js	/^    LazyWrapper.prototype.invokeMap = baseRest(function(path, args) {$/;"	m
+LazyWrapper.reject	.\Weather2\lodash.js	/^    LazyWrapper.prototype.reject = function(predicate) {$/;"	m
+LazyWrapper.reject	.\libraries\lodash.js	/^    LazyWrapper.prototype.reject = function(predicate) {$/;"	m
+LazyWrapper.reverse	.\Weather2\lodash.js	/^    LazyWrapper.prototype.reverse = lazyReverse;$/;"	m
+LazyWrapper.reverse	.\libraries\lodash.js	/^    LazyWrapper.prototype.reverse = lazyReverse;$/;"	m
+LazyWrapper.slice	.\Weather2\lodash.js	/^    LazyWrapper.prototype.slice = function(start, end) {$/;"	m
+LazyWrapper.slice	.\libraries\lodash.js	/^    LazyWrapper.prototype.slice = function(start, end) {$/;"	m
+LazyWrapper.takeRightWhile	.\Weather2\lodash.js	/^    LazyWrapper.prototype.takeRightWhile = function(predicate) {$/;"	m
+LazyWrapper.takeRightWhile	.\libraries\lodash.js	/^    LazyWrapper.prototype.takeRightWhile = function(predicate) {$/;"	m
+LazyWrapper.toArray	.\Weather2\lodash.js	/^    LazyWrapper.prototype.toArray = function() {$/;"	m
+LazyWrapper.toArray	.\libraries\lodash.js	/^    LazyWrapper.prototype.toArray = function() {$/;"	m
+LazyWrapper.value	.\Weather2\lodash.js	/^    LazyWrapper.prototype.value = lazyValue;$/;"	m
+LazyWrapper.value	.\libraries\lodash.js	/^    LazyWrapper.prototype.value = lazyValue;$/;"	m
+MAX_ARRAY_LENGTH	.\Weather2\lodash.js	/^  var MAX_ARRAY_LENGTH = 4294967295,$/;"	v
+MAX_ARRAY_LENGTH	.\libraries\lodash.js	/^  var MAX_ARRAY_LENGTH = 4294967295,$/;"	v
+Number	.\Rouge\libraries\rot.js	/^Number.prototype.mod = Number.prototype.mod || function(n) {$/;"	c
+Number	.\Weather2\rot.js	/^Number.prototype.mod = Number.prototype.mod || function(n) {$/;"	c
+Number.mod	.\Rouge\libraries\rot.js	/^Number.prototype.mod = Number.prototype.mod || function(n) {$/;"	m
+Number.mod	.\Weather2\rot.js	/^Number.prototype.mod = Number.prototype.mod || function(n) {$/;"	m
+Object.create	.\Rouge\libraries\rot.js	/^	Object.create = function(o) {  $/;"	f
+Object.create	.\Weather2\rot.js	/^	Object.create = function(o) {  $/;"	f
+Object.create.tmp	.\Rouge\libraries\rot.js	/^		var tmp = function() {};$/;"	f
+Object.create.tmp	.\Weather2\rot.js	/^		var tmp = function() {};$/;"	f
+PI	.\Weather2\suncalc.js	/^var PI   = Math.PI,$/;"	v
+PLACEHOLDER	.\Weather2\lodash.js	/^  var PLACEHOLDER = '__lodash_placeholder__';$/;"	v
+PLACEHOLDER	.\libraries\lodash.js	/^  var PLACEHOLDER = '__lodash_placeholder__';$/;"	v
+ROT	.\Rouge\libraries\rot.js	/^ROT.Path.AStar = function(toX, toY, passableCallback, options) {$/;"	m
+ROT	.\Rouge\libraries\rot.js	/^ROT.Path.Dijkstra = function(toX, toY, passableCallback, options) {$/;"	m
+ROT	.\Rouge\libraries\rot.js	/^ROT.Path.prototype.compute = function(fromX, fromY, callback) {$/;"	c
+ROT	.\Weather2\rot.js	/^ROT.Path.AStar = function(toX, toY, passableCallback, options) {$/;"	m
+ROT	.\Weather2\rot.js	/^ROT.Path.Dijkstra = function(toX, toY, passableCallback, options) {$/;"	m
+ROT	.\Weather2\rot.js	/^ROT.Path.prototype.compute = function(fromX, fromY, callback) {$/;"	c
+ROT.Color._cache	.\Rouge\libraries\rot.js	/^	_cache: {$/;"	p
+ROT.Color._cache	.\Weather2\rot.js	/^	_cache: {$/;"	p
+ROT.Color._clamp	.\Rouge\libraries\rot.js	/^	_clamp: function(num) {$/;"	m
+ROT.Color._clamp	.\Weather2\rot.js	/^	_clamp: function(num) {$/;"	m
+ROT.Color.add	.\Rouge\libraries\rot.js	/^	add: function(color1, color2) {$/;"	m
+ROT.Color.add	.\Weather2\rot.js	/^	add: function(color1, color2) {$/;"	m
+ROT.Color.add_	.\Rouge\libraries\rot.js	/^	add_: function(color1, color2) {$/;"	m
+ROT.Color.add_	.\Weather2\rot.js	/^	add_: function(color1, color2) {$/;"	m
+ROT.Color.fromString	.\Rouge\libraries\rot.js	/^	fromString: function(str) {$/;"	m
+ROT.Color.fromString	.\Weather2\rot.js	/^	fromString: function(str) {$/;"	m
+ROT.Color.hsl2rgb	.\Rouge\libraries\rot.js	/^	hsl2rgb: function(color) {$/;"	m
+ROT.Color.hsl2rgb	.\Weather2\rot.js	/^	hsl2rgb: function(color) {$/;"	m
+ROT.Color.interpolate	.\Rouge\libraries\rot.js	/^	interpolate: function(color1, color2, factor) {$/;"	m
+ROT.Color.interpolate	.\Weather2\rot.js	/^	interpolate: function(color1, color2, factor) {$/;"	m
+ROT.Color.interpolateHSL	.\Rouge\libraries\rot.js	/^	interpolateHSL: function(color1, color2, factor) {$/;"	m
+ROT.Color.interpolateHSL	.\Weather2\rot.js	/^	interpolateHSL: function(color1, color2, factor) {$/;"	m
+ROT.Color.multiply	.\Rouge\libraries\rot.js	/^	multiply: function(color1, color2) {$/;"	m
+ROT.Color.multiply	.\Weather2\rot.js	/^	multiply: function(color1, color2) {$/;"	m
+ROT.Color.multiply_	.\Rouge\libraries\rot.js	/^	multiply_: function(color1, color2) {$/;"	m
+ROT.Color.multiply_	.\Weather2\rot.js	/^	multiply_: function(color1, color2) {$/;"	m
+ROT.Color.randomize	.\Rouge\libraries\rot.js	/^	randomize: function(color, diff) {$/;"	m
+ROT.Color.randomize	.\Weather2\rot.js	/^	randomize: function(color, diff) {$/;"	m
+ROT.Color.rgb2hsl	.\Rouge\libraries\rot.js	/^	rgb2hsl: function(color) {$/;"	m
+ROT.Color.rgb2hsl	.\Weather2\rot.js	/^	rgb2hsl: function(color) {$/;"	m
+ROT.Color.toHex	.\Rouge\libraries\rot.js	/^	toHex: function(color) {$/;"	m
+ROT.Color.toHex	.\Weather2\rot.js	/^	toHex: function(color) {$/;"	m
+ROT.Color.toRGB	.\Rouge\libraries\rot.js	/^	toRGB: function(color) {$/;"	m
+ROT.Color.toRGB	.\Weather2\rot.js	/^	toRGB: function(color) {$/;"	m
+ROT.Display	.\Rouge\libraries\rot.js	/^ROT.Display = function(options) {$/;"	c
+ROT.Display	.\Weather2\rot.js	/^ROT.Display = function(options) {$/;"	c
+ROT.Display.Backend	.\Rouge\libraries\rot.js	/^ROT.Display.Backend = function(context) {$/;"	c
+ROT.Display.Backend	.\Weather2\rot.js	/^ROT.Display.Backend = function(context) {$/;"	c
+ROT.Display.Backend.compute	.\Rouge\libraries\rot.js	/^ROT.Display.Backend.prototype.compute = function(options) {$/;"	m
+ROT.Display.Backend.compute	.\Weather2\rot.js	/^ROT.Display.Backend.prototype.compute = function(options) {$/;"	m
+ROT.Display.Backend.computeFontSize	.\Rouge\libraries\rot.js	/^ROT.Display.Backend.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Backend.computeFontSize	.\Weather2\rot.js	/^ROT.Display.Backend.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Backend.computeSize	.\Rouge\libraries\rot.js	/^ROT.Display.Backend.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Backend.computeSize	.\Weather2\rot.js	/^ROT.Display.Backend.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Backend.draw	.\Rouge\libraries\rot.js	/^ROT.Display.Backend.prototype.draw = function(data, clearBefore) {$/;"	m
+ROT.Display.Backend.draw	.\Weather2\rot.js	/^ROT.Display.Backend.prototype.draw = function(data, clearBefore) {$/;"	m
+ROT.Display.Backend.eventToPosition	.\Rouge\libraries\rot.js	/^ROT.Display.Backend.prototype.eventToPosition = function(x, y) {$/;"	m
+ROT.Display.Backend.eventToPosition	.\Weather2\rot.js	/^ROT.Display.Backend.prototype.eventToPosition = function(x, y) {$/;"	m
+ROT.Display.DEBUG	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.DEBUG = function(x, y, what) {$/;"	m
+ROT.Display.DEBUG	.\Weather2\rot.js	/^ROT.Display.prototype.DEBUG = function(x, y, what) {$/;"	m
+ROT.Display.Hex	.\Rouge\libraries\rot.js	/^ROT.Display.Hex = function(context) {$/;"	c
+ROT.Display.Hex	.\Weather2\rot.js	/^ROT.Display.Hex = function(context) {$/;"	c
+ROT.Display.Hex._fill	.\Rouge\libraries\rot.js	/^ROT.Display.Hex.prototype._fill = function(cx, cy) {$/;"	m
+ROT.Display.Hex._fill	.\Weather2\rot.js	/^ROT.Display.Hex.prototype._fill = function(cx, cy) {$/;"	m
+ROT.Display.Hex.compute	.\Rouge\libraries\rot.js	/^ROT.Display.Hex.prototype.compute = function(options) {$/;"	m
+ROT.Display.Hex.compute	.\Weather2\rot.js	/^ROT.Display.Hex.prototype.compute = function(options) {$/;"	m
+ROT.Display.Hex.computeFontSize	.\Rouge\libraries\rot.js	/^ROT.Display.Hex.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Hex.computeFontSize	.\Weather2\rot.js	/^ROT.Display.Hex.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Hex.computeSize	.\Rouge\libraries\rot.js	/^ROT.Display.Hex.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Hex.computeSize	.\Weather2\rot.js	/^ROT.Display.Hex.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Hex.draw	.\Rouge\libraries\rot.js	/^ROT.Display.Hex.prototype.draw = function(data, clearBefore) {$/;"	m
+ROT.Display.Hex.draw	.\Weather2\rot.js	/^ROT.Display.Hex.prototype.draw = function(data, clearBefore) {$/;"	m
+ROT.Display.Hex.eventToPosition	.\Rouge\libraries\rot.js	/^ROT.Display.Hex.prototype.eventToPosition = function(x, y) {$/;"	m
+ROT.Display.Hex.eventToPosition	.\Weather2\rot.js	/^ROT.Display.Hex.prototype.eventToPosition = function(x, y) {$/;"	m
+ROT.Display.Rect	.\Rouge\libraries\rot.js	/^ROT.Display.Rect = function(context) {$/;"	c
+ROT.Display.Rect	.\Weather2\rot.js	/^ROT.Display.Rect = function(context) {$/;"	c
+ROT.Display.Rect._drawNoCache	.\Rouge\libraries\rot.js	/^ROT.Display.Rect.prototype._drawNoCache = function(data, clearBefore) {$/;"	m
+ROT.Display.Rect._drawNoCache	.\Weather2\rot.js	/^ROT.Display.Rect.prototype._drawNoCache = function(data, clearBefore) {$/;"	m
+ROT.Display.Rect._drawWithCache	.\Rouge\libraries\rot.js	/^ROT.Display.Rect.prototype._drawWithCache = function(data, clearBefore) {$/;"	m
+ROT.Display.Rect._drawWithCache	.\Weather2\rot.js	/^ROT.Display.Rect.prototype._drawWithCache = function(data, clearBefore) {$/;"	m
+ROT.Display.Rect.compute	.\Rouge\libraries\rot.js	/^ROT.Display.Rect.prototype.compute = function(options) {$/;"	m
+ROT.Display.Rect.compute	.\Weather2\rot.js	/^ROT.Display.Rect.prototype.compute = function(options) {$/;"	m
+ROT.Display.Rect.computeFontSize	.\Rouge\libraries\rot.js	/^ROT.Display.Rect.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Rect.computeFontSize	.\Weather2\rot.js	/^ROT.Display.Rect.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Rect.computeSize	.\Rouge\libraries\rot.js	/^ROT.Display.Rect.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Rect.computeSize	.\Weather2\rot.js	/^ROT.Display.Rect.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Rect.draw	.\Rouge\libraries\rot.js	/^ROT.Display.Rect.prototype.draw = function(data, clearBefore) {$/;"	m
+ROT.Display.Rect.draw	.\Weather2\rot.js	/^ROT.Display.Rect.prototype.draw = function(data, clearBefore) {$/;"	m
+ROT.Display.Rect.eventToPosition	.\Rouge\libraries\rot.js	/^ROT.Display.Rect.prototype.eventToPosition = function(x, y) {$/;"	m
+ROT.Display.Rect.eventToPosition	.\Weather2\rot.js	/^ROT.Display.Rect.prototype.eventToPosition = function(x, y) {$/;"	m
+ROT.Display.Tile	.\Rouge\libraries\rot.js	/^ROT.Display.Tile = function(context) {$/;"	c
+ROT.Display.Tile	.\Weather2\rot.js	/^ROT.Display.Tile = function(context) {$/;"	c
+ROT.Display.Tile.compute	.\Rouge\libraries\rot.js	/^ROT.Display.Tile.prototype.compute = function(options) {$/;"	m
+ROT.Display.Tile.compute	.\Weather2\rot.js	/^ROT.Display.Tile.prototype.compute = function(options) {$/;"	m
+ROT.Display.Tile.computeFontSize	.\Rouge\libraries\rot.js	/^ROT.Display.Tile.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Tile.computeFontSize	.\Weather2\rot.js	/^ROT.Display.Tile.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Tile.computeSize	.\Rouge\libraries\rot.js	/^ROT.Display.Tile.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Tile.computeSize	.\Weather2\rot.js	/^ROT.Display.Tile.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.Tile.draw	.\Rouge\libraries\rot.js	/^ROT.Display.Tile.prototype.draw = function(data, clearBefore) {$/;"	m
+ROT.Display.Tile.draw	.\Weather2\rot.js	/^ROT.Display.Tile.prototype.draw = function(data, clearBefore) {$/;"	m
+ROT.Display.Tile.eventToPosition	.\Rouge\libraries\rot.js	/^ROT.Display.Tile.prototype.eventToPosition = function(x, y) {$/;"	m
+ROT.Display.Tile.eventToPosition	.\Weather2\rot.js	/^ROT.Display.Tile.prototype.eventToPosition = function(x, y) {$/;"	m
+ROT.Display._draw	.\Rouge\libraries\rot.js	/^ROT.Display.prototype._draw = function(key, clearBefore) {$/;"	m
+ROT.Display._draw	.\Weather2\rot.js	/^ROT.Display.prototype._draw = function(key, clearBefore) {$/;"	m
+ROT.Display._tick	.\Rouge\libraries\rot.js	/^ROT.Display.prototype._tick = function() {$/;"	m
+ROT.Display._tick	.\Weather2\rot.js	/^ROT.Display.prototype._tick = function() {$/;"	m
+ROT.Display.clear	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.clear = function() {$/;"	m
+ROT.Display.clear	.\Weather2\rot.js	/^ROT.Display.prototype.clear = function() {$/;"	m
+ROT.Display.computeFontSize	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.computeFontSize	.\Weather2\rot.js	/^ROT.Display.prototype.computeFontSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.computeSize	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.computeSize	.\Weather2\rot.js	/^ROT.Display.prototype.computeSize = function(availWidth, availHeight) {$/;"	m
+ROT.Display.defaultOptions.width	.\Rouge\libraries\rot.js	/^		width: ROT.DEFAULT_WIDTH,$/;"	p
+ROT.Display.defaultOptions.width	.\Weather2\rot.js	/^		width: ROT.DEFAULT_WIDTH,$/;"	p
+ROT.Display.draw	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.draw = function(x, y, ch, fg, bg) {$/;"	m
+ROT.Display.draw	.\Weather2\rot.js	/^ROT.Display.prototype.draw = function(x, y, ch, fg, bg) {$/;"	m
+ROT.Display.drawText	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.drawText = function(x, y, text, maxWidth) {$/;"	m
+ROT.Display.drawText	.\Weather2\rot.js	/^ROT.Display.prototype.drawText = function(x, y, text, maxWidth) {$/;"	m
+ROT.Display.eventToPosition	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.eventToPosition = function(e) {$/;"	m
+ROT.Display.eventToPosition	.\Weather2\rot.js	/^ROT.Display.prototype.eventToPosition = function(e) {$/;"	m
+ROT.Display.getContainer	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.getContainer = function() {$/;"	m
+ROT.Display.getContainer	.\Weather2\rot.js	/^ROT.Display.prototype.getContainer = function() {$/;"	m
+ROT.Display.getOptions	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.getOptions = function() {$/;"	m
+ROT.Display.getOptions	.\Weather2\rot.js	/^ROT.Display.prototype.getOptions = function() {$/;"	m
+ROT.Display.setOptions	.\Rouge\libraries\rot.js	/^ROT.Display.prototype.setOptions = function(options) {$/;"	m
+ROT.Display.setOptions	.\Weather2\rot.js	/^ROT.Display.prototype.setOptions = function(options) {$/;"	m
+ROT.Engine	.\Rouge\libraries\rot.js	/^ROT.Engine = function(scheduler) {$/;"	c
+ROT.Engine	.\Weather2\rot.js	/^ROT.Engine = function(scheduler) {$/;"	c
+ROT.Engine.lock	.\Rouge\libraries\rot.js	/^ROT.Engine.prototype.lock = function() {$/;"	m
+ROT.Engine.lock	.\Weather2\rot.js	/^ROT.Engine.prototype.lock = function() {$/;"	m
+ROT.Engine.start	.\Rouge\libraries\rot.js	/^ROT.Engine.prototype.start = function() {$/;"	m
+ROT.Engine.start	.\Weather2\rot.js	/^ROT.Engine.prototype.start = function() {$/;"	m
+ROT.Engine.unlock	.\Rouge\libraries\rot.js	/^ROT.Engine.prototype.unlock = function() {$/;"	m
+ROT.Engine.unlock	.\Weather2\rot.js	/^ROT.Engine.prototype.unlock = function() {$/;"	m
+ROT.EventQueue	.\Rouge\libraries\rot.js	/^ROT.EventQueue = function() {$/;"	c
+ROT.EventQueue	.\Weather2\rot.js	/^ROT.EventQueue = function() {$/;"	c
+ROT.EventQueue._remove	.\Rouge\libraries\rot.js	/^ROT.EventQueue.prototype._remove = function(index) {$/;"	m
+ROT.EventQueue._remove	.\Weather2\rot.js	/^ROT.EventQueue.prototype._remove = function(index) {$/;"	m
+ROT.EventQueue.add	.\Rouge\libraries\rot.js	/^ROT.EventQueue.prototype.add = function(event, time) {$/;"	m
+ROT.EventQueue.add	.\Weather2\rot.js	/^ROT.EventQueue.prototype.add = function(event, time) {$/;"	m
+ROT.EventQueue.clear	.\Rouge\libraries\rot.js	/^ROT.EventQueue.prototype.clear = function() {$/;"	m
+ROT.EventQueue.clear	.\Weather2\rot.js	/^ROT.EventQueue.prototype.clear = function() {$/;"	m
+ROT.EventQueue.get	.\Rouge\libraries\rot.js	/^ROT.EventQueue.prototype.get = function() {$/;"	m
+ROT.EventQueue.get	.\Weather2\rot.js	/^ROT.EventQueue.prototype.get = function() {$/;"	m
+ROT.EventQueue.getEventTime	.\Rouge\libraries\rot.js	/^ROT.EventQueue.prototype.getEventTime = function(event) {$/;"	m
+ROT.EventQueue.getEventTime	.\Weather2\rot.js	/^ROT.EventQueue.prototype.getEventTime = function(event) {$/;"	m
+ROT.EventQueue.getTime	.\Rouge\libraries\rot.js	/^ROT.EventQueue.prototype.getTime = function() {$/;"	m
+ROT.EventQueue.getTime	.\Weather2\rot.js	/^ROT.EventQueue.prototype.getTime = function() {$/;"	m
+ROT.EventQueue.remove	.\Rouge\libraries\rot.js	/^ROT.EventQueue.prototype.remove = function(event) {$/;"	m
+ROT.EventQueue.remove	.\Weather2\rot.js	/^ROT.EventQueue.prototype.remove = function(event) {$/;"	m
+ROT.FOV	.\Rouge\libraries\rot.js	/^ROT.FOV = function(lightPassesCallback, options) {$/;"	c
+ROT.FOV	.\Weather2\rot.js	/^ROT.FOV = function(lightPassesCallback, options) {$/;"	c
+ROT.FOV.DiscreteShadowcasting	.\Rouge\libraries\rot.js	/^ROT.FOV.DiscreteShadowcasting = function(lightPassesCallback, options) {$/;"	f
+ROT.FOV.DiscreteShadowcasting	.\Rouge\libraries\rot.js	/^ROT.FOV.DiscreteShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	c
+ROT.FOV.DiscreteShadowcasting	.\Weather2\rot.js	/^ROT.FOV.DiscreteShadowcasting = function(lightPassesCallback, options) {$/;"	f
+ROT.FOV.DiscreteShadowcasting	.\Weather2\rot.js	/^ROT.FOV.DiscreteShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	c
+ROT.FOV.DiscreteShadowcasting._visibleCoords	.\Rouge\libraries\rot.js	/^ROT.FOV.DiscreteShadowcasting.prototype._visibleCoords = function(A, B, blocks, DATA) {$/;"	m
+ROT.FOV.DiscreteShadowcasting._visibleCoords	.\Weather2\rot.js	/^ROT.FOV.DiscreteShadowcasting.prototype._visibleCoords = function(A, B, blocks, DATA) {$/;"	m
+ROT.FOV.DiscreteShadowcasting.compute	.\Rouge\libraries\rot.js	/^ROT.FOV.DiscreteShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	m
+ROT.FOV.DiscreteShadowcasting.compute	.\Weather2\rot.js	/^ROT.FOV.DiscreteShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	m
+ROT.FOV.PreciseShadowcasting	.\Rouge\libraries\rot.js	/^ROT.FOV.PreciseShadowcasting = function(lightPassesCallback, options) {$/;"	f
+ROT.FOV.PreciseShadowcasting	.\Rouge\libraries\rot.js	/^ROT.FOV.PreciseShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	c
+ROT.FOV.PreciseShadowcasting	.\Weather2\rot.js	/^ROT.FOV.PreciseShadowcasting = function(lightPassesCallback, options) {$/;"	f
+ROT.FOV.PreciseShadowcasting	.\Weather2\rot.js	/^ROT.FOV.PreciseShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	c
+ROT.FOV.PreciseShadowcasting._checkVisibility	.\Rouge\libraries\rot.js	/^ROT.FOV.PreciseShadowcasting.prototype._checkVisibility = function(A1, A2, blocks, SHADOWS) {$/;"	m
+ROT.FOV.PreciseShadowcasting._checkVisibility	.\Weather2\rot.js	/^ROT.FOV.PreciseShadowcasting.prototype._checkVisibility = function(A1, A2, blocks, SHADOWS) {$/;"	m
+ROT.FOV.PreciseShadowcasting.compute	.\Rouge\libraries\rot.js	/^ROT.FOV.PreciseShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	m
+ROT.FOV.PreciseShadowcasting.compute	.\Weather2\rot.js	/^ROT.FOV.PreciseShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting	.\Rouge\libraries\rot.js	/^ROT.FOV.RecursiveShadowcasting = function(lightPassesCallback, options) {$/;"	f
+ROT.FOV.RecursiveShadowcasting	.\Rouge\libraries\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	c
+ROT.FOV.RecursiveShadowcasting	.\Weather2\rot.js	/^ROT.FOV.RecursiveShadowcasting = function(lightPassesCallback, options) {$/;"	f
+ROT.FOV.RecursiveShadowcasting	.\Weather2\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	c
+ROT.FOV.RecursiveShadowcasting._castVisibility	.\Rouge\libraries\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype._castVisibility = function(startX, startY, row, visSlopeStart, visSlopeEnd, radius, xx, xy, yx, yy, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting._castVisibility	.\Weather2\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype._castVisibility = function(startX, startY, row, visSlopeStart, visSlopeEnd, radius, xx, xy, yx, yy, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting._renderOctant	.\Rouge\libraries\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype._renderOctant = function(x, y, octant, R, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting._renderOctant	.\Weather2\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype._renderOctant = function(x, y, octant, R, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting.compute	.\Rouge\libraries\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting.compute	.\Weather2\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype.compute = function(x, y, R, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting.compute180	.\Rouge\libraries\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype.compute180 = function(x, y, R, dir, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting.compute180	.\Weather2\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype.compute180 = function(x, y, R, dir, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting.compute90	.\Rouge\libraries\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype.compute90 = function(x, y, R, dir, callback) {$/;"	m
+ROT.FOV.RecursiveShadowcasting.compute90	.\Weather2\rot.js	/^ROT.FOV.RecursiveShadowcasting.prototype.compute90 = function(x, y, R, dir, callback) {$/;"	m
+ROT.FOV._getCircle	.\Rouge\libraries\rot.js	/^ROT.FOV.prototype._getCircle = function(cx, cy, r) {$/;"	m
+ROT.FOV._getCircle	.\Weather2\rot.js	/^ROT.FOV.prototype._getCircle = function(cx, cy, r) {$/;"	m
+ROT.FOV._options.topology	.\Rouge\libraries\rot.js	/^		topology: 8$/;"	p
+ROT.FOV._options.topology	.\Weather2\rot.js	/^		topology: 8$/;"	p
+ROT.FOV.compute	.\Rouge\libraries\rot.js	/^ROT.FOV.prototype.compute = function(x, y, R, callback) {};$/;"	m
+ROT.FOV.compute	.\Weather2\rot.js	/^ROT.FOV.prototype.compute = function(x, y, R, callback) {};$/;"	m
+ROT.Lighting	.\Rouge\libraries\rot.js	/^ROT.Lighting = function(reflectivityCallback, options) {$/;"	c
+ROT.Lighting	.\Weather2\rot.js	/^ROT.Lighting = function(reflectivityCallback, options) {$/;"	c
+ROT.Lighting._computeEmitters	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype._computeEmitters = function(litCells, doneCells) {$/;"	m
+ROT.Lighting._computeEmitters	.\Weather2\rot.js	/^ROT.Lighting.prototype._computeEmitters = function(litCells, doneCells) {$/;"	m
+ROT.Lighting._emitLight	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype._emitLight = function(emittingCells, litCells, doneCells) {$/;"	m
+ROT.Lighting._emitLight	.\Weather2\rot.js	/^ROT.Lighting.prototype._emitLight = function(emittingCells, litCells, doneCells) {$/;"	m
+ROT.Lighting._emitLightFromCell	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype._emitLightFromCell = function(x, y, color, litCells) {$/;"	m
+ROT.Lighting._emitLightFromCell	.\Weather2\rot.js	/^ROT.Lighting.prototype._emitLightFromCell = function(x, y, color, litCells) {$/;"	m
+ROT.Lighting._options.emissionThreshold	.\Rouge\libraries\rot.js	/^		emissionThreshold: 100,$/;"	p
+ROT.Lighting._options.emissionThreshold	.\Weather2\rot.js	/^		emissionThreshold: 100,$/;"	p
+ROT.Lighting._options.passes	.\Rouge\libraries\rot.js	/^		passes: 1,$/;"	p
+ROT.Lighting._options.passes	.\Weather2\rot.js	/^		passes: 1,$/;"	p
+ROT.Lighting._options.range	.\Rouge\libraries\rot.js	/^		range: 10$/;"	p
+ROT.Lighting._options.range	.\Weather2\rot.js	/^		range: 10$/;"	p
+ROT.Lighting._updateFOV	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype._updateFOV = function(x, y) {$/;"	m
+ROT.Lighting._updateFOV	.\Weather2\rot.js	/^ROT.Lighting.prototype._updateFOV = function(x, y) {$/;"	m
+ROT.Lighting.clearLights	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype.clearLights = function() {$/;"	m
+ROT.Lighting.clearLights	.\Weather2\rot.js	/^ROT.Lighting.prototype.clearLights = function() {$/;"	m
+ROT.Lighting.compute	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype.compute = function(lightingCallback) {$/;"	m
+ROT.Lighting.compute	.\Weather2\rot.js	/^ROT.Lighting.prototype.compute = function(lightingCallback) {$/;"	m
+ROT.Lighting.reset	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype.reset = function() {$/;"	m
+ROT.Lighting.reset	.\Weather2\rot.js	/^ROT.Lighting.prototype.reset = function() {$/;"	m
+ROT.Lighting.setFOV	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype.setFOV = function(fov) {$/;"	m
+ROT.Lighting.setFOV	.\Weather2\rot.js	/^ROT.Lighting.prototype.setFOV = function(fov) {$/;"	m
+ROT.Lighting.setLight	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype.setLight = function(x, y, color) {$/;"	m
+ROT.Lighting.setLight	.\Weather2\rot.js	/^ROT.Lighting.prototype.setLight = function(x, y, color) {$/;"	m
+ROT.Lighting.setOptions	.\Rouge\libraries\rot.js	/^ROT.Lighting.prototype.setOptions = function(options) {$/;"	m
+ROT.Lighting.setOptions	.\Weather2\rot.js	/^ROT.Lighting.prototype.setOptions = function(options) {$/;"	m
+ROT.Lighting.var.cb	.\Rouge\libraries\rot.js	/^	var cb = function(x, y, r, vis) {$/;"	m
+ROT.Lighting.var.cb	.\Weather2\rot.js	/^	var cb = function(x, y, r, vis) {$/;"	m
+ROT.Map	.\Rouge\libraries\rot.js	/^ROT.Map = function(width, height) {$/;"	c
+ROT.Map	.\Weather2\rot.js	/^ROT.Map = function(width, height) {$/;"	c
+ROT.Map.Arena	.\Rouge\libraries\rot.js	/^ROT.Map.Arena = function(width, height) {$/;"	f
+ROT.Map.Arena	.\Rouge\libraries\rot.js	/^ROT.Map.Arena.prototype.create = function(callback) {$/;"	c
+ROT.Map.Arena	.\Weather2\rot.js	/^ROT.Map.Arena = function(width, height) {$/;"	f
+ROT.Map.Arena	.\Weather2\rot.js	/^ROT.Map.Arena.prototype.create = function(callback) {$/;"	c
+ROT.Map.Arena.create	.\Rouge\libraries\rot.js	/^ROT.Map.Arena.prototype.create = function(callback) {$/;"	m
+ROT.Map.Arena.create	.\Weather2\rot.js	/^ROT.Map.Arena.prototype.create = function(callback) {$/;"	m
+ROT.Map.Cellular	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular = function(width, height, options) {$/;"	c
+ROT.Map.Cellular	.\Weather2\rot.js	/^ROT.Map.Cellular = function(width, height, options) {$/;"	c
+ROT.Map.Cellular._findConnected	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype._findConnected = function(connected, notConnected, stack, keepNotConnected, value) {$/;"	m
+ROT.Map.Cellular._findConnected	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype._findConnected = function(connected, notConnected, stack, keepNotConnected, value) {$/;"	m
+ROT.Map.Cellular._getClosest	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype._getClosest = function(point, space) {$/;"	m
+ROT.Map.Cellular._getClosest	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype._getClosest = function(point, space) {$/;"	m
+ROT.Map.Cellular._getFromTo	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype._getFromTo = function(connected, notConnected) {$/;"	m
+ROT.Map.Cellular._getFromTo	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype._getFromTo = function(connected, notConnected) {$/;"	m
+ROT.Map.Cellular._getNeighbors	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype._getNeighbors = function(cx, cy) {$/;"	m
+ROT.Map.Cellular._getNeighbors	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype._getNeighbors = function(cx, cy) {$/;"	m
+ROT.Map.Cellular._options.born	.\Rouge\libraries\rot.js	/^		born: [5, 6, 7, 8],$/;"	p
+ROT.Map.Cellular._options.born	.\Weather2\rot.js	/^		born: [5, 6, 7, 8],$/;"	p
+ROT.Map.Cellular._pointKey	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype._pointKey = function(p) {$/;"	m
+ROT.Map.Cellular._pointKey	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype._pointKey = function(p) {$/;"	m
+ROT.Map.Cellular._serviceCallback	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype._serviceCallback = function(callback) {$/;"	m
+ROT.Map.Cellular._serviceCallback	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype._serviceCallback = function(callback) {$/;"	m
+ROT.Map.Cellular._tunnelToConnected	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype._tunnelToConnected = function(to, from, connected, notConnected, value, connectionCallback) {$/;"	m
+ROT.Map.Cellular._tunnelToConnected	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype._tunnelToConnected = function(to, from, connected, notConnected, value, connectionCallback) {$/;"	m
+ROT.Map.Cellular._tunnelToConnected6	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype._tunnelToConnected6 = function(to, from, connected, notConnected, value, connectionCallback) {$/;"	m
+ROT.Map.Cellular._tunnelToConnected6	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype._tunnelToConnected6 = function(to, from, connected, notConnected, value, connectionCallback) {$/;"	m
+ROT.Map.Cellular.connect	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype.connect = function(callback, value, connectionCallback) {$/;"	m
+ROT.Map.Cellular.connect	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype.connect = function(callback, value, connectionCallback) {$/;"	m
+ROT.Map.Cellular.create	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype.create = function(callback) {$/;"	m
+ROT.Map.Cellular.create	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype.create = function(callback) {$/;"	m
+ROT.Map.Cellular.randomize	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype.randomize = function(probability) {$/;"	m
+ROT.Map.Cellular.randomize	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype.randomize = function(probability) {$/;"	m
+ROT.Map.Cellular.set	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype.set = function(x, y, value) {$/;"	m
+ROT.Map.Cellular.set	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype.set = function(x, y, value) {$/;"	m
+ROT.Map.Cellular.setOptions	.\Rouge\libraries\rot.js	/^ROT.Map.Cellular.prototype.setOptions = function(options) {$/;"	m
+ROT.Map.Cellular.setOptions	.\Weather2\rot.js	/^ROT.Map.Cellular.prototype.setOptions = function(options) {$/;"	m
+ROT.Map.Digger	.\Rouge\libraries\rot.js	/^ROT.Map.Digger = function(width, height, options) {$/;"	c
+ROT.Map.Digger	.\Weather2\rot.js	/^ROT.Map.Digger = function(width, height, options) {$/;"	c
+ROT.Map.Digger._addDoors	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._addDoors = function() {$/;"	m
+ROT.Map.Digger._addDoors	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._addDoors = function() {$/;"	m
+ROT.Map.Digger._canBeDugCallback	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._canBeDugCallback = function(x, y) {$/;"	m
+ROT.Map.Digger._canBeDugCallback	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._canBeDugCallback = function(x, y) {$/;"	m
+ROT.Map.Digger._digCallback	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._digCallback = function(x, y, value) {$/;"	m
+ROT.Map.Digger._digCallback	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._digCallback = function(x, y, value) {$/;"	m
+ROT.Map.Digger._features.Corridor	.\Rouge\libraries\rot.js	/^		"Corridor": 4$/;"	p
+ROT.Map.Digger._features.Corridor	.\Weather2\rot.js	/^		"Corridor": 4$/;"	p
+ROT.Map.Digger._features.Room	.\Rouge\libraries\rot.js	/^		"Room": 4,$/;"	p
+ROT.Map.Digger._features.Room	.\Weather2\rot.js	/^		"Room": 4,$/;"	p
+ROT.Map.Digger._findWall	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._findWall = function() {$/;"	m
+ROT.Map.Digger._findWall	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._findWall = function() {$/;"	m
+ROT.Map.Digger._firstRoom	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._firstRoom = function() {$/;"	m
+ROT.Map.Digger._firstRoom	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._firstRoom = function() {$/;"	m
+ROT.Map.Digger._getDiggingDirection	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._getDiggingDirection = function(cx, cy) {$/;"	m
+ROT.Map.Digger._getDiggingDirection	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._getDiggingDirection = function(cx, cy) {$/;"	m
+ROT.Map.Digger._isWallCallback	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._isWallCallback = function(x, y) {$/;"	m
+ROT.Map.Digger._isWallCallback	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._isWallCallback = function(x, y) {$/;"	m
+ROT.Map.Digger._options.roomWidth	.\Rouge\libraries\rot.js	/^		roomWidth: [3, 9], \/* room minimum and maximum width *\/$/;"	p
+ROT.Map.Digger._options.roomWidth	.\Weather2\rot.js	/^		roomWidth: [3, 9], \/* room minimum and maximum width *\/$/;"	p
+ROT.Map.Digger._priorityWallCallback	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._priorityWallCallback = function(x, y) {$/;"	m
+ROT.Map.Digger._priorityWallCallback	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._priorityWallCallback = function(x, y) {$/;"	m
+ROT.Map.Digger._removeSurroundingWalls	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._removeSurroundingWalls = function(cx, cy) {$/;"	m
+ROT.Map.Digger._removeSurroundingWalls	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._removeSurroundingWalls = function(cx, cy) {$/;"	m
+ROT.Map.Digger._tryFeature	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype._tryFeature = function(x, y, dx, dy) {$/;"	m
+ROT.Map.Digger._tryFeature	.\Weather2\rot.js	/^ROT.Map.Digger.prototype._tryFeature = function(x, y, dx, dy) {$/;"	m
+ROT.Map.Digger.create	.\Rouge\libraries\rot.js	/^ROT.Map.Digger.prototype.create = function(callback) {$/;"	m
+ROT.Map.Digger.create	.\Weather2\rot.js	/^ROT.Map.Digger.prototype.create = function(callback) {$/;"	m
+ROT.Map.Digger.var.isWallCallback	.\Rouge\libraries\rot.js	/^	var isWallCallback = function(x, y) {$/;"	f
+ROT.Map.Digger.var.isWallCallback	.\Weather2\rot.js	/^	var isWallCallback = function(x, y) {$/;"	f
+ROT.Map.DividedMaze	.\Rouge\libraries\rot.js	/^ROT.Map.DividedMaze = function(width, height) {$/;"	c
+ROT.Map.DividedMaze	.\Weather2\rot.js	/^ROT.Map.DividedMaze = function(width, height) {$/;"	c
+ROT.Map.DividedMaze._partitionRoom	.\Rouge\libraries\rot.js	/^ROT.Map.DividedMaze.prototype._partitionRoom = function(room) {$/;"	m
+ROT.Map.DividedMaze._partitionRoom	.\Weather2\rot.js	/^ROT.Map.DividedMaze.prototype._partitionRoom = function(room) {$/;"	m
+ROT.Map.DividedMaze._process	.\Rouge\libraries\rot.js	/^ROT.Map.DividedMaze.prototype._process = function() {$/;"	m
+ROT.Map.DividedMaze._process	.\Weather2\rot.js	/^ROT.Map.DividedMaze.prototype._process = function() {$/;"	m
+ROT.Map.DividedMaze.create	.\Rouge\libraries\rot.js	/^ROT.Map.DividedMaze.prototype.create = function(callback) {$/;"	m
+ROT.Map.DividedMaze.create	.\Weather2\rot.js	/^ROT.Map.DividedMaze.prototype.create = function(callback) {$/;"	m
+ROT.Map.Dungeon	.\Rouge\libraries\rot.js	/^ROT.Map.Dungeon = function(width, height) {$/;"	c
+ROT.Map.Dungeon	.\Weather2\rot.js	/^ROT.Map.Dungeon = function(width, height) {$/;"	c
+ROT.Map.Dungeon.getCorridors	.\Rouge\libraries\rot.js	/^ROT.Map.Dungeon.prototype.getCorridors = function() {$/;"	m
+ROT.Map.Dungeon.getCorridors	.\Weather2\rot.js	/^ROT.Map.Dungeon.prototype.getCorridors = function() {$/;"	m
+ROT.Map.Dungeon.getRooms	.\Rouge\libraries\rot.js	/^ROT.Map.Dungeon.prototype.getRooms = function() {$/;"	m
+ROT.Map.Dungeon.getRooms	.\Weather2\rot.js	/^ROT.Map.Dungeon.prototype.getRooms = function() {$/;"	m
+ROT.Map.EllerMaze	.\Rouge\libraries\rot.js	/^ROT.Map.EllerMaze = function(width, height) {$/;"	f
+ROT.Map.EllerMaze	.\Rouge\libraries\rot.js	/^ROT.Map.EllerMaze.prototype.create = function(callback) {$/;"	c
+ROT.Map.EllerMaze	.\Weather2\rot.js	/^ROT.Map.EllerMaze = function(width, height) {$/;"	f
+ROT.Map.EllerMaze	.\Weather2\rot.js	/^ROT.Map.EllerMaze.prototype.create = function(callback) {$/;"	c
+ROT.Map.EllerMaze._addToList	.\Rouge\libraries\rot.js	/^ROT.Map.EllerMaze.prototype._addToList = function(i, L, R) {$/;"	m
+ROT.Map.EllerMaze._addToList	.\Weather2\rot.js	/^ROT.Map.EllerMaze.prototype._addToList = function(i, L, R) {$/;"	m
+ROT.Map.EllerMaze._removeFromList	.\Rouge\libraries\rot.js	/^ROT.Map.EllerMaze.prototype._removeFromList = function(i, L, R) {$/;"	m
+ROT.Map.EllerMaze._removeFromList	.\Weather2\rot.js	/^ROT.Map.EllerMaze.prototype._removeFromList = function(i, L, R) {$/;"	m
+ROT.Map.EllerMaze.create	.\Rouge\libraries\rot.js	/^ROT.Map.EllerMaze.prototype.create = function(callback) {$/;"	m
+ROT.Map.EllerMaze.create	.\Weather2\rot.js	/^ROT.Map.EllerMaze.prototype.create = function(callback) {$/;"	m
+ROT.Map.Feature	.\Rouge\libraries\rot.js	/^ROT.Map.Feature = function() {};$/;"	f
+ROT.Map.Feature	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.prototype.isValid = function(canBeDugCallback) {};$/;"	c
+ROT.Map.Feature	.\Weather2\rot.js	/^ROT.Map.Feature = function() {};$/;"	f
+ROT.Map.Feature	.\Weather2\rot.js	/^ROT.Map.Feature.prototype.isValid = function(canBeDugCallback) {};$/;"	c
+ROT.Map.Feature.Corridor	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Corridor = function(startX, startY, endX, endY) {$/;"	c
+ROT.Map.Feature.Corridor	.\Weather2\rot.js	/^ROT.Map.Feature.Corridor = function(startX, startY, endX, endY) {$/;"	c
+ROT.Map.Feature.Corridor.create	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Corridor.prototype.create = function(digCallback) { $/;"	m
+ROT.Map.Feature.Corridor.create	.\Weather2\rot.js	/^ROT.Map.Feature.Corridor.prototype.create = function(digCallback) { $/;"	m
+ROT.Map.Feature.Corridor.createPriorityWalls	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Corridor.prototype.createPriorityWalls = function(priorityWallCallback) {$/;"	m
+ROT.Map.Feature.Corridor.createPriorityWalls	.\Weather2\rot.js	/^ROT.Map.Feature.Corridor.prototype.createPriorityWalls = function(priorityWallCallback) {$/;"	m
+ROT.Map.Feature.Corridor.createRandomAt	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Corridor.createRandomAt = function(x, y, dx, dy, options) {$/;"	f
+ROT.Map.Feature.Corridor.createRandomAt	.\Weather2\rot.js	/^ROT.Map.Feature.Corridor.createRandomAt = function(x, y, dx, dy, options) {$/;"	f
+ROT.Map.Feature.Corridor.debug	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Corridor.prototype.debug = function() {$/;"	m
+ROT.Map.Feature.Corridor.debug	.\Weather2\rot.js	/^ROT.Map.Feature.Corridor.prototype.debug = function() {$/;"	m
+ROT.Map.Feature.Corridor.isValid	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Corridor.prototype.isValid = function(isWallCallback, canBeDugCallback){ $/;"	m
+ROT.Map.Feature.Corridor.isValid	.\Weather2\rot.js	/^ROT.Map.Feature.Corridor.prototype.isValid = function(isWallCallback, canBeDugCallback){ $/;"	m
+ROT.Map.Feature.Room	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room = function(x1, y1, x2, y2, doorX, doorY) {$/;"	c
+ROT.Map.Feature.Room	.\Weather2\rot.js	/^ROT.Map.Feature.Room = function(x1, y1, x2, y2, doorX, doorY) {$/;"	c
+ROT.Map.Feature.Room.addDoor	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.addDoor = function(x, y) {$/;"	m
+ROT.Map.Feature.Room.addDoor	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.addDoor = function(x, y) {$/;"	m
+ROT.Map.Feature.Room.addDoors	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.addDoors = function(isWallCallback) {$/;"	m
+ROT.Map.Feature.Room.addDoors	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.addDoors = function(isWallCallback) {$/;"	m
+ROT.Map.Feature.Room.clearDoors	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.clearDoors = function() {$/;"	m
+ROT.Map.Feature.Room.clearDoors	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.clearDoors = function() {$/;"	m
+ROT.Map.Feature.Room.create	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.create = function(digCallback) { $/;"	m
+ROT.Map.Feature.Room.create	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.create = function(digCallback) { $/;"	m
+ROT.Map.Feature.Room.createRandom	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.createRandom = function(availWidth, availHeight, options) {$/;"	f
+ROT.Map.Feature.Room.createRandom	.\Weather2\rot.js	/^ROT.Map.Feature.Room.createRandom = function(availWidth, availHeight, options) {$/;"	f
+ROT.Map.Feature.Room.createRandomAt	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.createRandomAt = function(x, y, dx, dy, options) {$/;"	f
+ROT.Map.Feature.Room.createRandomAt	.\Weather2\rot.js	/^ROT.Map.Feature.Room.createRandomAt = function(x, y, dx, dy, options) {$/;"	f
+ROT.Map.Feature.Room.createRandomCenter	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.createRandomCenter = function(cx, cy, options) {$/;"	f
+ROT.Map.Feature.Room.createRandomCenter	.\Weather2\rot.js	/^ROT.Map.Feature.Room.createRandomCenter = function(cx, cy, options) {$/;"	f
+ROT.Map.Feature.Room.debug	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.debug = function() {$/;"	m
+ROT.Map.Feature.Room.debug	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.debug = function() {$/;"	m
+ROT.Map.Feature.Room.getBottom	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.getBottom = function() {$/;"	m
+ROT.Map.Feature.Room.getBottom	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.getBottom = function() {$/;"	m
+ROT.Map.Feature.Room.getCenter	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.getCenter = function() {$/;"	m
+ROT.Map.Feature.Room.getCenter	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.getCenter = function() {$/;"	m
+ROT.Map.Feature.Room.getDoors	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.getDoors = function(callback) {$/;"	m
+ROT.Map.Feature.Room.getDoors	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.getDoors = function(callback) {$/;"	m
+ROT.Map.Feature.Room.getLeft	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.getLeft = function() {$/;"	m
+ROT.Map.Feature.Room.getLeft	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.getLeft = function() {$/;"	m
+ROT.Map.Feature.Room.getRight	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.getRight = function() {$/;"	m
+ROT.Map.Feature.Room.getRight	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.getRight = function() {$/;"	m
+ROT.Map.Feature.Room.getTop	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.getTop = function() {$/;"	m
+ROT.Map.Feature.Room.getTop	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.getTop = function() {$/;"	m
+ROT.Map.Feature.Room.isValid	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.Room.prototype.isValid = function(isWallCallback, canBeDugCallback) { $/;"	m
+ROT.Map.Feature.Room.isValid	.\Weather2\rot.js	/^ROT.Map.Feature.Room.prototype.isValid = function(isWallCallback, canBeDugCallback) { $/;"	m
+ROT.Map.Feature.create	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.prototype.create = function(digCallback) {};$/;"	m
+ROT.Map.Feature.create	.\Weather2\rot.js	/^ROT.Map.Feature.prototype.create = function(digCallback) {};$/;"	m
+ROT.Map.Feature.createRandomAt	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.createRandomAt = function(x, y, dx, dy, options) {};$/;"	f
+ROT.Map.Feature.createRandomAt	.\Weather2\rot.js	/^ROT.Map.Feature.createRandomAt = function(x, y, dx, dy, options) {};$/;"	f
+ROT.Map.Feature.debug	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.prototype.debug = function() {};$/;"	m
+ROT.Map.Feature.debug	.\Weather2\rot.js	/^ROT.Map.Feature.prototype.debug = function() {};$/;"	m
+ROT.Map.Feature.isValid	.\Rouge\libraries\rot.js	/^ROT.Map.Feature.prototype.isValid = function(canBeDugCallback) {};$/;"	m
+ROT.Map.Feature.isValid	.\Weather2\rot.js	/^ROT.Map.Feature.prototype.isValid = function(canBeDugCallback) {};$/;"	m
+ROT.Map.IceyMaze	.\Rouge\libraries\rot.js	/^ROT.Map.IceyMaze = function(width, height, regularity) {$/;"	c
+ROT.Map.IceyMaze	.\Weather2\rot.js	/^ROT.Map.IceyMaze = function(width, height, regularity) {$/;"	c
+ROT.Map.IceyMaze._isFree	.\Rouge\libraries\rot.js	/^ROT.Map.IceyMaze.prototype._isFree = function(map, x, y, width, height) {$/;"	m
+ROT.Map.IceyMaze._isFree	.\Weather2\rot.js	/^ROT.Map.IceyMaze.prototype._isFree = function(map, x, y, width, height) {$/;"	m
+ROT.Map.IceyMaze._randomize	.\Rouge\libraries\rot.js	/^ROT.Map.IceyMaze.prototype._randomize = function(dirs) {$/;"	m
+ROT.Map.IceyMaze._randomize	.\Weather2\rot.js	/^ROT.Map.IceyMaze.prototype._randomize = function(dirs) {$/;"	m
+ROT.Map.IceyMaze.create	.\Rouge\libraries\rot.js	/^ROT.Map.IceyMaze.prototype.create = function(callback) {$/;"	m
+ROT.Map.IceyMaze.create	.\Weather2\rot.js	/^ROT.Map.IceyMaze.prototype.create = function(callback) {$/;"	m
+ROT.Map.Rogue	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue = function (width, height, options) {$/;"	c
+ROT.Map.Rogue	.\Weather2\rot.js	/^ROT.Map.Rogue = function (width, height, options) {$/;"	c
+ROT.Map.Rogue._calculateRoomSize	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._calculateRoomSize = function (size, cell) {$/;"	m
+ROT.Map.Rogue._calculateRoomSize	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._calculateRoomSize = function (size, cell) {$/;"	m
+ROT.Map.Rogue._connectRooms	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._connectRooms = function () {$/;"	m
+ROT.Map.Rogue._connectRooms	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._connectRooms = function () {$/;"	m
+ROT.Map.Rogue._connectUnconnectedRooms	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._connectUnconnectedRooms = function () {$/;"	m
+ROT.Map.Rogue._connectUnconnectedRooms	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._connectUnconnectedRooms = function () {$/;"	m
+ROT.Map.Rogue._createCorridors	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._createCorridors = function () {$/;"	m
+ROT.Map.Rogue._createCorridors	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._createCorridors = function () {$/;"	m
+ROT.Map.Rogue._createRandomRoomConnections	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._createRandomRoomConnections = function (connections) {$/;"	m
+ROT.Map.Rogue._createRandomRoomConnections	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._createRandomRoomConnections = function (connections) {$/;"	m
+ROT.Map.Rogue._createRooms	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._createRooms = function () {$/;"	m
+ROT.Map.Rogue._createRooms	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._createRooms = function () {$/;"	m
+ROT.Map.Rogue._drawCorridor	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._drawCorridor = function (startPosition, endPosition) {$/;"	m
+ROT.Map.Rogue._drawCorridor	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._drawCorridor = function (startPosition, endPosition) {$/;"	m
+ROT.Map.Rogue._getWallPosition	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._getWallPosition = function (aRoom, aDirection) {$/;"	m
+ROT.Map.Rogue._getWallPosition	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._getWallPosition = function (aRoom, aDirection) {$/;"	m
+ROT.Map.Rogue._initRooms	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype._initRooms = function () {$/;"	m
+ROT.Map.Rogue._initRooms	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype._initRooms = function () {$/;"	m
+ROT.Map.Rogue._options.cellHeight	.\Rouge\libraries\rot.js	/^		cellHeight: 3  \/\/     ie. as an array with min-max values for each direction....$/;"	p
+ROT.Map.Rogue._options.cellHeight	.\Weather2\rot.js	/^		cellHeight: 3  \/\/     ie. as an array with min-max values for each direction....$/;"	p
+ROT.Map.Rogue._options.cellWidth	.\Rouge\libraries\rot.js	/^		cellWidth: 3,  \/\/ NOTE to self, these could probably work the same as the roomWidth\/room Height values$/;"	p
+ROT.Map.Rogue._options.cellWidth	.\Weather2\rot.js	/^		cellWidth: 3,  \/\/ NOTE to self, these could probably work the same as the roomWidth\/room Height values$/;"	p
+ROT.Map.Rogue.create	.\Rouge\libraries\rot.js	/^ROT.Map.Rogue.prototype.create = function (callback) {$/;"	m
+ROT.Map.Rogue.create	.\Weather2\rot.js	/^ROT.Map.Rogue.prototype.create = function (callback) {$/;"	m
+ROT.Map.Uniform	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform = function(width, height, options) {$/;"	c
+ROT.Map.Uniform	.\Weather2\rot.js	/^ROT.Map.Uniform = function(width, height, options) {$/;"	c
+ROT.Map.Uniform._canBeDugCallback	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._canBeDugCallback = function(x, y) {$/;"	m
+ROT.Map.Uniform._canBeDugCallback	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._canBeDugCallback = function(x, y) {$/;"	m
+ROT.Map.Uniform._closestRoom	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._closestRoom = function(rooms, room) {$/;"	m
+ROT.Map.Uniform._closestRoom	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._closestRoom = function(rooms, room) {$/;"	m
+ROT.Map.Uniform._connectRooms	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._connectRooms = function(room1, room2) {$/;"	m
+ROT.Map.Uniform._connectRooms	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._connectRooms = function(room1, room2) {$/;"	m
+ROT.Map.Uniform._digCallback	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._digCallback = function(x, y, value) {$/;"	m
+ROT.Map.Uniform._digCallback	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._digCallback = function(x, y, value) {$/;"	m
+ROT.Map.Uniform._digLine	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._digLine = function(points) {$/;"	m
+ROT.Map.Uniform._digLine	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._digLine = function(points) {$/;"	m
+ROT.Map.Uniform._generateCorridors	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._generateCorridors = function() {$/;"	m
+ROT.Map.Uniform._generateCorridors	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._generateCorridors = function() {$/;"	m
+ROT.Map.Uniform._generateRoom	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._generateRoom = function() {$/;"	m
+ROT.Map.Uniform._generateRoom	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._generateRoom = function() {$/;"	m
+ROT.Map.Uniform._generateRooms	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._generateRooms = function() {$/;"	m
+ROT.Map.Uniform._generateRooms	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._generateRooms = function() {$/;"	m
+ROT.Map.Uniform._isWallCallback	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._isWallCallback = function(x, y) {$/;"	m
+ROT.Map.Uniform._isWallCallback	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._isWallCallback = function(x, y) {$/;"	m
+ROT.Map.Uniform._options.roomWidth	.\Rouge\libraries\rot.js	/^		roomWidth: [3, 9], \/* room minimum and maximum width *\/$/;"	p
+ROT.Map.Uniform._options.roomWidth	.\Weather2\rot.js	/^		roomWidth: [3, 9], \/* room minimum and maximum width *\/$/;"	p
+ROT.Map.Uniform._placeInWall	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype._placeInWall = function(room, dirIndex) {$/;"	m
+ROT.Map.Uniform._placeInWall	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype._placeInWall = function(room, dirIndex) {$/;"	m
+ROT.Map.Uniform.create	.\Rouge\libraries\rot.js	/^ROT.Map.Uniform.prototype.create = function(callback) {$/;"	m
+ROT.Map.Uniform.create	.\Weather2\rot.js	/^ROT.Map.Uniform.prototype.create = function(callback) {$/;"	m
+ROT.Map._fillMap	.\Rouge\libraries\rot.js	/^ROT.Map.prototype._fillMap = function(value) {$/;"	m
+ROT.Map._fillMap	.\Weather2\rot.js	/^ROT.Map.prototype._fillMap = function(value) {$/;"	m
+ROT.Map.create	.\Rouge\libraries\rot.js	/^ROT.Map.prototype.create = function(callback) {};$/;"	m
+ROT.Map.create	.\Weather2\rot.js	/^ROT.Map.prototype.create = function(callback) {};$/;"	m
+ROT.Noise	.\Rouge\libraries\rot.js	/^ROT.Noise = function() {$/;"	f
+ROT.Noise	.\Rouge\libraries\rot.js	/^ROT.Noise.prototype.get = function(x, y) {};$/;"	c
+ROT.Noise	.\Weather2\rot.js	/^ROT.Noise = function() {$/;"	f
+ROT.Noise	.\Weather2\rot.js	/^ROT.Noise.prototype.get = function(x, y) {};$/;"	c
+ROT.Noise.Simplex	.\Rouge\libraries\rot.js	/^ROT.Noise.Simplex = function(gradients) {$/;"	c
+ROT.Noise.Simplex	.\Weather2\rot.js	/^ROT.Noise.Simplex = function(gradients) {$/;"	c
+ROT.Noise.Simplex.get	.\Rouge\libraries\rot.js	/^ROT.Noise.Simplex.prototype.get = function(xin, yin) {$/;"	m
+ROT.Noise.Simplex.get	.\Weather2\rot.js	/^ROT.Noise.Simplex.prototype.get = function(xin, yin) {$/;"	m
+ROT.Noise.get	.\Rouge\libraries\rot.js	/^ROT.Noise.prototype.get = function(x, y) {};$/;"	m
+ROT.Noise.get	.\Weather2\rot.js	/^ROT.Noise.prototype.get = function(x, y) {};$/;"	m
+ROT.Path	.\Rouge\libraries\rot.js	/^ROT.Path = function(toX, toY, passableCallback, options) {$/;"	c
+ROT.Path	.\Weather2\rot.js	/^ROT.Path = function(toX, toY, passableCallback, options) {$/;"	c
+ROT.Path._options.topology	.\Rouge\libraries\rot.js	/^		topology: 8$/;"	p
+ROT.Path._options.topology	.\Weather2\rot.js	/^		topology: 8$/;"	p
+ROT.RNG._c	.\Rouge\libraries\rot.js	/^	_c: 0,$/;"	p
+ROT.RNG._c	.\Weather2\rot.js	/^	_c: 0,$/;"	p
+ROT.RNG._frac	.\Rouge\libraries\rot.js	/^	_frac: 2.3283064365386963e-10 \/* 2^-32 *\/$/;"	p
+ROT.RNG._frac	.\Weather2\rot.js	/^	_frac: 2.3283064365386963e-10 \/* 2^-32 *\/$/;"	p
+ROT.RNG._s0	.\Rouge\libraries\rot.js	/^	_s0: 0,$/;"	p
+ROT.RNG._s0	.\Weather2\rot.js	/^	_s0: 0,$/;"	p
+ROT.RNG._s1	.\Rouge\libraries\rot.js	/^	_s1: 0,$/;"	p
+ROT.RNG._s1	.\Weather2\rot.js	/^	_s1: 0,$/;"	p
+ROT.RNG._s2	.\Rouge\libraries\rot.js	/^	_s2: 0,$/;"	p
+ROT.RNG._s2	.\Weather2\rot.js	/^	_s2: 0,$/;"	p
+ROT.RNG.clone	.\Rouge\libraries\rot.js	/^	clone: function() {$/;"	m
+ROT.RNG.clone	.\Weather2\rot.js	/^	clone: function() {$/;"	m
+ROT.RNG.getNormal	.\Rouge\libraries\rot.js	/^	getNormal: function(mean, stddev) {$/;"	m
+ROT.RNG.getNormal	.\Weather2\rot.js	/^	getNormal: function(mean, stddev) {$/;"	m
+ROT.RNG.getPercentage	.\Rouge\libraries\rot.js	/^	getPercentage: function() {$/;"	m
+ROT.RNG.getPercentage	.\Weather2\rot.js	/^	getPercentage: function() {$/;"	m
+ROT.RNG.getSeed	.\Rouge\libraries\rot.js	/^	getSeed: function() {$/;"	m
+ROT.RNG.getSeed	.\Weather2\rot.js	/^	getSeed: function() {$/;"	m
+ROT.RNG.getState	.\Rouge\libraries\rot.js	/^	getState: function() {$/;"	m
+ROT.RNG.getState	.\Weather2\rot.js	/^	getState: function() {$/;"	m
+ROT.RNG.getUniform	.\Rouge\libraries\rot.js	/^	getUniform: function() {$/;"	m
+ROT.RNG.getUniform	.\Weather2\rot.js	/^	getUniform: function() {$/;"	m
+ROT.RNG.getUniformInt	.\Rouge\libraries\rot.js	/^	getUniformInt: function(lowerBound, upperBound) {$/;"	m
+ROT.RNG.getUniformInt	.\Weather2\rot.js	/^	getUniformInt: function(lowerBound, upperBound) {$/;"	m
+ROT.RNG.getWeightedValue	.\Rouge\libraries\rot.js	/^	getWeightedValue: function(data) {$/;"	m
+ROT.RNG.getWeightedValue	.\Weather2\rot.js	/^	getWeightedValue: function(data) {$/;"	m
+ROT.RNG.setSeed	.\Rouge\libraries\rot.js	/^	setSeed: function(seed) {$/;"	m
+ROT.RNG.setSeed	.\Weather2\rot.js	/^	setSeed: function(seed) {$/;"	m
+ROT.RNG.setState	.\Rouge\libraries\rot.js	/^	setState: function(state) {$/;"	m
+ROT.RNG.setState	.\Weather2\rot.js	/^	setState: function(state) {$/;"	m
+ROT.ROT.ROT	.\Rouge\libraries\rot.js	/^ROT.Path.Dijkstra.prototype.compute = function(fromX, fromY, callback) {$/;"	c
+ROT.ROT.ROT	.\Weather2\rot.js	/^ROT.Path.Dijkstra.prototype.compute = function(fromX, fromY, callback) {$/;"	c
+ROT.ROT.ROT.ROT.ROT.ROT.ROT.compute	.\Rouge\libraries\rot.js	/^ROT.Path.Dijkstra.prototype.compute = function(fromX, fromY, callback) {$/;"	m
+ROT.ROT.ROT.ROT.ROT.ROT.ROT.compute	.\Weather2\rot.js	/^ROT.Path.Dijkstra.prototype.compute = function(fromX, fromY, callback) {$/;"	m
+ROT.ROT.ROT.ROT.ROT.compute	.\Rouge\libraries\rot.js	/^ROT.Path.AStar.prototype.compute = function(fromX, fromY, callback) {$/;"	m
+ROT.ROT.ROT.ROT.ROT.compute	.\Weather2\rot.js	/^ROT.Path.AStar.prototype.compute = function(fromX, fromY, callback) {$/;"	m
+ROT.ROT.ROT._add	.\Rouge\libraries\rot.js	/^ROT.Path.AStar.prototype._add = function(x, y, prev) {$/;"	m
+ROT.ROT.ROT._add	.\Rouge\libraries\rot.js	/^ROT.Path.Dijkstra.prototype._add = function(x, y, prev) {$/;"	m
+ROT.ROT.ROT._add	.\Weather2\rot.js	/^ROT.Path.AStar.prototype._add = function(x, y, prev) {$/;"	m
+ROT.ROT.ROT._add	.\Weather2\rot.js	/^ROT.Path.Dijkstra.prototype._add = function(x, y, prev) {$/;"	m
+ROT.ROT.ROT._compute	.\Rouge\libraries\rot.js	/^ROT.Path.Dijkstra.prototype._compute = function(fromX, fromY) {$/;"	m
+ROT.ROT.ROT._compute	.\Weather2\rot.js	/^ROT.Path.Dijkstra.prototype._compute = function(fromX, fromY) {$/;"	m
+ROT.ROT.ROT._distance	.\Rouge\libraries\rot.js	/^ROT.Path.AStar.prototype._distance = function(x, y) {$/;"	m
+ROT.ROT.ROT._distance	.\Weather2\rot.js	/^ROT.Path.AStar.prototype._distance = function(x, y) {$/;"	m
+ROT.ROT.ROT.var.obj.g	.\Rouge\libraries\rot.js	/^		g: (prev ? prev.g+1 : 0),$/;"	p
+ROT.ROT.ROT.var.obj.g	.\Weather2\rot.js	/^		g: (prev ? prev.g+1 : 0),$/;"	p
+ROT.ROT.ROT.var.obj.prev	.\Rouge\libraries\rot.js	/^		prev: prev$/;"	p
+ROT.ROT.ROT.var.obj.prev	.\Rouge\libraries\rot.js	/^		prev: prev,$/;"	p
+ROT.ROT.ROT.var.obj.prev	.\Weather2\rot.js	/^		prev: prev$/;"	p
+ROT.ROT.ROT.var.obj.prev	.\Weather2\rot.js	/^		prev: prev,$/;"	p
+ROT.ROT.ROT.var.obj.x	.\Rouge\libraries\rot.js	/^		x: x,$/;"	p
+ROT.ROT.ROT.var.obj.x	.\Weather2\rot.js	/^		x: x,$/;"	p
+ROT.ROT.ROT.var.obj.y	.\Rouge\libraries\rot.js	/^		y: y,$/;"	p
+ROT.ROT.ROT.var.obj.y	.\Weather2\rot.js	/^		y: y,$/;"	p
+ROT.ROT._getNeighbors	.\Rouge\libraries\rot.js	/^ROT.Path.prototype._getNeighbors = function(cx, cy) {$/;"	m
+ROT.ROT._getNeighbors	.\Weather2\rot.js	/^ROT.Path.prototype._getNeighbors = function(cx, cy) {$/;"	m
+ROT.ROT.compute	.\Rouge\libraries\rot.js	/^ROT.Path.prototype.compute = function(fromX, fromY, callback) {$/;"	m
+ROT.ROT.compute	.\Weather2\rot.js	/^ROT.Path.prototype.compute = function(fromX, fromY, callback) {$/;"	m
+ROT.Scheduler	.\Rouge\libraries\rot.js	/^ROT.Scheduler = function() {$/;"	c
+ROT.Scheduler	.\Weather2\rot.js	/^ROT.Scheduler = function() {$/;"	c
+ROT.Scheduler.Action	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Action = function() {$/;"	c
+ROT.Scheduler.Action	.\Weather2\rot.js	/^ROT.Scheduler.Action = function() {$/;"	c
+ROT.Scheduler.Action.add	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Action.prototype.add = function(item, repeat, time) {$/;"	m
+ROT.Scheduler.Action.add	.\Weather2\rot.js	/^ROT.Scheduler.Action.prototype.add = function(item, repeat, time) {$/;"	m
+ROT.Scheduler.Action.clear	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Action.prototype.clear = function() {$/;"	m
+ROT.Scheduler.Action.clear	.\Weather2\rot.js	/^ROT.Scheduler.Action.prototype.clear = function() {$/;"	m
+ROT.Scheduler.Action.next	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Action.prototype.next = function() {$/;"	m
+ROT.Scheduler.Action.next	.\Weather2\rot.js	/^ROT.Scheduler.Action.prototype.next = function() {$/;"	m
+ROT.Scheduler.Action.remove	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Action.prototype.remove = function(item) {$/;"	m
+ROT.Scheduler.Action.remove	.\Weather2\rot.js	/^ROT.Scheduler.Action.prototype.remove = function(item) {$/;"	m
+ROT.Scheduler.Action.return	.\Rouge\libraries\rot.js	/^	return ROT.Scheduler.prototype.add.call(this, item, repeat);$/;"	c
+ROT.Scheduler.Action.return	.\Weather2\rot.js	/^	return ROT.Scheduler.prototype.add.call(this, item, repeat);$/;"	c
+ROT.Scheduler.Action.return.Scheduler	.\Rouge\libraries\rot.js	/^	return ROT.Scheduler.prototype.remove.call(this, item);$/;"	c
+ROT.Scheduler.Action.return.Scheduler	.\Weather2\rot.js	/^	return ROT.Scheduler.prototype.remove.call(this, item);$/;"	c
+ROT.Scheduler.Action.setDuration	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Action.prototype.setDuration = function(time) {$/;"	m
+ROT.Scheduler.Action.setDuration	.\Weather2\rot.js	/^ROT.Scheduler.Action.prototype.setDuration = function(time) {$/;"	m
+ROT.Scheduler.Simple	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Simple = function() {$/;"	f
+ROT.Scheduler.Simple	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Simple.prototype.add = function(item, repeat) {$/;"	c
+ROT.Scheduler.Simple	.\Weather2\rot.js	/^ROT.Scheduler.Simple = function() {$/;"	f
+ROT.Scheduler.Simple	.\Weather2\rot.js	/^ROT.Scheduler.Simple.prototype.add = function(item, repeat) {$/;"	c
+ROT.Scheduler.Simple.add	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Simple.prototype.add = function(item, repeat) {$/;"	m
+ROT.Scheduler.Simple.add	.\Weather2\rot.js	/^ROT.Scheduler.Simple.prototype.add = function(item, repeat) {$/;"	m
+ROT.Scheduler.Simple.next	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Simple.prototype.next = function() {$/;"	m
+ROT.Scheduler.Simple.next	.\Weather2\rot.js	/^ROT.Scheduler.Simple.prototype.next = function() {$/;"	m
+ROT.Scheduler.Simple.return	.\Rouge\libraries\rot.js	/^	return ROT.Scheduler.prototype.add.call(this, item, repeat);$/;"	c
+ROT.Scheduler.Simple.return	.\Weather2\rot.js	/^	return ROT.Scheduler.prototype.add.call(this, item, repeat);$/;"	c
+ROT.Scheduler.Simple.return.Scheduler	.\Rouge\libraries\rot.js	/^	return ROT.Scheduler.prototype.next.call(this);$/;"	c
+ROT.Scheduler.Simple.return.Scheduler	.\Weather2\rot.js	/^	return ROT.Scheduler.prototype.next.call(this);$/;"	c
+ROT.Scheduler.Speed	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Speed = function() {$/;"	f
+ROT.Scheduler.Speed	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Speed.prototype.add = function(item, repeat, time) {$/;"	c
+ROT.Scheduler.Speed	.\Weather2\rot.js	/^ROT.Scheduler.Speed = function() {$/;"	f
+ROT.Scheduler.Speed	.\Weather2\rot.js	/^ROT.Scheduler.Speed.prototype.add = function(item, repeat, time) {$/;"	c
+ROT.Scheduler.Speed.add	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Speed.prototype.add = function(item, repeat, time) {$/;"	m
+ROT.Scheduler.Speed.add	.\Weather2\rot.js	/^ROT.Scheduler.Speed.prototype.add = function(item, repeat, time) {$/;"	m
+ROT.Scheduler.Speed.next	.\Rouge\libraries\rot.js	/^ROT.Scheduler.Speed.prototype.next = function() {$/;"	m
+ROT.Scheduler.Speed.next	.\Weather2\rot.js	/^ROT.Scheduler.Speed.prototype.next = function() {$/;"	m
+ROT.Scheduler.Speed.return	.\Rouge\libraries\rot.js	/^	return ROT.Scheduler.prototype.add.call(this, item, repeat);$/;"	c
+ROT.Scheduler.Speed.return	.\Weather2\rot.js	/^	return ROT.Scheduler.prototype.add.call(this, item, repeat);$/;"	c
+ROT.Scheduler.Speed.return.Scheduler	.\Rouge\libraries\rot.js	/^	return ROT.Scheduler.prototype.next.call(this);$/;"	c
+ROT.Scheduler.Speed.return.Scheduler	.\Weather2\rot.js	/^	return ROT.Scheduler.prototype.next.call(this);$/;"	c
+ROT.Scheduler.add	.\Rouge\libraries\rot.js	/^ROT.Scheduler.prototype.add = function(item, repeat) {$/;"	m
+ROT.Scheduler.add	.\Weather2\rot.js	/^ROT.Scheduler.prototype.add = function(item, repeat) {$/;"	m
+ROT.Scheduler.clear	.\Rouge\libraries\rot.js	/^ROT.Scheduler.prototype.clear = function() {$/;"	m
+ROT.Scheduler.clear	.\Weather2\rot.js	/^ROT.Scheduler.prototype.clear = function() {$/;"	m
+ROT.Scheduler.getTime	.\Rouge\libraries\rot.js	/^ROT.Scheduler.prototype.getTime = function() {$/;"	m
+ROT.Scheduler.getTime	.\Weather2\rot.js	/^ROT.Scheduler.prototype.getTime = function() {$/;"	m
+ROT.Scheduler.getTimeOf	.\Rouge\libraries\rot.js	/^ROT.Scheduler.prototype.getTimeOf = function(item) {$/;"	m
+ROT.Scheduler.getTimeOf	.\Weather2\rot.js	/^ROT.Scheduler.prototype.getTimeOf = function(item) {$/;"	m
+ROT.Scheduler.next	.\Rouge\libraries\rot.js	/^ROT.Scheduler.prototype.next = function() {$/;"	m
+ROT.Scheduler.next	.\Weather2\rot.js	/^ROT.Scheduler.prototype.next = function() {$/;"	m
+ROT.Scheduler.remove	.\Rouge\libraries\rot.js	/^ROT.Scheduler.prototype.remove = function(item) {$/;"	m
+ROT.Scheduler.remove	.\Weather2\rot.js	/^ROT.Scheduler.prototype.remove = function(item) {$/;"	m
+ROT.StringGenerator	.\Rouge\libraries\rot.js	/^ROT.StringGenerator = function(options) {$/;"	c
+ROT.StringGenerator	.\Weather2\rot.js	/^ROT.StringGenerator = function(options) {$/;"	c
+ROT.StringGenerator._backoff	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype._backoff = function(context) {$/;"	m
+ROT.StringGenerator._backoff	.\Weather2\rot.js	/^ROT.StringGenerator.prototype._backoff = function(context) {$/;"	m
+ROT.StringGenerator._join	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype._join = function(arr) {$/;"	m
+ROT.StringGenerator._join	.\Weather2\rot.js	/^ROT.StringGenerator.prototype._join = function(arr) {$/;"	m
+ROT.StringGenerator._observeEvent	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype._observeEvent = function(context, event) {$/;"	m
+ROT.StringGenerator._observeEvent	.\Weather2\rot.js	/^ROT.StringGenerator.prototype._observeEvent = function(context, event) {$/;"	m
+ROT.StringGenerator._options.order	.\Rouge\libraries\rot.js	/^		order: 3,$/;"	p
+ROT.StringGenerator._options.order	.\Weather2\rot.js	/^		order: 3,$/;"	p
+ROT.StringGenerator._options.prior	.\Rouge\libraries\rot.js	/^		prior: 0.001$/;"	p
+ROT.StringGenerator._options.prior	.\Weather2\rot.js	/^		prior: 0.001$/;"	p
+ROT.StringGenerator._options.words	.\Rouge\libraries\rot.js	/^		words: false,$/;"	p
+ROT.StringGenerator._options.words	.\Weather2\rot.js	/^		words: false,$/;"	p
+ROT.StringGenerator._sample	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype._sample = function(context) {$/;"	m
+ROT.StringGenerator._sample	.\Weather2\rot.js	/^ROT.StringGenerator.prototype._sample = function(context) {$/;"	m
+ROT.StringGenerator._split	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype._split = function(str) {$/;"	m
+ROT.StringGenerator._split	.\Weather2\rot.js	/^ROT.StringGenerator.prototype._split = function(str) {$/;"	m
+ROT.StringGenerator.clear	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype.clear = function() {$/;"	m
+ROT.StringGenerator.clear	.\Weather2\rot.js	/^ROT.StringGenerator.prototype.clear = function() {$/;"	m
+ROT.StringGenerator.generate	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype.generate = function() {$/;"	m
+ROT.StringGenerator.generate	.\Weather2\rot.js	/^ROT.StringGenerator.prototype.generate = function() {$/;"	m
+ROT.StringGenerator.getStats	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype.getStats = function() {$/;"	m
+ROT.StringGenerator.getStats	.\Weather2\rot.js	/^ROT.StringGenerator.prototype.getStats = function() {$/;"	m
+ROT.StringGenerator.observe	.\Rouge\libraries\rot.js	/^ROT.StringGenerator.prototype.observe = function(string) {$/;"	m
+ROT.StringGenerator.observe	.\Weather2\rot.js	/^ROT.StringGenerator.prototype.observe = function(string) {$/;"	m
+ROT.Text.RE_COLORS	.\Rouge\libraries\rot.js	/^	RE_COLORS: \/%([bc]){([^}]*)}\/g,$/;"	p
+ROT.Text.RE_COLORS	.\Weather2\rot.js	/^	RE_COLORS: \/%([bc]){([^}]*)}\/g,$/;"	p
+String	.\Rouge\libraries\rot.js	/^String.prototype.capitalize = String.prototype.capitalize || function() {$/;"	c
+String	.\Weather2\rot.js	/^String.prototype.capitalize = String.prototype.capitalize || function() {$/;"	c
+String.capitalize	.\Rouge\libraries\rot.js	/^String.prototype.capitalize = String.prototype.capitalize || function() {$/;"	m
+String.capitalize	.\Weather2\rot.js	/^String.prototype.capitalize = String.prototype.capitalize || function() {$/;"	m
+String.format	.\Rouge\libraries\rot.js	/^String.prototype.format = String.prototype.format || function() {$/;"	m
+String.format	.\Weather2\rot.js	/^String.prototype.format = String.prototype.format || function() {$/;"	m
+String.lpad	.\Rouge\libraries\rot.js	/^String.prototype.lpad = String.prototype.lpad || function(character, count) {$/;"	m
+String.lpad	.\Weather2\rot.js	/^String.prototype.lpad = String.prototype.lpad || function(character, count) {$/;"	m
+String.rpad	.\Rouge\libraries\rot.js	/^String.prototype.rpad = String.prototype.rpad || function(character, count) {$/;"	m
+String.rpad	.\Weather2\rot.js	/^String.prototype.rpad = String.prototype.rpad || function(character, count) {$/;"	m
+SunCalc.addTime	.\Weather2\suncalc.js	/^SunCalc.addTime = function (angle, riseName, setName) {$/;"	f
+SunCalc.getMoonIllumination	.\Weather2\suncalc.js	/^SunCalc.getMoonIllumination = function (date) {$/;"	f
+SunCalc.getMoonPosition	.\Weather2\suncalc.js	/^SunCalc.getMoonPosition = function (date, lat, lng) {$/;"	f
+SunCalc.getMoonTimes	.\Weather2\suncalc.js	/^SunCalc.getMoonTimes = function (date, lat, lng, inUTC) {$/;"	f
+SunCalc.getPosition	.\Weather2\suncalc.js	/^SunCalc.getPosition = function (date, lat, lng) {$/;"	f
+SunCalc.getTimes	.\Weather2\suncalc.js	/^SunCalc.getTimes = function (date, lat, lng) {$/;"	f
+SunCalc.getTimes.result.solarNoon	.\Weather2\suncalc.js	/^        solarNoon: fromJulian(Jnoon),$/;"	p
+UNORDERED_COMPARE_FLAG	.\Weather2\lodash.js	/^  var UNORDERED_COMPARE_FLAG = 1,$/;"	v
+UNORDERED_COMPARE_FLAG	.\libraries\lodash.js	/^  var UNORDERED_COMPARE_FLAG = 1,$/;"	v
+VERSION	.\Weather2\lodash.js	/^  var VERSION = '4.14.1';$/;"	v
+VERSION	.\libraries\lodash.js	/^  var VERSION = '4.14.1';$/;"	v
+_	.\Weather2\lodash.js	/^  var _ = runInContext();$/;"	v
+_	.\libraries\lodash.js	/^  var _ = runInContext();$/;"	v
+add	.\Weather2\lodash.js	/^    var add = createMathOperation(function(augend, addend) {$/;"	v
+add	.\libraries\lodash.js	/^    var add = createMathOperation(function(augend, addend) {$/;"	v
+altitude	.\Weather2\suncalc.js	/^function altitude(H, phi, dec) { return asin(sin(phi) * sin(dec) + cos(phi) * cos(dec) * cos(H)); }$/;"	f
+approxTransit	.\Weather2\suncalc.js	/^function approxTransit(Ht, lw, n) { return J0 + (Ht + lw) \/ (2 * PI) + n; }$/;"	f
+argsTag	.\Weather2\lodash.js	/^  var argsTag = '[object Arguments]',$/;"	v
+argsTag	.\libraries\lodash.js	/^  var argsTag = '[object Arguments]',$/;"	v
+arrayBufferTag	.\Weather2\lodash.js	/^  var arrayBufferTag = '[object ArrayBuffer]',$/;"	v
+arrayBufferTag	.\libraries\lodash.js	/^  var arrayBufferTag = '[object ArrayBuffer]',$/;"	v
+astroRefraction	.\Weather2\suncalc.js	/^function astroRefraction(h) {$/;"	f
+attempt	.\Weather2\lodash.js	/^    var attempt = baseRest(function(func, args) {$/;"	v
+attempt	.\libraries\lodash.js	/^    var attempt = baseRest(function(func, args) {$/;"	v
+azimuth	.\Weather2\suncalc.js	/^function azimuth(H, phi, dec)  { return atan(sin(H), cos(H) * sin(phi) - tan(dec) * cos(phi)); }$/;"	f
+bindAll	.\Weather2\lodash.js	/^    var bindAll = baseRest(function(object, methodNames) {$/;"	v
+bindAll	.\libraries\lodash.js	/^    var bindAll = baseRest(function(object, methodNames) {$/;"	v
+ceil	.\Weather2\lodash.js	/^    var ceil = createRound('ceil');$/;"	v
+ceil	.\libraries\lodash.js	/^    var ceil = createRound('ceil');$/;"	v
+cond	.\Weather2\lodash.js	/^    function cond(pairs) {$/;"	f
+cond	.\libraries\lodash.js	/^    function cond(pairs) {$/;"	f
+conforms	.\Weather2\lodash.js	/^    function conforms(source) {$/;"	f
+conforms	.\libraries\lodash.js	/^    function conforms(source) {$/;"	f
+constant	.\Weather2\lodash.js	/^    function constant(value) {$/;"	f
+constant	.\libraries\lodash.js	/^    function constant(value) {$/;"	f
+d3.behavior.drag	.\libraries\d3.js	/^  d3.behavior.drag = function() {$/;"	f
+d3.behavior.drag.drag	.\libraries\d3.js	/^    function drag() {$/;"	c
+d3.behavior.drag.dragstart	.\libraries\d3.js	/^    function dragstart(id, position, subject, move, end) {$/;"	f
+d3.behavior.zoom	.\libraries\d3.js	/^  d3.behavior.zoom = function() {$/;"	f
+d3.behavior.zoom.dblclicked	.\libraries\d3.js	/^    function dblclicked() {$/;"	f
+d3.behavior.zoom.location	.\libraries\d3.js	/^    function location(p) {$/;"	f
+d3.behavior.zoom.mousedowned	.\libraries\d3.js	/^    function mousedowned() {$/;"	f
+d3.behavior.zoom.mousewheeled	.\libraries\d3.js	/^    function mousewheeled() {$/;"	f
+d3.behavior.zoom.point	.\libraries\d3.js	/^    function point(l) {$/;"	f
+d3.behavior.zoom.rescale	.\libraries\d3.js	/^    function rescale() {$/;"	f
+d3.behavior.zoom.scaleTo	.\libraries\d3.js	/^    function scaleTo(s) {$/;"	f
+d3.behavior.zoom.that.__chart__.x	.\libraries\d3.js	/^        x: view.x,$/;"	p
+d3.behavior.zoom.touchstarted	.\libraries\d3.js	/^    function touchstarted() {$/;"	f
+d3.behavior.zoom.translateTo	.\libraries\d3.js	/^    function translateTo(p, l) {$/;"	f
+d3.behavior.zoom.view.k	.\libraries\d3.js	/^      k: 1$/;"	p
+d3.behavior.zoom.view.x	.\libraries\d3.js	/^      x: 0,$/;"	p
+d3.behavior.zoom.view.y	.\libraries\d3.js	/^      y: 0,$/;"	p
+d3.behavior.zoom.zoom	.\libraries\d3.js	/^    function zoom(g) {$/;"	f
+d3.behavior.zoom.zoomTo	.\libraries\d3.js	/^    function zoomTo(that, p, l, k) {$/;"	f
+d3.behavior.zoom.zoomed	.\libraries\d3.js	/^    function zoomed(dispatch) {$/;"	f
+d3.behavior.zoom.zoomended	.\libraries\d3.js	/^    function zoomended(dispatch) {$/;"	f
+d3.behavior.zoom.zoomstarted	.\libraries\d3.js	/^    function zoomstarted(dispatch) {$/;"	f
+d3.bisector	.\libraries\d3.js	/^  d3.bisector = function(f) {$/;"	f
+d3.descending	.\libraries\d3.js	/^  d3.descending = function(a, b) {$/;"	f
+d3.deviation	.\libraries\d3.js	/^  d3.deviation = function() {$/;"	f
+d3.dispatch	.\libraries\d3.js	/^  d3.dispatch = function() {$/;"	f
+d3.entries	.\libraries\d3.js	/^  d3.entries = function(map) {$/;"	f
+d3.extent	.\libraries\d3.js	/^  d3.extent = function(array, f) {$/;"	f
+d3.interpolateZoom	.\libraries\d3.js	/^  d3.interpolateZoom = function(p0, p1) {$/;"	f
+d3.interpolateZoom.interpolate	.\libraries\d3.js	/^    function interpolate(t) {$/;"	f
+d3.keys	.\libraries\d3.js	/^  d3.keys = function(map) {$/;"	f
+d3.map	.\libraries\d3.js	/^  d3.map = function(object, f) {$/;"	f
+d3.max	.\libraries\d3.js	/^  d3.max = function(array, f) {$/;"	f
+d3.max.d3_Map	.\libraries\d3.js	/^  function d3_Map() {$/;"	c
+d3.max.d3_Set	.\libraries\d3.js	/^  function d3_Set() {$/;"	c
+d3.max.d3_class	.\libraries\d3.js	/^  function d3_class(ctor, properties) {$/;"	f
+d3.max.d3_identity	.\libraries\d3.js	/^  function d3_identity(d) {$/;"	f
+d3.max.d3_map_empty	.\libraries\d3.js	/^  function d3_map_empty() {$/;"	f
+d3.max.d3_map_escape	.\libraries\d3.js	/^  function d3_map_escape(key) {$/;"	f
+d3.max.d3_map_has	.\libraries\d3.js	/^  function d3_map_has(key) {$/;"	f
+d3.max.d3_map_keys	.\libraries\d3.js	/^  function d3_map_keys() {$/;"	f
+d3.max.d3_map_remove	.\libraries\d3.js	/^  function d3_map_remove(key) {$/;"	f
+d3.max.d3_map_size	.\libraries\d3.js	/^  function d3_map_size() {$/;"	f
+d3.max.d3_map_unescape	.\libraries\d3.js	/^  function d3_map_unescape(key) {$/;"	f
+d3.max.d3_range_integerScale	.\libraries\d3.js	/^  function d3_range_integerScale(x) {$/;"	f
+d3.max.d3_rebind	.\libraries\d3.js	/^  function d3_rebind(target, source, method) {$/;"	f
+d3.max.d3_zipLength	.\libraries\d3.js	/^  function d3_zipLength(d) {$/;"	f
+d3.mean	.\libraries\d3.js	/^  d3.mean = function(array, f) {$/;"	f
+d3.median	.\libraries\d3.js	/^  d3.median = function(array, f) {$/;"	f
+d3.merge	.\libraries\d3.js	/^  d3.merge = function(arrays) {$/;"	f
+d3.min	.\libraries\d3.js	/^  d3.min = function(array, f) {$/;"	f
+d3.min.d3_dispatch_event	.\libraries\d3.js	/^  function d3_dispatch_event(dispatch) {$/;"	f
+d3.min.d3_dispatch_event.event	.\libraries\d3.js	/^    function event() {$/;"	f
+d3.min.event.on	.\libraries\d3.js	/^    event.on = function(name, listener) {$/;"	f
+d3.mouse	.\libraries\d3.js	/^  d3.mouse = function(container) {$/;"	f
+d3.nest	.\libraries\d3.js	/^  d3.nest = function() {$/;"	f
+d3.nest.entries	.\libraries\d3.js	/^    function entries(map, depth) {$/;"	f
+d3.nest.map	.\libraries\d3.js	/^    function map(mapType, array, depth) {$/;"	f
+d3.ns.prefix	.\libraries\d3.js	/^    prefix: d3_nsPrefix,$/;"	p
+d3.ns.qualify	.\libraries\d3.js	/^    qualify: function(name) {$/;"	m
+d3.pairs	.\libraries\d3.js	/^  d3.pairs = function(array) {$/;"	f
+d3.permute	.\libraries\d3.js	/^  d3.permute = function(array, indexes) {$/;"	f
+d3.quantile	.\libraries\d3.js	/^  d3.quantile = function(values, p) {$/;"	f
+d3.range	.\libraries\d3.js	/^  d3.range = function(start, stop, step) {$/;"	f
+d3.rebind	.\libraries\d3.js	/^  d3.rebind = function(target, source) {$/;"	f
+d3.requote	.\libraries\d3.js	/^  d3.requote = function(s) {$/;"	f
+d3.select	.\libraries\d3.js	/^  d3.select = function(node) {$/;"	f
+d3.selectAll	.\libraries\d3.js	/^  d3.selectAll = function(nodes) {$/;"	f
+d3.selection	.\libraries\d3.js	/^  d3.selection = function() {$/;"	f
+d3.selection.enter	.\libraries\d3.js	/^  d3.selection.enter.prototype = d3_selection_enterPrototype;$/;"	c
+d3.set	.\libraries\d3.js	/^  d3.set = function(array) {$/;"	f
+d3.shuffle	.\libraries\d3.js	/^  d3.shuffle = function(array, i0, i1) {$/;"	f
+d3.sum	.\libraries\d3.js	/^  d3.sum = function(array, f) {$/;"	f
+d3.touch	.\libraries\d3.js	/^  d3.touch = function(container, touches, identifier) {$/;"	f
+d3.touches	.\libraries\d3.js	/^  d3.touches = function(container, touches) {$/;"	f
+d3.transpose	.\libraries\d3.js	/^  d3.transpose = function(matrix) {$/;"	f
+d3.values	.\libraries\d3.js	/^  d3.values = function(map) {$/;"	f
+d3.variance	.\libraries\d3.js	/^  d3.variance = function(array, f) {$/;"	f
+d3.zip	.\libraries\d3.js	/^  d3.zip = function() {$/;"	f
+d3_acos	.\libraries\d3.js	/^  function d3_acos(x) {$/;"	f
+d3_array	.\libraries\d3.js	/^      d3_array = function(list) {$/;"	f
+d3_ascending	.\libraries\d3.js	/^  function d3_ascending(a, b) {$/;"	f
+d3_asin	.\libraries\d3.js	/^  function d3_asin(x) {$/;"	f
+d3_behavior_dragTouchId	.\libraries\d3.js	/^  function d3_behavior_dragTouchId() {$/;"	f
+d3_collapse	.\libraries\d3.js	/^  function d3_collapse(s) {$/;"	f
+d3_color	.\libraries\d3.js	/^  d3_color.prototype.toString = function() {$/;"	c
+d3_color	.\libraries\d3.js	/^  function d3_color() {}$/;"	f
+d3_color.toString	.\libraries\d3.js	/^  d3_color.prototype.toString = function() {$/;"	m
+d3_cosh	.\libraries\d3.js	/^  function d3_cosh(x) {$/;"	f
+d3_cross2d	.\libraries\d3.js	/^  function d3_cross2d(a, b, c) {$/;"	f
+d3_dispatch	.\libraries\d3.js	/^  d3_dispatch.prototype.on = function(type, listener) {$/;"	c
+d3_dispatch.on	.\libraries\d3.js	/^  d3_dispatch.prototype.on = function(type, listener) {$/;"	m
+d3_documentElement	.\libraries\d3.js	/^  function d3_documentElement(node) {$/;"	f
+d3_element_prototype.setAttribute	.\libraries\d3.js	/^      d3_element_prototype.setAttribute = function(name, value) {$/;"	f
+d3_element_prototype.setAttributeNS	.\libraries\d3.js	/^      d3_element_prototype.setAttributeNS = function(space, local, value) {$/;"	f
+d3_eventDispatch	.\libraries\d3.js	/^  function d3_eventDispatch(target) {$/;"	f
+d3_eventPreventDefault	.\libraries\d3.js	/^  function d3_eventPreventDefault() {$/;"	f
+d3_eventSource	.\libraries\d3.js	/^  function d3_eventSource() {$/;"	f
+d3_event_dragSelect	.\libraries\d3.js	/^  var d3_event_dragSelect, d3_event_dragId = 0;$/;"	v
+d3_event_dragSuppress	.\libraries\d3.js	/^  function d3_event_dragSuppress(node) {$/;"	f
+d3_functor	.\libraries\d3.js	/^  function d3_functor(v) {$/;"	f
+d3_haversin	.\libraries\d3.js	/^  function d3_haversin(x) {$/;"	f
+d3_hcl	.\libraries\d3.js	/^  function d3_hcl(h, c, l) {$/;"	f
+d3_hclPrototype.brighter	.\libraries\d3.js	/^  d3_hclPrototype.brighter = function(k) {$/;"	f
+d3_hclPrototype.darker	.\libraries\d3.js	/^  d3_hclPrototype.darker = function(k) {$/;"	f
+d3_hclPrototype.rgb	.\libraries\d3.js	/^  d3_hclPrototype.rgb = function() {$/;"	f
+d3_hcl_lab	.\libraries\d3.js	/^  function d3_hcl_lab(h, c, l) {$/;"	f
+d3_hsl	.\libraries\d3.js	/^  function d3_hsl(h, s, l) {$/;"	f
+d3_hslPrototype.brighter	.\libraries\d3.js	/^  d3_hslPrototype.brighter = function(k) {$/;"	f
+d3_hslPrototype.darker	.\libraries\d3.js	/^  d3_hslPrototype.darker = function(k) {$/;"	f
+d3_hslPrototype.rgb	.\libraries\d3.js	/^  d3_hslPrototype.rgb = function() {$/;"	f
+d3_hsl_rgb	.\libraries\d3.js	/^  function d3_hsl_rgb(h, s, l) {$/;"	f
+d3_hsl_rgb.v	.\libraries\d3.js	/^    function v(h) {$/;"	f
+d3_hsl_rgb.vv	.\libraries\d3.js	/^    function vv(h) {$/;"	f
+d3_lab	.\libraries\d3.js	/^  function d3_lab(l, a, b) {$/;"	f
+d3_labPrototype.brighter	.\libraries\d3.js	/^  d3_labPrototype.brighter = function(k) {$/;"	f
+d3_labPrototype.darker	.\libraries\d3.js	/^  d3_labPrototype.darker = function(k) {$/;"	f
+d3_labPrototype.rgb	.\libraries\d3.js	/^  d3_labPrototype.rgb = function() {$/;"	f
+d3_lab_K	.\libraries\d3.js	/^  var d3_lab_K = 18;$/;"	v
+d3_lab_hcl	.\libraries\d3.js	/^  function d3_lab_hcl(l, a, b) {$/;"	f
+d3_lab_rgb	.\libraries\d3.js	/^  function d3_lab_rgb(l, a, b) {$/;"	f
+d3_lab_xyz	.\libraries\d3.js	/^  function d3_lab_xyz(x) {$/;"	f
+d3_mousePoint	.\libraries\d3.js	/^  function d3_mousePoint(container, e) {$/;"	f
+d3_nsPrefix.svg	.\libraries\d3.js	/^    svg: "http:\/\/www.w3.org\/2000\/svg",$/;"	p
+d3_nsPrefix.xhtml	.\libraries\d3.js	/^    xhtml: "http:\/\/www.w3.org\/1999\/xhtml",$/;"	p
+d3_nsPrefix.xlink	.\libraries\d3.js	/^    xlink: "http:\/\/www.w3.org\/1999\/xlink",$/;"	p
+d3_nsPrefix.xml	.\libraries\d3.js	/^    xml: "http:\/\/www.w3.org\/XML\/1998\/namespace",$/;"	p
+d3_nsPrefix.xmlns	.\libraries\d3.js	/^    xmlns: "http:\/\/www.w3.org\/2000\/xmlns\/"$/;"	p
+d3_rgb	.\libraries\d3.js	/^  function d3_rgb(r, g, b) {$/;"	f
+d3_rgbNumber	.\libraries\d3.js	/^  function d3_rgbNumber(value) {$/;"	f
+d3_rgbPrototype.brighter	.\libraries\d3.js	/^  d3_rgbPrototype.brighter = function(k) {$/;"	f
+d3_rgbPrototype.darker	.\libraries\d3.js	/^  d3_rgbPrototype.darker = function(k) {$/;"	f
+d3_rgbPrototype.hsl	.\libraries\d3.js	/^  d3_rgbPrototype.hsl = function() {$/;"	f
+d3_rgbPrototype.toString	.\libraries\d3.js	/^  d3_rgbPrototype.toString = function() {$/;"	f
+d3_rgbString	.\libraries\d3.js	/^  function d3_rgbString(value) {$/;"	f
+d3_rgb_hex	.\libraries\d3.js	/^  function d3_rgb_hex(v) {$/;"	f
+d3_rgb_hsl	.\libraries\d3.js	/^  function d3_rgb_hsl(r, g, b) {$/;"	f
+d3_rgb_lab	.\libraries\d3.js	/^  function d3_rgb_lab(r, g, b) {$/;"	f
+d3_rgb_names	.\libraries\d3.js	/^  var d3_rgb_names = d3.map({$/;"	v
+d3_rgb_parse	.\libraries\d3.js	/^  function d3_rgb_parse(format, rgb, hsl) {$/;"	f
+d3_rgb_parseNumber	.\libraries\d3.js	/^  function d3_rgb_parseNumber(c) {$/;"	f
+d3_rgb_xyz	.\libraries\d3.js	/^  function d3_rgb_xyz(r) {$/;"	f
+d3_select	.\libraries\d3.js	/^  var d3_select = function(s, n) {$/;"	f
+d3_selectMatches	.\libraries\d3.js	/^    d3_selectMatches = function(n, s) {$/;"	f
+d3_selection	.\libraries\d3.js	/^  function d3_selection(groups) {$/;"	f
+d3_selectionPrototype	.\libraries\d3.js	/^  var d3_selectionPrototype = d3.selection.prototype = [];$/;"	v
+d3_selectionPrototype.append	.\libraries\d3.js	/^  d3_selectionPrototype.append = function(name) {$/;"	f
+d3_selectionPrototype.attr	.\libraries\d3.js	/^  d3_selectionPrototype.attr = function(name, value) {$/;"	f
+d3_selectionPrototype.call	.\libraries\d3.js	/^  d3_selectionPrototype.call = function(callback) {$/;"	f
+d3_selectionPrototype.classed	.\libraries\d3.js	/^  d3_selectionPrototype.classed = function(name, value) {$/;"	f
+d3_selectionPrototype.classed.d3_selectionRemove	.\libraries\d3.js	/^  function d3_selectionRemove() {$/;"	f
+d3_selectionPrototype.classed.d3_selection_creator	.\libraries\d3.js	/^  function d3_selection_creator(name) {$/;"	f
+d3_selectionPrototype.classed.d3_selection_creator.create	.\libraries\d3.js	/^    function create() {$/;"	f
+d3_selectionPrototype.classed.d3_selection_creator.createNS	.\libraries\d3.js	/^    function createNS() {$/;"	f
+d3_selectionPrototype.classed.d3_selection_dataNode	.\libraries\d3.js	/^  function d3_selection_dataNode(data) {$/;"	f
+d3_selectionPrototype.classed.d3_selection_property	.\libraries\d3.js	/^  function d3_selection_property(name, value) {$/;"	f
+d3_selectionPrototype.classed.d3_selection_property.propertyConstant	.\libraries\d3.js	/^    function propertyConstant() {$/;"	c
+d3_selectionPrototype.classed.d3_selection_property.propertyFunction	.\libraries\d3.js	/^    function propertyFunction() {$/;"	f
+d3_selectionPrototype.classed.d3_selection_property.propertyNull	.\libraries\d3.js	/^    function propertyNull() {$/;"	f
+d3_selectionPrototype.classed.d3_selection_style	.\libraries\d3.js	/^  function d3_selection_style(name, value, priority) {$/;"	f
+d3_selectionPrototype.classed.d3_selection_style.styleConstant	.\libraries\d3.js	/^    function styleConstant() {$/;"	c
+d3_selectionPrototype.classed.d3_selection_style.styleFunction	.\libraries\d3.js	/^    function styleFunction() {$/;"	f
+d3_selectionPrototype.classed.d3_selection_style.styleNull	.\libraries\d3.js	/^    function styleNull() {$/;"	c
+d3_selectionPrototype.data	.\libraries\d3.js	/^  d3_selectionPrototype.data = function(value, key) {$/;"	f
+d3_selectionPrototype.data.bind	.\libraries\d3.js	/^    function bind(group, groupData) {$/;"	f
+d3_selectionPrototype.datum	.\libraries\d3.js	/^  d3_selectionPrototype.datum = function(value) {$/;"	f
+d3_selectionPrototype.each	.\libraries\d3.js	/^  d3_selectionPrototype.each = function(callback) {$/;"	f
+d3_selectionPrototype.empty	.\libraries\d3.js	/^  d3_selectionPrototype.empty = function() {$/;"	f
+d3_selectionPrototype.filter	.\libraries\d3.js	/^  d3_selectionPrototype.filter = function(filter) {$/;"	f
+d3_selectionPrototype.html	.\libraries\d3.js	/^  d3_selectionPrototype.html = function(value) {$/;"	f
+d3_selectionPrototype.insert	.\libraries\d3.js	/^  d3_selectionPrototype.insert = function(name, before) {$/;"	f
+d3_selectionPrototype.node	.\libraries\d3.js	/^  d3_selectionPrototype.node = function() {$/;"	f
+d3_selectionPrototype.on	.\libraries\d3.js	/^  d3_selectionPrototype.on = function(type, listener, capture) {$/;"	f
+d3_selectionPrototype.order	.\libraries\d3.js	/^  d3_selectionPrototype.order = function() {$/;"	f
+d3_selectionPrototype.property	.\libraries\d3.js	/^  d3_selectionPrototype.property = function(name, value) {$/;"	f
+d3_selectionPrototype.remove	.\libraries\d3.js	/^  d3_selectionPrototype.remove = function() {$/;"	f
+d3_selectionPrototype.select	.\libraries\d3.js	/^  d3_selectionPrototype.select = function(selector) {$/;"	f
+d3_selectionPrototype.selectAll	.\libraries\d3.js	/^  d3_selectionPrototype.selectAll = function(selector) {$/;"	f
+d3_selectionPrototype.size	.\libraries\d3.js	/^  d3_selectionPrototype.size = function() {$/;"	f
+d3_selectionPrototype.sort	.\libraries\d3.js	/^  d3_selectionPrototype.sort = function(comparator) {$/;"	f
+d3_selectionPrototype.style	.\libraries\d3.js	/^  d3_selectionPrototype.style = function(name, value, priority) {$/;"	f
+d3_selectionPrototype.text	.\libraries\d3.js	/^  d3_selectionPrototype.text = function(value) {$/;"	f
+d3_selection_attr	.\libraries\d3.js	/^  function d3_selection_attr(name, value) {$/;"	f
+d3_selection_attr.attrConstant	.\libraries\d3.js	/^    function attrConstant() {$/;"	c
+d3_selection_attr.attrConstantNS	.\libraries\d3.js	/^    function attrConstantNS() {$/;"	c
+d3_selection_attr.attrFunction	.\libraries\d3.js	/^    function attrFunction() {$/;"	f
+d3_selection_attr.attrFunctionNS	.\libraries\d3.js	/^    function attrFunctionNS() {$/;"	f
+d3_selection_attr.attrNull	.\libraries\d3.js	/^    function attrNull() {$/;"	c
+d3_selection_attr.attrNullNS	.\libraries\d3.js	/^    function attrNullNS() {$/;"	c
+d3_selection_classed.classedConstant	.\libraries\d3.js	/^    function classedConstant() {$/;"	f
+d3_selection_classed.classedFunction	.\libraries\d3.js	/^    function classedFunction() {$/;"	f
+d3_selection_each	.\libraries\d3.js	/^  function d3_selection_each(groups, callback) {$/;"	f
+d3_selection_enter	.\libraries\d3.js	/^  function d3_selection_enter(selection) {$/;"	f
+d3_selection_enterInsertBefore	.\libraries\d3.js	/^  function d3_selection_enterInsertBefore(enter) {$/;"	f
+d3_selection_enterPrototype.insert	.\libraries\d3.js	/^  d3_selection_enterPrototype.insert = function(name, before) {$/;"	f
+d3_selection_enterPrototype.select	.\libraries\d3.js	/^  d3_selection_enterPrototype.select = function(selector) {$/;"	f
+d3_selection_filter	.\libraries\d3.js	/^  function d3_selection_filter(selector) {$/;"	f
+d3_selection_on	.\libraries\d3.js	/^  function d3_selection_on(type, listener, capture) {$/;"	f
+d3_selection_onFilter	.\libraries\d3.js	/^  function d3_selection_onFilter(listener, argumentz) {$/;"	f
+d3_selection_onFilters	.\libraries\d3.js	/^  var d3_selection_onFilters = d3.map({$/;"	v
+d3_selection_onListener	.\libraries\d3.js	/^  function d3_selection_onListener(listener, argumentz) {$/;"	f
+d3_selection_selector	.\libraries\d3.js	/^  function d3_selection_selector(selector) {$/;"	f
+d3_selection_selectorAll	.\libraries\d3.js	/^  function d3_selection_selectorAll(selector) {$/;"	f
+d3_selection_sortComparator	.\libraries\d3.js	/^  function d3_selection_sortComparator(comparator) {$/;"	f
+d3_sgn	.\libraries\d3.js	/^  function d3_sgn(x) {$/;"	f
+d3_sinh	.\libraries\d3.js	/^  function d3_sinh(x) {$/;"	f
+d3_style_prototype.setProperty	.\libraries\d3.js	/^      d3_style_prototype.setProperty = function(name, value, priority) {$/;"	f
+d3_tanh	.\libraries\d3.js	/^  function d3_tanh(x) {$/;"	f
+d3_window	.\libraries\d3.js	/^  function d3_window(node) {$/;"	f
+d3_xhrType	.\libraries\d3.js	/^  function d3_xhrType(response) {$/;"	f
+d3_xyz_lab	.\libraries\d3.js	/^  function d3_xyz_lab(x) {$/;"	f
+d3_xyz_rgb	.\libraries\d3.js	/^  function d3_xyz_rgb(r) {$/;"	f
+dayMs	.\Weather2\suncalc.js	/^var dayMs = 1000 * 60 * 60 * 24,$/;"	v
+declination	.\Weather2\suncalc.js	/^function declination(l, b)    { return asin(sin(b) * cos(e) + cos(b) * sin(e) * sin(l)); }$/;"	f
+defaultTo	.\Weather2\lodash.js	/^    function defaultTo(value, defaultValue) {$/;"	f
+defaultTo	.\libraries\lodash.js	/^    function defaultTo(value, defaultValue) {$/;"	f
+dispatch.of	.\libraries\d3.js	/^    dispatch.of = function(thiz, argumentz) {$/;"	f
+divide	.\Weather2\lodash.js	/^    var divide = createMathOperation(function(dividend, divisor) {$/;"	v
+divide	.\libraries\lodash.js	/^    var divide = createMathOperation(function(dividend, divisor) {$/;"	v
+drag.origin	.\libraries\d3.js	/^    drag.origin = function(x) {$/;"	f
+dragstart.ended	.\libraries\d3.js	/^        function ended() {$/;"	f
+dragstart.moved	.\libraries\d3.js	/^        function moved() {$/;"	f
+e	.\Weather2\suncalc.js	/^var e = rad * 23.4397; \/\/ obliquity of the Earth$/;"	v
+eclipticLongitude	.\Weather2\suncalc.js	/^function eclipticLongitude(M) {$/;"	f
+floor	.\Weather2\lodash.js	/^    var floor = createRound('floor');$/;"	v
+floor	.\libraries\lodash.js	/^    var floor = createRound('floor');$/;"	v
+flow	.\Weather2\lodash.js	/^    var flow = createFlow();$/;"	v
+flow	.\libraries\lodash.js	/^    var flow = createFlow();$/;"	v
+flowRight	.\Weather2\lodash.js	/^    var flowRight = createFlow(true);$/;"	v
+flowRight	.\libraries\lodash.js	/^    var flowRight = createFlow(true);$/;"	v
+fromJulian	.\Weather2\suncalc.js	/^function fromJulian(j)  { return new Date((j + 0.5 - J1970) * dayMs); }$/;"	f
+function.d3_bisector	.\libraries\d3.js	/^  function d3_bisector(compare) {$/;"	f
+function.d3_dispatch	.\libraries\d3.js	/^  function d3_dispatch() {}$/;"	f
+function.d3_noop	.\libraries\d3.js	/^  function d3_noop() {}$/;"	f
+function.d3_number	.\libraries\d3.js	/^  function d3_number(x) {$/;"	f
+function.d3_numeric	.\libraries\d3.js	/^  function d3_numeric(x) {$/;"	f
+function.d3_selection_classed	.\libraries\d3.js	/^  function d3_selection_classed(name, value) {$/;"	f
+function.d3_selection_classedName	.\libraries\d3.js	/^  function d3_selection_classedName(name) {$/;"	f
+function.d3_selection_classedRe	.\libraries\d3.js	/^  function d3_selection_classedRe(name) {$/;"	f
+function.d3_selection_classes	.\libraries\d3.js	/^  function d3_selection_classes(name) {$/;"	f
+function.d3_vendorSymbol	.\libraries\d3.js	/^  function d3_vendorSymbol(object, name) {$/;"	f
+function.p	.\Weather2\jquery.js	/^!function(a,b){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){"use strict";var c=[],d=a.document,e=Object.getPrototypeOf,f=c.slice,g=c.concat,h=c.push,i=c.indexOf,j={},k=j.toString,l=j.hasOwnProperty,m=l.toString,n=m.call(Object),o={};function p(a,b){b=b||d;var c=b.createElement("script");c.text=a,b.head.appendChild(c).parentNode.removeChild(c)}var q="3.1.1",r=function(a,b){return new r.fn.init(a,b)},s=\/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$\/g,t=\/^-ms-\/,u=\/-([a-z])\/g,v=function(a,b){return b.toUpperCase()};r.fn=r.prototype={jquery:q,constructor:r,length:0,toArray:function(){return f.call(this)},get:function(a){return null==a?f.call(this):a<0?this[a+this.length]:this[a]},pushStack:function(a){var b=r.merge(this.constructor(),a);return b.prevObject=this,b},each:function(a){return r.each(this,a)},map:function(a){return this.pushStack(r.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(f.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(a<0?b:0);return this.pushStack(c>=0&&c<b?[this[c]]:[])},end:function(){return this.prevObject||this.constructor()},push:h,sort:c.sort,splice:c.splice},r.extend=r.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||r.isFunction(g)||(g={}),h===i&&(g=this,h--);h<i;h++)if(null!=(a=arguments[h]))for(b in a)c=g[b],d=a[b],g!==d&&(j&&d&&(r.isPlainObject(d)||(e=r.isArray(d)))?(e?(e=!1,f=c&&r.isArray(c)?c:[]):f=c&&r.isPlainObject(c)?c:{},g[b]=r.extend(j,f,d)):void 0!==d&&(g[b]=d));return g},r.extend({expando:"jQuery"+(q+Math.random()).replace(\/\\D\/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===r.type(a)},isArray:Array.isArray,isWindow:function(a){return null!=a&&a===a.window},isNumeric:function(a){var b=r.type(a);return("number"===b||"string"===b)&&!isNaN(a-parseFloat(a))},isPlainObject:function(a){var b,c;return!(!a||"[object Object]"!==k.call(a))&&(!(b=e(a))||(c=l.call(b,"constructor")&&b.constructor,"function"==typeof c&&m.call(c)===n))},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?j[k.call(a)]||"object":typeof a},globalEval:function(a){p(a)},camelCase:function(a){return a.replace(t,"ms-").replace(u,v)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b){var c,d=0;if(w(a)){for(c=a.length;d<c;d++)if(b.call(a[d],d,a[d])===!1)break}else for(d in a)if(b.call(a[d],d,a[d])===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(s,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(w(Object(a))?r.merge(c,"string"==typeof a?[a]:a):h.call(c,a)),c},inArray:function(a,b,c){return null==b?-1:i.call(b,a,c)},merge:function(a,b){for(var c=+b.length,d=0,e=a.length;d<c;d++)a[e++]=b[d];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;f<g;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,e,f=0,h=[];if(w(a))for(d=a.length;f<d;f++)e=b(a[f],f,c),null!=e&&h.push(e);else for(f in a)e=b(a[f],f,c),null!=e&&h.push(e);return g.apply([],h)},guid:1,proxy:function(a,b){var c,d,e;if("string"==typeof b&&(c=a[b],b=a,a=c),r.isFunction(a))return d=f.call(arguments,2),e=function(){return a.apply(b||this,d.concat(f.call(arguments)))},e.guid=a.guid=a.guid||r.guid++,e},now:Date.now,support:o}),"function"==typeof Symbol&&(r.fn[Symbol.iterator]=c[Symbol.iterator]),r.each("Boolean Number String Function Array Date RegExp Object Error Symbol".split(" "),function(a,b){j["[object "+b+"]"]=b.toLowerCase()});function w(a){var b=!!a&&"length"in a&&a.length,c=r.type(a);return"function"!==c&&!r.isWindow(a)&&("array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a)}var x=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ha(),z=ha(),A=ha(),B=function(a,b){return a===b&&(l=!0),0},C={}.hasOwnProperty,D=[],E=D.pop,F=D.push,G=D.push,H=D.slice,I=function(a,b){for(var c=0,d=a.length;c<d;c++)if(a[c]===b)return c;return-1},J="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",K="[\\\\x20\\\\t\\\\r\\\\n\\\\f]",L="(?:\\\\\\\\.|[\\\\w-]|[^\\0-\\\\xa0])+",M="\\\\["+K+"*("+L+")(?:"+K+"*([*^$|!~]?=)"+K+"*(?:'((?:\\\\\\\\.|[^\\\\\\\\'])*)'|\\"((?:\\\\\\\\.|[^\\\\\\\\\\"])*)\\"|("+L+"))|)"+K+"*\\\\]",N=":("+L+")(?:\\\\((('((?:\\\\\\\\.|[^\\\\\\\\'])*)'|\\"((?:\\\\\\\\.|[^\\\\\\\\\\"])*)\\")|((?:\\\\\\\\.|[^\\\\\\\\()[\\\\]]|"+M+")*)|.*)\\\\)|)",O=new RegExp(K+"+","g"),P=new RegExp("^"+K+"+|((?:^|[^\\\\\\\\])(?:\\\\\\\\.)*)"+K+"+$","g"),Q=new RegExp("^"+K+"*,"+K+"*"),R=new RegExp("^"+K+"*([>+~]|"+K+")"+K+"*"),S=new RegExp("="+K+"*([^\\\\]'\\"]*?)"+K+"*\\\\]","g"),T=new RegExp(N),U=new RegExp("^"+L+"$"),V={ID:new RegExp("^#("+L+")"),CLASS:new RegExp("^\\\\.("+L+")"),TAG:new RegExp("^("+L+"|[*])"),ATTR:new RegExp("^"+M),PSEUDO:new RegExp("^"+N),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\\\("+K+"*(even|odd|(([+-]|)(\\\\d*)n|)"+K+"*(?:([+-]|)"+K+"*(\\\\d+)|))"+K+"*\\\\)|)","i"),bool:new RegExp("^(?:"+J+")$","i"),needsContext:new RegExp("^"+K+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\\\("+K+"*((?:-\\\\d)?\\\\d*)"+K+"*\\\\)|)(?=[^-]|$)","i")},W=\/^(?:input|select|textarea|button)$\/i,X=\/^h\\d$\/i,Y=\/^[^{]+\\{\\s*\\[native \\w\/,Z=\/^(?:#([\\w-]+)|(\\w+)|\\.([\\w-]+))$\/,$=\/[+~]\/,_=new RegExp("\\\\\\\\([\\\\da-f]{1,6}"+K+"?|("+K+")|.)","ig"),aa=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:d<0?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},ba=\/([\\0-\\x1f\\x7f]|^-?\\d)|^-$|[^\\0-\\x1f\\x7f-\\uFFFF\\w-]\/g,ca=function(a,b){return b?"\\0"===a?"\\ufffd":a.slice(0,-1)+"\\\\"+a.charCodeAt(a.length-1).toString(16)+" ":"\\\\"+a},da=function(){m()},ea=ta(function(a){return a.disabled===!0&&("form"in a||"label"in a)},{dir:"parentNode",next:"legend"});try{G.apply(D=H.call(v.childNodes),v.childNodes),D[v.childNodes.length].nodeType}catch(fa){G={apply:D.length?function(a,b){F.apply(a,H.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function ga(a,b,d,e){var f,h,j,k,l,o,r,s=b&&b.ownerDocument,w=b?b.nodeType:9;if(d=d||[],"string"!=typeof a||!a||1!==w&&9!==w&&11!==w)return d;if(!e&&((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,p)){if(11!==w&&(l=Z.exec(a)))if(f=l[1]){if(9===w){if(!(j=b.getElementById(f)))return d;if(j.id===f)return d.push(j),d}else if(s&&(j=s.getElementById(f))&&t(b,j)&&j.id===f)return d.push(j),d}else{if(l[2])return G.apply(d,b.getElementsByTagName(a)),d;if((f=l[3])&&c.getElementsByClassName&&b.getElementsByClassName)return G.apply(d,b.getElementsByClassName(f)),d}if(c.qsa&&!A[a+" "]&&(!q||!q.test(a))){if(1!==w)s=b,r=a;else if("object"!==b.nodeName.toLowerCase()){(k=b.getAttribute("id"))?k=k.replace(ba,ca):b.setAttribute("id",k=u),o=g(a),h=o.length;while(h--)o[h]="#"+k+" "+sa(o[h]);r=o.join(","),s=$.test(a)&&qa(b.parentNode)||b}if(r)try{return G.apply(d,s.querySelectorAll(r)),d}catch(x){}finally{k===u&&b.removeAttribute("id")}}}return i(a.replace(P,"$1"),b,d,e)}function ha(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ia(a){return a[u]=!0,a}function ja(a){var b=n.createElement("fieldset");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ka(a,b){var c=a.split("|"),e=c.length;while(e--)d.attrHandle[c[e]]=b}function la(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&a.sourceIndex-b.sourceIndex;if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function na(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function oa(a){return function(b){return"form"in b?b.parentNode&&b.disabled===!1?"label"in b?"label"in b.parentNode?b.parentNode.disabled===a:b.disabled===a:b.isDisabled===a||b.isDisabled!==!a&&ea(b)===a:b.disabled===a:"label"in b&&b.disabled===a}}function pa(a){return ia(function(b){return b=+b,ia(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function qa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=ga.support={},f=ga.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return!!b&&"HTML"!==b.nodeName},m=ga.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=n.documentElement,p=!f(n),v!==n&&(e=n.defaultView)&&e.top!==e&&(e.addEventListener?e.addEventListener("unload",da,!1):e.attachEvent&&e.attachEvent("onunload",da)),c.attributes=ja(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ja(function(a){return a.appendChild(n.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=Y.test(n.getElementsByClassName),c.getById=ja(function(a){return o.appendChild(a).id=u,!n.getElementsByName||!n.getElementsByName(u).length}),c.getById?(d.filter.ID=function(a){var b=a.replace(_,aa);return function(a){return a.getAttribute("id")===b}},d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c?[c]:[]}}):(d.filter.ID=function(a){var b=a.replace(_,aa);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}},d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c,d,e,f=b.getElementById(a);if(f){if(c=f.getAttributeNode("id"),c&&c.value===a)return[f];e=b.getElementsByName(a),d=0;while(f=e[d++])if(c=f.getAttributeNode("id"),c&&c.value===a)return[f]}return[]}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){if("undefined"!=typeof b.getElementsByClassName&&p)return b.getElementsByClassName(a)},r=[],q=[],(c.qsa=Y.test(n.querySelectorAll))&&(ja(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'><\/a><select id='"+u+"-\\r\\\\' msallowcapture=''><option selected=''><\/option><\/select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+K+"*(?:''|\\"\\")"),a.querySelectorAll("[selected]").length||q.push("\\\\["+K+"*(?:value|"+J+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ja(function(a){a.innerHTML="<a href='' disabled='disabled'><\/a><select disabled='disabled'><option\/><\/select>";var b=n.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+K+"*[*^$|!~]?="),2!==a.querySelectorAll(":enabled").length&&q.push(":enabled",":disabled"),o.appendChild(a).disabled=!0,2!==a.querySelectorAll(":disabled").length&&q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=Y.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ja(function(a){c.disconnectedMatch=s.call(a,"*"),s.call(a,"[s!='']:x"),r.push("!=",N)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=Y.test(o.compareDocumentPosition),t=b||Y.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===n||a.ownerDocument===v&&t(v,a)?-1:b===n||b.ownerDocument===v&&t(v,b)?1:k?I(k,a)-I(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,g=[a],h=[b];if(!e||!f)return a===n?-1:b===n?1:e?-1:f?1:k?I(k,a)-I(k,b):0;if(e===f)return la(a,b);c=a;while(c=c.parentNode)g.unshift(c);c=b;while(c=c.parentNode)h.unshift(c);while(g[d]===h[d])d++;return d?la(g[d],h[d]):g[d]===v?-1:h[d]===v?1:0},n):n},ga.matches=function(a,b){return ga(a,null,null,b)},ga.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(S,"='$1']"),c.matchesSelector&&p&&!A[b+" "]&&(!r||!r.test(b))&&(!q||!q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return ga(b,n,null,[a]).length>0},ga.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},ga.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&C.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},ga.escape=function(a){return(a+"").replace(ba,ca)},ga.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},ga.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=ga.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=ga.selectors={cacheLength:50,createPseudo:ia,match:V,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(_,aa),a[3]=(a[3]||a[4]||a[5]||"").replace(_,aa),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||ga.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&ga.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return V.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&T.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(_,aa).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+K+")"+a+"("+K+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=ga.attr(d,a);return null==e?"!="===b:!b||(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(O," ")+" ").indexOf(c)>-1:"|="===b&&(e===c||e.slice(0,c.length+1)===c+"-"))}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h,t=!1;if(q){if(f){while(p){m=b;while(m=m[p])if(h?m.nodeName.toLowerCase()===r:1===m.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){m=q,l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),j=k[a]||[],n=j[0]===w&&j[1],t=n&&j[2],m=n&&q.childNodes[n];while(m=++n&&m&&m[p]||(t=n=0)||o.pop())if(1===m.nodeType&&++t&&m===b){k[a]=[w,n,t];break}}else if(s&&(m=b,l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),j=k[a]||[],n=j[0]===w&&j[1],t=n),t===!1)while(m=++n&&m&&m[p]||(t=n=0)||o.pop())if((h?m.nodeName.toLowerCase()===r:1===m.nodeType)&&++t&&(s&&(l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),k[a]=[w,t]),m===b))break;return t-=e,t===d||t%d===0&&t\/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||ga.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ia(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=I(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ia(function(a){var b=[],c=[],d=h(a.replace(P,"$1"));return d[u]?ia(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ia(function(a){return function(b){return ga(a,b).length>0}}),contains:ia(function(a){return a=a.replace(_,aa),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ia(function(a){return U.test(a||"")||ga.error("unsupported lang: "+a),a=a.replace(_,aa).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:oa(!1),disabled:oa(!0),checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return X.test(a.nodeName)},input:function(a){return W.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:pa(function(){return[0]}),last:pa(function(a,b){return[b-1]}),eq:pa(function(a,b,c){return[c<0?c+b:c]}),even:pa(function(a,b){for(var c=0;c<b;c+=2)a.push(c);return a}),odd:pa(function(a,b){for(var c=1;c<b;c+=2)a.push(c);return a}),lt:pa(function(a,b,c){for(var d=c<0?c+b:c;--d>=0;)a.push(d);return a}),gt:pa(function(a,b,c){for(var d=c<0?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=ma(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=na(b);function ra(){}ra.prototype=d.filters=d.pseudos,d.setFilters=new ra,g=ga.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){c&&!(e=Q.exec(h))||(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=R.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(P," ")}),h=h.slice(c.length));for(g in d.filter)!(e=V[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?ga.error(a):z(a,i).slice(0)};function sa(a){for(var b=0,c=a.length,d="";b<c;b++)d+=a[b].value;return d}function ta(a,b,c){var d=b.dir,e=b.next,f=e||d,g=c&&"parentNode"===f,h=x++;return b.first?function(b,c,e){while(b=b[d])if(1===b.nodeType||g)return a(b,c,e);return!1}:function(b,c,i){var j,k,l,m=[w,h];if(i){while(b=b[d])if((1===b.nodeType||g)&&a(b,c,i))return!0}else while(b=b[d])if(1===b.nodeType||g)if(l=b[u]||(b[u]={}),k=l[b.uniqueID]||(l[b.uniqueID]={}),e&&e===b.nodeName.toLowerCase())b=b[d]||b;else{if((j=k[f])&&j[0]===w&&j[1]===h)return m[2]=j[2];if(k[f]=m,m[2]=a(b,c,i))return!0}return!1}}function ua(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function va(a,b,c){for(var d=0,e=b.length;d<e;d++)ga(a,b[d],c);return c}function wa(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;h<i;h++)(f=a[h])&&(c&&!c(f,d,e)||(g.push(f),j&&b.push(h)));return g}function xa(a,b,c,d,e,f){return d&&!d[u]&&(d=xa(d)),e&&!e[u]&&(e=xa(e,f)),ia(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||va(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:wa(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=wa(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?I(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=wa(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):G.apply(g,r)})}function ya(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=ta(function(a){return a===b},h,!0),l=ta(function(a){return I(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];i<f;i++)if(c=d.relative[a[i].type])m=[ta(ua(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;e<f;e++)if(d.relative[a[e].type])break;return xa(i>1&&ua(m),i>1&&sa(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(P,"$1"),c,i<e&&ya(a.slice(i,e)),e<f&&ya(a=a.slice(e)),e<f&&sa(a))}m.push(c)}return ua(m)}function za(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,o,q,r=0,s="0",t=f&&[],u=[],v=j,x=f||e&&d.find.TAG("*",k),y=w+=null==v?1:Math.random()||.1,z=x.length;for(k&&(j=g===n||g||k);s!==z&&null!=(l=x[s]);s++){if(e&&l){o=0,g||l.ownerDocument===n||(m(l),h=!p);while(q=a[o++])if(q(l,g||n,h)){i.push(l);break}k&&(w=y)}c&&((l=!q&&l)&&r--,f&&t.push(l))}if(r+=s,c&&s!==r){o=0;while(q=b[o++])q(t,u,g,h);if(f){if(r>0)while(s--)t[s]||u[s]||(u[s]=E.call(i));u=wa(u)}G.apply(i,u),k&&!f&&u.length>0&&r+b.length>1&&ga.uniqueSort(i)}return k&&(w=y,j=v),t};return c?ia(f):f}return h=ga.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=ya(b[c]),f[u]?d.push(f):e.push(f);f=A(a,za(e,d)),f.selector=a}return f},i=ga.select=function(a,b,c,e){var f,i,j,k,l,m="function"==typeof a&&a,n=!e&&g(a=m.selector||a);if(c=c||[],1===n.length){if(i=n[0]=n[0].slice(0),i.length>2&&"ID"===(j=i[0]).type&&9===b.nodeType&&p&&d.relative[i[1].type]){if(b=(d.find.ID(j.matches[0].replace(_,aa),b)||[])[0],!b)return c;m&&(b=b.parentNode),a=a.slice(i.shift().value.length)}f=V.needsContext.test(a)?0:i.length;while(f--){if(j=i[f],d.relative[k=j.type])break;if((l=d.find[k])&&(e=l(j.matches[0].replace(_,aa),$.test(i[0].type)&&qa(b.parentNode)||b))){if(i.splice(f,1),a=e.length&&sa(i),!a)return G.apply(c,e),c;break}}}return(m||h(a,n))(e,b,!p,c,!b||$.test(a)&&qa(b.parentNode)||b),c},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ja(function(a){return 1&a.compareDocumentPosition(n.createElement("fieldset"))}),ja(function(a){return a.innerHTML="<a href='#'><\/a>","#"===a.firstChild.getAttribute("href")})||ka("type|href|height|width",function(a,b,c){if(!c)return a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ja(function(a){return a.innerHTML="<input\/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ka("value",function(a,b,c){if(!c&&"input"===a.nodeName.toLowerCase())return a.defaultValue}),ja(function(a){return null==a.getAttribute("disabled")})||ka(J,function(a,b,c){var d;if(!c)return a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),ga}(a);r.find=x,r.expr=x.selectors,r.expr[":"]=r.expr.pseudos,r.uniqueSort=r.unique=x.uniqueSort,r.text=x.getText,r.isXMLDoc=x.isXML,r.contains=x.contains,r.escapeSelector=x.escape;var y=function(a,b,c){var d=[],e=void 0!==c;while((a=a[b])&&9!==a.nodeType)if(1===a.nodeType){if(e&&r(a).is(c))break;d.push(a)}return d},z=function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c},A=r.expr.match.needsContext,B=\/^<([a-z][^\\\/\\0>:\\x20\\t\\r\\n\\f]*)[\\x20\\t\\r\\n\\f]*\\\/?>(?:<\\\/\\1>|)$\/i,C=\/^.[^:#\\[\\.,]*$\/;function D(a,b,c){return r.isFunction(b)?r.grep(a,function(a,d){return!!b.call(a,d,a)!==c}):b.nodeType?r.grep(a,function(a){return a===b!==c}):"string"!=typeof b?r.grep(a,function(a){return i.call(b,a)>-1!==c}):C.test(b)?r.filter(b,a,c):(b=r.filter(b,a),r.grep(a,function(a){return i.call(b,a)>-1!==c&&1===a.nodeType}))}r.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?r.find.matchesSelector(d,a)?[d]:[]:r.find.matches(a,r.grep(b,function(a){return 1===a.nodeType}))},r.fn.extend({find:function(a){var b,c,d=this.length,e=this;if("string"!=typeof a)return this.pushStack(r(a).filter(function(){for(b=0;b<d;b++)if(r.contains(e[b],this))return!0}));for(c=this.pushStack([]),b=0;b<d;b++)r.find(a,e[b],c);return d>1?r.uniqueSort(c):c},filter:function(a){return this.pushStack(D(this,a||[],!1))},not:function(a){return this.pushStack(D(this,a||[],!0))},is:function(a){return!!D(this,"string"==typeof a&&A.test(a)?r(a):a||[],!1).length}});var E,F=\/^(?:\\s*(<[\\w\\W]+>)[^>]*|#([\\w-]+))$\/,G=r.fn.init=function(a,b,c){var e,f;if(!a)return this;if(c=c||E,"string"==typeof a){if(e="<"===a[0]&&">"===a[a.length-1]&&a.length>=3?[null,a,null]:F.exec(a),!e||!e[1]&&b)return!b||b.jquery?(b||c).find(a):this.constructor(b).find(a);if(e[1]){if(b=b instanceof r?b[0]:b,r.merge(this,r.parseHTML(e[1],b&&b.nodeType?b.ownerDocument||b:d,!0)),B.test(e[1])&&r.isPlainObject(b))for(e in b)r.isFunction(this[e])?this[e](b[e]):this.attr(e,b[e]);return this}return f=d.getElementById(e[2]),f&&(this[0]=f,this.length=1),this}return a.nodeType?(this[0]=a,this.length=1,this):r.isFunction(a)?void 0!==c.ready?c.ready(a):a(r):r.makeArray(a,this)};G.prototype=r.fn,E=r(d);var H=\/^(?:parents|prev(?:Until|All))\/,I={children:!0,contents:!0,next:!0,prev:!0};r.fn.extend({has:function(a){var b=r(a,this),c=b.length;return this.filter(function(){for(var a=0;a<c;a++)if(r.contains(this,b[a]))return!0})},closest:function(a,b){var c,d=0,e=this.length,f=[],g="string"!=typeof a&&r(a);if(!A.test(a))for(;d<e;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&r.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?r.uniqueSort(f):f)},index:function(a){return a?"string"==typeof a?i.call(r(a),this[0]):i.call(this,a.jquery?a[0]:a):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(r.uniqueSort(r.merge(this.get(),r(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function J(a,b){while((a=a[b])&&1!==a.nodeType);return a}r.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return y(a,"parentNode")},parentsUntil:function(a,b,c){return y(a,"parentNode",c)},next:function(a){return J(a,"nextSibling")},prev:function(a){return J(a,"previousSibling")},nextAll:function(a){return y(a,"nextSibling")},prevAll:function(a){return y(a,"previousSibling")},nextUntil:function(a,b,c){return y(a,"nextSibling",c)},prevUntil:function(a,b,c){return y(a,"previousSibling",c)},siblings:function(a){return z((a.parentNode||{}).firstChild,a)},children:function(a){return z(a.firstChild)},contents:function(a){return a.contentDocument||r.merge([],a.childNodes)}},function(a,b){r.fn[a]=function(c,d){var e=r.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=r.filter(d,e)),this.length>1&&(I[a]||r.uniqueSort(e),H.test(a)&&e.reverse()),this.pushStack(e)}});var K=\/[^\\x20\\t\\r\\n\\f]+\/g;function L(a){var b={};return r.each(a.match(K)||[],function(a,c){b[c]=!0}),b}r.Callbacks=function(a){a="string"==typeof a?L(a):r.extend({},a);var b,c,d,e,f=[],g=[],h=-1,i=function(){for(e=a.once,d=b=!0;g.length;h=-1){c=g.shift();while(++h<f.length)f[h].apply(c[0],c[1])===!1&&a.stopOnFalse&&(h=f.length,c=!1)}a.memory||(c=!1),b=!1,e&&(f=c?[]:"")},j={add:function(){return f&&(c&&!b&&(h=f.length-1,g.push(c)),function d(b){r.each(b,function(b,c){r.isFunction(c)?a.unique&&j.has(c)||f.push(c):c&&c.length&&"string"!==r.type(c)&&d(c)})}(arguments),c&&!b&&i()),this},remove:function(){return r.each(arguments,function(a,b){var c;while((c=r.inArray(b,f,c))>-1)f.splice(c,1),c<=h&&h--}),this},has:function(a){return a?r.inArray(a,f)>-1:f.length>0},empty:function(){return f&&(f=[]),this},disable:function(){return e=g=[],f=c="",this},disabled:function(){return!f},lock:function(){return e=g=[],c||b||(f=c=""),this},locked:function(){return!!e},fireWith:function(a,c){return e||(c=c||[],c=[a,c.slice?c.slice():c],g.push(c),b||i()),this},fire:function(){return j.fireWith(this,arguments),this},fired:function(){return!!d}};return j};function M(a){return a}function N(a){throw a}function O(a,b,c){var d;try{a&&r.isFunction(d=a.promise)?d.call(a).done(b).fail(c):a&&r.isFunction(d=a.then)?d.call(a,b,c):b.call(void 0,a)}catch(a){c.call(void 0,a)}}r.extend({Deferred:function(b){var c=[["notify","progress",r.Callbacks("memory"),r.Callbacks("memory"),2],["resolve","done",r.Callbacks("once memory"),r.Callbacks("once memory"),0,"resolved"],["reject","fail",r.Callbacks("once memory"),r.Callbacks("once memory"),1,"rejected"]],d="pending",e={state:function(){return d},always:function(){return f.done(arguments).fail(arguments),this},"catch":function(a){return e.then(null,a)},pipe:function(){var a=arguments;return r.Deferred(function(b){r.each(c,function(c,d){var e=r.isFunction(a[d[4]])&&a[d[4]];f[d[1]](function(){var a=e&&e.apply(this,arguments);a&&r.isFunction(a.promise)?a.promise().progress(b.notify).done(b.resolve).fail(b.reject):b[d[0]+"With"](this,e?[a]:arguments)})}),a=null}).promise()},then:function(b,d,e){var f=0;function g(b,c,d,e){return function(){var h=this,i=arguments,j=function(){var a,j;if(!(b<f)){if(a=d.apply(h,i),a===c.promise())throw new TypeError("Thenable self-resolution");j=a&&("object"==typeof a||"function"==typeof a)&&a.then,r.isFunction(j)?e?j.call(a,g(f,c,M,e),g(f,c,N,e)):(f++,j.call(a,g(f,c,M,e),g(f,c,N,e),g(f,c,M,c.notifyWith))):(d!==M&&(h=void 0,i=[a]),(e||c.resolveWith)(h,i))}},k=e?j:function(){try{j()}catch(a){r.Deferred.exceptionHook&&r.Deferred.exceptionHook(a,k.stackTrace),b+1>=f&&(d!==N&&(h=void 0,i=[a]),c.rejectWith(h,i))}};b?k():(r.Deferred.getStackHook&&(k.stackTrace=r.Deferred.getStackHook()),a.setTimeout(k))}}return r.Deferred(function(a){c[0][3].add(g(0,a,r.isFunction(e)?e:M,a.notifyWith)),c[1][3].add(g(0,a,r.isFunction(b)?b:M)),c[2][3].add(g(0,a,r.isFunction(d)?d:N))}).promise()},promise:function(a){return null!=a?r.extend(a,e):e}},f={};return r.each(c,function(a,b){var g=b[2],h=b[5];e[b[1]]=g.add,h&&g.add(function(){d=h},c[3-a][2].disable,c[0][2].lock),g.add(b[3].fire),f[b[0]]=function(){return f[b[0]+"With"](this===f?void 0:this,arguments),this},f[b[0]+"With"]=g.fireWith}),e.promise(f),b&&b.call(f,f),f},when:function(a){var b=arguments.length,c=b,d=Array(c),e=f.call(arguments),g=r.Deferred(),h=function(a){return function(c){d[a]=this,e[a]=arguments.length>1?f.call(arguments):c,--b||g.resolveWith(d,e)}};if(b<=1&&(O(a,g.done(h(c)).resolve,g.reject),"pending"===g.state()||r.isFunction(e[c]&&e[c].then)))return g.then();while(c--)O(e[c],h(c),g.reject);return g.promise()}});var P=\/^(Eval|Internal|Range|Reference|Syntax|Type|URI)Error$\/;r.Deferred.exceptionHook=function(b,c){a.console&&a.console.warn&&b&&P.test(b.name)&&a.console.warn("jQuery.Deferred exception: "+b.message,b.stack,c)},r.readyException=function(b){a.setTimeout(function(){throw b})};var Q=r.Deferred();r.fn.ready=function(a){return Q.then(a)["catch"](function(a){r.readyException(a)}),this},r.extend({isReady:!1,readyWait:1,holdReady:function(a){a?r.readyWait++:r.ready(!0)},ready:function(a){(a===!0?--r.readyWait:r.isReady)||(r.isReady=!0,a!==!0&&--r.readyWait>0||Q.resolveWith(d,[r]))}}),r.ready.then=Q.then;function R(){d.removeEventListener("DOMContentLoaded",R),$/;"	f
+function.p	.\libraries\jquery-3.1.1.min.js	/^!function(a,b){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){"use strict";var c=[],d=a.document,e=Object.getPrototypeOf,f=c.slice,g=c.concat,h=c.push,i=c.indexOf,j={},k=j.toString,l=j.hasOwnProperty,m=l.toString,n=m.call(Object),o={};function p(a,b){b=b||d;var c=b.createElement("script");c.text=a,b.head.appendChild(c).parentNode.removeChild(c)}var q="3.1.1",r=function(a,b){return new r.fn.init(a,b)},s=\/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$\/g,t=\/^-ms-\/,u=\/-([a-z])\/g,v=function(a,b){return b.toUpperCase()};r.fn=r.prototype={jquery:q,constructor:r,length:0,toArray:function(){return f.call(this)},get:function(a){return null==a?f.call(this):a<0?this[a+this.length]:this[a]},pushStack:function(a){var b=r.merge(this.constructor(),a);return b.prevObject=this,b},each:function(a){return r.each(this,a)},map:function(a){return this.pushStack(r.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(f.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(a<0?b:0);return this.pushStack(c>=0&&c<b?[this[c]]:[])},end:function(){return this.prevObject||this.constructor()},push:h,sort:c.sort,splice:c.splice},r.extend=r.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||r.isFunction(g)||(g={}),h===i&&(g=this,h--);h<i;h++)if(null!=(a=arguments[h]))for(b in a)c=g[b],d=a[b],g!==d&&(j&&d&&(r.isPlainObject(d)||(e=r.isArray(d)))?(e?(e=!1,f=c&&r.isArray(c)?c:[]):f=c&&r.isPlainObject(c)?c:{},g[b]=r.extend(j,f,d)):void 0!==d&&(g[b]=d));return g},r.extend({expando:"jQuery"+(q+Math.random()).replace(\/\\D\/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===r.type(a)},isArray:Array.isArray,isWindow:function(a){return null!=a&&a===a.window},isNumeric:function(a){var b=r.type(a);return("number"===b||"string"===b)&&!isNaN(a-parseFloat(a))},isPlainObject:function(a){var b,c;return!(!a||"[object Object]"!==k.call(a))&&(!(b=e(a))||(c=l.call(b,"constructor")&&b.constructor,"function"==typeof c&&m.call(c)===n))},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?j[k.call(a)]||"object":typeof a},globalEval:function(a){p(a)},camelCase:function(a){return a.replace(t,"ms-").replace(u,v)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b){var c,d=0;if(w(a)){for(c=a.length;d<c;d++)if(b.call(a[d],d,a[d])===!1)break}else for(d in a)if(b.call(a[d],d,a[d])===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(s,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(w(Object(a))?r.merge(c,"string"==typeof a?[a]:a):h.call(c,a)),c},inArray:function(a,b,c){return null==b?-1:i.call(b,a,c)},merge:function(a,b){for(var c=+b.length,d=0,e=a.length;d<c;d++)a[e++]=b[d];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;f<g;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,e,f=0,h=[];if(w(a))for(d=a.length;f<d;f++)e=b(a[f],f,c),null!=e&&h.push(e);else for(f in a)e=b(a[f],f,c),null!=e&&h.push(e);return g.apply([],h)},guid:1,proxy:function(a,b){var c,d,e;if("string"==typeof b&&(c=a[b],b=a,a=c),r.isFunction(a))return d=f.call(arguments,2),e=function(){return a.apply(b||this,d.concat(f.call(arguments)))},e.guid=a.guid=a.guid||r.guid++,e},now:Date.now,support:o}),"function"==typeof Symbol&&(r.fn[Symbol.iterator]=c[Symbol.iterator]),r.each("Boolean Number String Function Array Date RegExp Object Error Symbol".split(" "),function(a,b){j["[object "+b+"]"]=b.toLowerCase()});function w(a){var b=!!a&&"length"in a&&a.length,c=r.type(a);return"function"!==c&&!r.isWindow(a)&&("array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a)}var x=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ha(),z=ha(),A=ha(),B=function(a,b){return a===b&&(l=!0),0},C={}.hasOwnProperty,D=[],E=D.pop,F=D.push,G=D.push,H=D.slice,I=function(a,b){for(var c=0,d=a.length;c<d;c++)if(a[c]===b)return c;return-1},J="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",K="[\\\\x20\\\\t\\\\r\\\\n\\\\f]",L="(?:\\\\\\\\.|[\\\\w-]|[^\\0-\\\\xa0])+",M="\\\\["+K+"*("+L+")(?:"+K+"*([*^$|!~]?=)"+K+"*(?:'((?:\\\\\\\\.|[^\\\\\\\\'])*)'|\\"((?:\\\\\\\\.|[^\\\\\\\\\\"])*)\\"|("+L+"))|)"+K+"*\\\\]",N=":("+L+")(?:\\\\((('((?:\\\\\\\\.|[^\\\\\\\\'])*)'|\\"((?:\\\\\\\\.|[^\\\\\\\\\\"])*)\\")|((?:\\\\\\\\.|[^\\\\\\\\()[\\\\]]|"+M+")*)|.*)\\\\)|)",O=new RegExp(K+"+","g"),P=new RegExp("^"+K+"+|((?:^|[^\\\\\\\\])(?:\\\\\\\\.)*)"+K+"+$","g"),Q=new RegExp("^"+K+"*,"+K+"*"),R=new RegExp("^"+K+"*([>+~]|"+K+")"+K+"*"),S=new RegExp("="+K+"*([^\\\\]'\\"]*?)"+K+"*\\\\]","g"),T=new RegExp(N),U=new RegExp("^"+L+"$"),V={ID:new RegExp("^#("+L+")"),CLASS:new RegExp("^\\\\.("+L+")"),TAG:new RegExp("^("+L+"|[*])"),ATTR:new RegExp("^"+M),PSEUDO:new RegExp("^"+N),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\\\("+K+"*(even|odd|(([+-]|)(\\\\d*)n|)"+K+"*(?:([+-]|)"+K+"*(\\\\d+)|))"+K+"*\\\\)|)","i"),bool:new RegExp("^(?:"+J+")$","i"),needsContext:new RegExp("^"+K+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\\\("+K+"*((?:-\\\\d)?\\\\d*)"+K+"*\\\\)|)(?=[^-]|$)","i")},W=\/^(?:input|select|textarea|button)$\/i,X=\/^h\\d$\/i,Y=\/^[^{]+\\{\\s*\\[native \\w\/,Z=\/^(?:#([\\w-]+)|(\\w+)|\\.([\\w-]+))$\/,$=\/[+~]\/,_=new RegExp("\\\\\\\\([\\\\da-f]{1,6}"+K+"?|("+K+")|.)","ig"),aa=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:d<0?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},ba=\/([\\0-\\x1f\\x7f]|^-?\\d)|^-$|[^\\0-\\x1f\\x7f-\\uFFFF\\w-]\/g,ca=function(a,b){return b?"\\0"===a?"\\ufffd":a.slice(0,-1)+"\\\\"+a.charCodeAt(a.length-1).toString(16)+" ":"\\\\"+a},da=function(){m()},ea=ta(function(a){return a.disabled===!0&&("form"in a||"label"in a)},{dir:"parentNode",next:"legend"});try{G.apply(D=H.call(v.childNodes),v.childNodes),D[v.childNodes.length].nodeType}catch(fa){G={apply:D.length?function(a,b){F.apply(a,H.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function ga(a,b,d,e){var f,h,j,k,l,o,r,s=b&&b.ownerDocument,w=b?b.nodeType:9;if(d=d||[],"string"!=typeof a||!a||1!==w&&9!==w&&11!==w)return d;if(!e&&((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,p)){if(11!==w&&(l=Z.exec(a)))if(f=l[1]){if(9===w){if(!(j=b.getElementById(f)))return d;if(j.id===f)return d.push(j),d}else if(s&&(j=s.getElementById(f))&&t(b,j)&&j.id===f)return d.push(j),d}else{if(l[2])return G.apply(d,b.getElementsByTagName(a)),d;if((f=l[3])&&c.getElementsByClassName&&b.getElementsByClassName)return G.apply(d,b.getElementsByClassName(f)),d}if(c.qsa&&!A[a+" "]&&(!q||!q.test(a))){if(1!==w)s=b,r=a;else if("object"!==b.nodeName.toLowerCase()){(k=b.getAttribute("id"))?k=k.replace(ba,ca):b.setAttribute("id",k=u),o=g(a),h=o.length;while(h--)o[h]="#"+k+" "+sa(o[h]);r=o.join(","),s=$.test(a)&&qa(b.parentNode)||b}if(r)try{return G.apply(d,s.querySelectorAll(r)),d}catch(x){}finally{k===u&&b.removeAttribute("id")}}}return i(a.replace(P,"$1"),b,d,e)}function ha(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ia(a){return a[u]=!0,a}function ja(a){var b=n.createElement("fieldset");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ka(a,b){var c=a.split("|"),e=c.length;while(e--)d.attrHandle[c[e]]=b}function la(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&a.sourceIndex-b.sourceIndex;if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function na(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function oa(a){return function(b){return"form"in b?b.parentNode&&b.disabled===!1?"label"in b?"label"in b.parentNode?b.parentNode.disabled===a:b.disabled===a:b.isDisabled===a||b.isDisabled!==!a&&ea(b)===a:b.disabled===a:"label"in b&&b.disabled===a}}function pa(a){return ia(function(b){return b=+b,ia(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function qa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=ga.support={},f=ga.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return!!b&&"HTML"!==b.nodeName},m=ga.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=n.documentElement,p=!f(n),v!==n&&(e=n.defaultView)&&e.top!==e&&(e.addEventListener?e.addEventListener("unload",da,!1):e.attachEvent&&e.attachEvent("onunload",da)),c.attributes=ja(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ja(function(a){return a.appendChild(n.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=Y.test(n.getElementsByClassName),c.getById=ja(function(a){return o.appendChild(a).id=u,!n.getElementsByName||!n.getElementsByName(u).length}),c.getById?(d.filter.ID=function(a){var b=a.replace(_,aa);return function(a){return a.getAttribute("id")===b}},d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c?[c]:[]}}):(d.filter.ID=function(a){var b=a.replace(_,aa);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}},d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c,d,e,f=b.getElementById(a);if(f){if(c=f.getAttributeNode("id"),c&&c.value===a)return[f];e=b.getElementsByName(a),d=0;while(f=e[d++])if(c=f.getAttributeNode("id"),c&&c.value===a)return[f]}return[]}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){if("undefined"!=typeof b.getElementsByClassName&&p)return b.getElementsByClassName(a)},r=[],q=[],(c.qsa=Y.test(n.querySelectorAll))&&(ja(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'><\/a><select id='"+u+"-\\r\\\\' msallowcapture=''><option selected=''><\/option><\/select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+K+"*(?:''|\\"\\")"),a.querySelectorAll("[selected]").length||q.push("\\\\["+K+"*(?:value|"+J+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ja(function(a){a.innerHTML="<a href='' disabled='disabled'><\/a><select disabled='disabled'><option\/><\/select>";var b=n.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+K+"*[*^$|!~]?="),2!==a.querySelectorAll(":enabled").length&&q.push(":enabled",":disabled"),o.appendChild(a).disabled=!0,2!==a.querySelectorAll(":disabled").length&&q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=Y.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ja(function(a){c.disconnectedMatch=s.call(a,"*"),s.call(a,"[s!='']:x"),r.push("!=",N)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=Y.test(o.compareDocumentPosition),t=b||Y.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===n||a.ownerDocument===v&&t(v,a)?-1:b===n||b.ownerDocument===v&&t(v,b)?1:k?I(k,a)-I(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,g=[a],h=[b];if(!e||!f)return a===n?-1:b===n?1:e?-1:f?1:k?I(k,a)-I(k,b):0;if(e===f)return la(a,b);c=a;while(c=c.parentNode)g.unshift(c);c=b;while(c=c.parentNode)h.unshift(c);while(g[d]===h[d])d++;return d?la(g[d],h[d]):g[d]===v?-1:h[d]===v?1:0},n):n},ga.matches=function(a,b){return ga(a,null,null,b)},ga.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(S,"='$1']"),c.matchesSelector&&p&&!A[b+" "]&&(!r||!r.test(b))&&(!q||!q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return ga(b,n,null,[a]).length>0},ga.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},ga.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&C.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},ga.escape=function(a){return(a+"").replace(ba,ca)},ga.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},ga.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=ga.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=ga.selectors={cacheLength:50,createPseudo:ia,match:V,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(_,aa),a[3]=(a[3]||a[4]||a[5]||"").replace(_,aa),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||ga.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&ga.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return V.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&T.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(_,aa).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+K+")"+a+"("+K+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=ga.attr(d,a);return null==e?"!="===b:!b||(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(O," ")+" ").indexOf(c)>-1:"|="===b&&(e===c||e.slice(0,c.length+1)===c+"-"))}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h,t=!1;if(q){if(f){while(p){m=b;while(m=m[p])if(h?m.nodeName.toLowerCase()===r:1===m.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){m=q,l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),j=k[a]||[],n=j[0]===w&&j[1],t=n&&j[2],m=n&&q.childNodes[n];while(m=++n&&m&&m[p]||(t=n=0)||o.pop())if(1===m.nodeType&&++t&&m===b){k[a]=[w,n,t];break}}else if(s&&(m=b,l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),j=k[a]||[],n=j[0]===w&&j[1],t=n),t===!1)while(m=++n&&m&&m[p]||(t=n=0)||o.pop())if((h?m.nodeName.toLowerCase()===r:1===m.nodeType)&&++t&&(s&&(l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),k[a]=[w,t]),m===b))break;return t-=e,t===d||t%d===0&&t\/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||ga.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ia(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=I(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ia(function(a){var b=[],c=[],d=h(a.replace(P,"$1"));return d[u]?ia(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ia(function(a){return function(b){return ga(a,b).length>0}}),contains:ia(function(a){return a=a.replace(_,aa),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ia(function(a){return U.test(a||"")||ga.error("unsupported lang: "+a),a=a.replace(_,aa).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:oa(!1),disabled:oa(!0),checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return X.test(a.nodeName)},input:function(a){return W.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:pa(function(){return[0]}),last:pa(function(a,b){return[b-1]}),eq:pa(function(a,b,c){return[c<0?c+b:c]}),even:pa(function(a,b){for(var c=0;c<b;c+=2)a.push(c);return a}),odd:pa(function(a,b){for(var c=1;c<b;c+=2)a.push(c);return a}),lt:pa(function(a,b,c){for(var d=c<0?c+b:c;--d>=0;)a.push(d);return a}),gt:pa(function(a,b,c){for(var d=c<0?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=ma(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=na(b);function ra(){}ra.prototype=d.filters=d.pseudos,d.setFilters=new ra,g=ga.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){c&&!(e=Q.exec(h))||(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=R.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(P," ")}),h=h.slice(c.length));for(g in d.filter)!(e=V[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?ga.error(a):z(a,i).slice(0)};function sa(a){for(var b=0,c=a.length,d="";b<c;b++)d+=a[b].value;return d}function ta(a,b,c){var d=b.dir,e=b.next,f=e||d,g=c&&"parentNode"===f,h=x++;return b.first?function(b,c,e){while(b=b[d])if(1===b.nodeType||g)return a(b,c,e);return!1}:function(b,c,i){var j,k,l,m=[w,h];if(i){while(b=b[d])if((1===b.nodeType||g)&&a(b,c,i))return!0}else while(b=b[d])if(1===b.nodeType||g)if(l=b[u]||(b[u]={}),k=l[b.uniqueID]||(l[b.uniqueID]={}),e&&e===b.nodeName.toLowerCase())b=b[d]||b;else{if((j=k[f])&&j[0]===w&&j[1]===h)return m[2]=j[2];if(k[f]=m,m[2]=a(b,c,i))return!0}return!1}}function ua(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function va(a,b,c){for(var d=0,e=b.length;d<e;d++)ga(a,b[d],c);return c}function wa(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;h<i;h++)(f=a[h])&&(c&&!c(f,d,e)||(g.push(f),j&&b.push(h)));return g}function xa(a,b,c,d,e,f){return d&&!d[u]&&(d=xa(d)),e&&!e[u]&&(e=xa(e,f)),ia(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||va(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:wa(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=wa(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?I(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=wa(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):G.apply(g,r)})}function ya(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=ta(function(a){return a===b},h,!0),l=ta(function(a){return I(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];i<f;i++)if(c=d.relative[a[i].type])m=[ta(ua(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;e<f;e++)if(d.relative[a[e].type])break;return xa(i>1&&ua(m),i>1&&sa(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(P,"$1"),c,i<e&&ya(a.slice(i,e)),e<f&&ya(a=a.slice(e)),e<f&&sa(a))}m.push(c)}return ua(m)}function za(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,o,q,r=0,s="0",t=f&&[],u=[],v=j,x=f||e&&d.find.TAG("*",k),y=w+=null==v?1:Math.random()||.1,z=x.length;for(k&&(j=g===n||g||k);s!==z&&null!=(l=x[s]);s++){if(e&&l){o=0,g||l.ownerDocument===n||(m(l),h=!p);while(q=a[o++])if(q(l,g||n,h)){i.push(l);break}k&&(w=y)}c&&((l=!q&&l)&&r--,f&&t.push(l))}if(r+=s,c&&s!==r){o=0;while(q=b[o++])q(t,u,g,h);if(f){if(r>0)while(s--)t[s]||u[s]||(u[s]=E.call(i));u=wa(u)}G.apply(i,u),k&&!f&&u.length>0&&r+b.length>1&&ga.uniqueSort(i)}return k&&(w=y,j=v),t};return c?ia(f):f}return h=ga.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=ya(b[c]),f[u]?d.push(f):e.push(f);f=A(a,za(e,d)),f.selector=a}return f},i=ga.select=function(a,b,c,e){var f,i,j,k,l,m="function"==typeof a&&a,n=!e&&g(a=m.selector||a);if(c=c||[],1===n.length){if(i=n[0]=n[0].slice(0),i.length>2&&"ID"===(j=i[0]).type&&9===b.nodeType&&p&&d.relative[i[1].type]){if(b=(d.find.ID(j.matches[0].replace(_,aa),b)||[])[0],!b)return c;m&&(b=b.parentNode),a=a.slice(i.shift().value.length)}f=V.needsContext.test(a)?0:i.length;while(f--){if(j=i[f],d.relative[k=j.type])break;if((l=d.find[k])&&(e=l(j.matches[0].replace(_,aa),$.test(i[0].type)&&qa(b.parentNode)||b))){if(i.splice(f,1),a=e.length&&sa(i),!a)return G.apply(c,e),c;break}}}return(m||h(a,n))(e,b,!p,c,!b||$.test(a)&&qa(b.parentNode)||b),c},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ja(function(a){return 1&a.compareDocumentPosition(n.createElement("fieldset"))}),ja(function(a){return a.innerHTML="<a href='#'><\/a>","#"===a.firstChild.getAttribute("href")})||ka("type|href|height|width",function(a,b,c){if(!c)return a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ja(function(a){return a.innerHTML="<input\/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ka("value",function(a,b,c){if(!c&&"input"===a.nodeName.toLowerCase())return a.defaultValue}),ja(function(a){return null==a.getAttribute("disabled")})||ka(J,function(a,b,c){var d;if(!c)return a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),ga}(a);r.find=x,r.expr=x.selectors,r.expr[":"]=r.expr.pseudos,r.uniqueSort=r.unique=x.uniqueSort,r.text=x.getText,r.isXMLDoc=x.isXML,r.contains=x.contains,r.escapeSelector=x.escape;var y=function(a,b,c){var d=[],e=void 0!==c;while((a=a[b])&&9!==a.nodeType)if(1===a.nodeType){if(e&&r(a).is(c))break;d.push(a)}return d},z=function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c},A=r.expr.match.needsContext,B=\/^<([a-z][^\\\/\\0>:\\x20\\t\\r\\n\\f]*)[\\x20\\t\\r\\n\\f]*\\\/?>(?:<\\\/\\1>|)$\/i,C=\/^.[^:#\\[\\.,]*$\/;function D(a,b,c){return r.isFunction(b)?r.grep(a,function(a,d){return!!b.call(a,d,a)!==c}):b.nodeType?r.grep(a,function(a){return a===b!==c}):"string"!=typeof b?r.grep(a,function(a){return i.call(b,a)>-1!==c}):C.test(b)?r.filter(b,a,c):(b=r.filter(b,a),r.grep(a,function(a){return i.call(b,a)>-1!==c&&1===a.nodeType}))}r.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?r.find.matchesSelector(d,a)?[d]:[]:r.find.matches(a,r.grep(b,function(a){return 1===a.nodeType}))},r.fn.extend({find:function(a){var b,c,d=this.length,e=this;if("string"!=typeof a)return this.pushStack(r(a).filter(function(){for(b=0;b<d;b++)if(r.contains(e[b],this))return!0}));for(c=this.pushStack([]),b=0;b<d;b++)r.find(a,e[b],c);return d>1?r.uniqueSort(c):c},filter:function(a){return this.pushStack(D(this,a||[],!1))},not:function(a){return this.pushStack(D(this,a||[],!0))},is:function(a){return!!D(this,"string"==typeof a&&A.test(a)?r(a):a||[],!1).length}});var E,F=\/^(?:\\s*(<[\\w\\W]+>)[^>]*|#([\\w-]+))$\/,G=r.fn.init=function(a,b,c){var e,f;if(!a)return this;if(c=c||E,"string"==typeof a){if(e="<"===a[0]&&">"===a[a.length-1]&&a.length>=3?[null,a,null]:F.exec(a),!e||!e[1]&&b)return!b||b.jquery?(b||c).find(a):this.constructor(b).find(a);if(e[1]){if(b=b instanceof r?b[0]:b,r.merge(this,r.parseHTML(e[1],b&&b.nodeType?b.ownerDocument||b:d,!0)),B.test(e[1])&&r.isPlainObject(b))for(e in b)r.isFunction(this[e])?this[e](b[e]):this.attr(e,b[e]);return this}return f=d.getElementById(e[2]),f&&(this[0]=f,this.length=1),this}return a.nodeType?(this[0]=a,this.length=1,this):r.isFunction(a)?void 0!==c.ready?c.ready(a):a(r):r.makeArray(a,this)};G.prototype=r.fn,E=r(d);var H=\/^(?:parents|prev(?:Until|All))\/,I={children:!0,contents:!0,next:!0,prev:!0};r.fn.extend({has:function(a){var b=r(a,this),c=b.length;return this.filter(function(){for(var a=0;a<c;a++)if(r.contains(this,b[a]))return!0})},closest:function(a,b){var c,d=0,e=this.length,f=[],g="string"!=typeof a&&r(a);if(!A.test(a))for(;d<e;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&r.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?r.uniqueSort(f):f)},index:function(a){return a?"string"==typeof a?i.call(r(a),this[0]):i.call(this,a.jquery?a[0]:a):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(r.uniqueSort(r.merge(this.get(),r(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function J(a,b){while((a=a[b])&&1!==a.nodeType);return a}r.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return y(a,"parentNode")},parentsUntil:function(a,b,c){return y(a,"parentNode",c)},next:function(a){return J(a,"nextSibling")},prev:function(a){return J(a,"previousSibling")},nextAll:function(a){return y(a,"nextSibling")},prevAll:function(a){return y(a,"previousSibling")},nextUntil:function(a,b,c){return y(a,"nextSibling",c)},prevUntil:function(a,b,c){return y(a,"previousSibling",c)},siblings:function(a){return z((a.parentNode||{}).firstChild,a)},children:function(a){return z(a.firstChild)},contents:function(a){return a.contentDocument||r.merge([],a.childNodes)}},function(a,b){r.fn[a]=function(c,d){var e=r.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=r.filter(d,e)),this.length>1&&(I[a]||r.uniqueSort(e),H.test(a)&&e.reverse()),this.pushStack(e)}});var K=\/[^\\x20\\t\\r\\n\\f]+\/g;function L(a){var b={};return r.each(a.match(K)||[],function(a,c){b[c]=!0}),b}r.Callbacks=function(a){a="string"==typeof a?L(a):r.extend({},a);var b,c,d,e,f=[],g=[],h=-1,i=function(){for(e=a.once,d=b=!0;g.length;h=-1){c=g.shift();while(++h<f.length)f[h].apply(c[0],c[1])===!1&&a.stopOnFalse&&(h=f.length,c=!1)}a.memory||(c=!1),b=!1,e&&(f=c?[]:"")},j={add:function(){return f&&(c&&!b&&(h=f.length-1,g.push(c)),function d(b){r.each(b,function(b,c){r.isFunction(c)?a.unique&&j.has(c)||f.push(c):c&&c.length&&"string"!==r.type(c)&&d(c)})}(arguments),c&&!b&&i()),this},remove:function(){return r.each(arguments,function(a,b){var c;while((c=r.inArray(b,f,c))>-1)f.splice(c,1),c<=h&&h--}),this},has:function(a){return a?r.inArray(a,f)>-1:f.length>0},empty:function(){return f&&(f=[]),this},disable:function(){return e=g=[],f=c="",this},disabled:function(){return!f},lock:function(){return e=g=[],c||b||(f=c=""),this},locked:function(){return!!e},fireWith:function(a,c){return e||(c=c||[],c=[a,c.slice?c.slice():c],g.push(c),b||i()),this},fire:function(){return j.fireWith(this,arguments),this},fired:function(){return!!d}};return j};function M(a){return a}function N(a){throw a}function O(a,b,c){var d;try{a&&r.isFunction(d=a.promise)?d.call(a).done(b).fail(c):a&&r.isFunction(d=a.then)?d.call(a,b,c):b.call(void 0,a)}catch(a){c.call(void 0,a)}}r.extend({Deferred:function(b){var c=[["notify","progress",r.Callbacks("memory"),r.Callbacks("memory"),2],["resolve","done",r.Callbacks("once memory"),r.Callbacks("once memory"),0,"resolved"],["reject","fail",r.Callbacks("once memory"),r.Callbacks("once memory"),1,"rejected"]],d="pending",e={state:function(){return d},always:function(){return f.done(arguments).fail(arguments),this},"catch":function(a){return e.then(null,a)},pipe:function(){var a=arguments;return r.Deferred(function(b){r.each(c,function(c,d){var e=r.isFunction(a[d[4]])&&a[d[4]];f[d[1]](function(){var a=e&&e.apply(this,arguments);a&&r.isFunction(a.promise)?a.promise().progress(b.notify).done(b.resolve).fail(b.reject):b[d[0]+"With"](this,e?[a]:arguments)})}),a=null}).promise()},then:function(b,d,e){var f=0;function g(b,c,d,e){return function(){var h=this,i=arguments,j=function(){var a,j;if(!(b<f)){if(a=d.apply(h,i),a===c.promise())throw new TypeError("Thenable self-resolution");j=a&&("object"==typeof a||"function"==typeof a)&&a.then,r.isFunction(j)?e?j.call(a,g(f,c,M,e),g(f,c,N,e)):(f++,j.call(a,g(f,c,M,e),g(f,c,N,e),g(f,c,M,c.notifyWith))):(d!==M&&(h=void 0,i=[a]),(e||c.resolveWith)(h,i))}},k=e?j:function(){try{j()}catch(a){r.Deferred.exceptionHook&&r.Deferred.exceptionHook(a,k.stackTrace),b+1>=f&&(d!==N&&(h=void 0,i=[a]),c.rejectWith(h,i))}};b?k():(r.Deferred.getStackHook&&(k.stackTrace=r.Deferred.getStackHook()),a.setTimeout(k))}}return r.Deferred(function(a){c[0][3].add(g(0,a,r.isFunction(e)?e:M,a.notifyWith)),c[1][3].add(g(0,a,r.isFunction(b)?b:M)),c[2][3].add(g(0,a,r.isFunction(d)?d:N))}).promise()},promise:function(a){return null!=a?r.extend(a,e):e}},f={};return r.each(c,function(a,b){var g=b[2],h=b[5];e[b[1]]=g.add,h&&g.add(function(){d=h},c[3-a][2].disable,c[0][2].lock),g.add(b[3].fire),f[b[0]]=function(){return f[b[0]+"With"](this===f?void 0:this,arguments),this},f[b[0]+"With"]=g.fireWith}),e.promise(f),b&&b.call(f,f),f},when:function(a){var b=arguments.length,c=b,d=Array(c),e=f.call(arguments),g=r.Deferred(),h=function(a){return function(c){d[a]=this,e[a]=arguments.length>1?f.call(arguments):c,--b||g.resolveWith(d,e)}};if(b<=1&&(O(a,g.done(h(c)).resolve,g.reject),"pending"===g.state()||r.isFunction(e[c]&&e[c].then)))return g.then();while(c--)O(e[c],h(c),g.reject);return g.promise()}});var P=\/^(Eval|Internal|Range|Reference|Syntax|Type|URI)Error$\/;r.Deferred.exceptionHook=function(b,c){a.console&&a.console.warn&&b&&P.test(b.name)&&a.console.warn("jQuery.Deferred exception: "+b.message,b.stack,c)},r.readyException=function(b){a.setTimeout(function(){throw b})};var Q=r.Deferred();r.fn.ready=function(a){return Q.then(a)["catch"](function(a){r.readyException(a)}),this},r.extend({isReady:!1,readyWait:1,holdReady:function(a){a?r.readyWait++:r.ready(!0)},ready:function(a){(a===!0?--r.readyWait:r.isReady)||(r.isReady=!0,a!==!0&&--r.readyWait>0||Q.resolveWith(d,[r]))}}),r.ready.then=Q.then;function R(){d.removeEventListener("DOMContentLoaded",R),$/;"	f
+function.plotWS	.\Weather2\console.js	/^    function plotWS() {$/;"	f
+getSetJ	.\Weather2\suncalc.js	/^function getSetJ(h, lw, phi, dec, n, M, L) {$/;"	f
+height	.\Rouge\libraries\rot.js	/^		var result = {width:0, height:1};$/;"	p
+height	.\Weather2\rot.js	/^		var result = {width:0, height:1};$/;"	p
+hourAngle	.\Weather2\suncalc.js	/^function hourAngle(h, phi, d) { return acos((sin(h) - sin(phi) * sin(d)) \/ (cos(phi) * cos(d))); }$/;"	f
+hoursLater	.\Weather2\suncalc.js	/^function hoursLater(date, h) {$/;"	f
+i	.\Rouge\libraries\rot.js	/^		var i = 0;$/;"	v
+i	.\Rouge\libraries\sprintf.min.js	/^\/*! sprintf.js | Copyright (c) 2007-2013 Alexandru Marasteanu <hello at alexei dot ro> | 3 clause BSD license *\/(function(e){function r(e){return Object.prototype.toString.call(e).slice(8,-1).toLowerCase()}function i(e,t){for(var n=[];t>0;n[--t]=e);return n.join("")}var t=function(){return t.cache.hasOwnProperty(arguments[0])||(t.cache[arguments[0]]=t.parse(arguments[0])),t.format.call(null,t.cache[arguments[0]],arguments)};t.format=function(e,n){var s=1,o=e.length,u="",a,f=[],l,c,h,p,d,v;for(l=0;l<o;l++){u=r(e[l]);if(u==="string")f.push(e[l]);else if(u==="array"){h=e[l];if(h[2]){a=n[s];for(c=0;c<h[2].length;c++){if(!a.hasOwnProperty(h[2][c]))throw t('[sprintf] property "%s" does not exist',h[2][c]);a=a[h[2][c]]}}else h[1]?a=n[h[1]]:a=n[s++];if(\/[^s]\/.test(h[8])&&r(a)!="number")throw t("[sprintf] expecting number but found %s",r(a));switch(h[8]){case"b":a=a.toString(2);break;case"c":a=String.fromCharCode(a);break;case"d":a=parseInt(a,10);break;case"e":a=h[7]?a.toExponential(h[7]):a.toExponential();break;case"f":a=h[7]?parseFloat(a).toFixed(h[7]):parseFloat(a);break;case"o":a=a.toString(8);break;case"s":a=(a=String(a))&&h[7]?a.substring(0,h[7]):a;break;case"u":a>>>=0;break;case"x":a=a.toString(16);break;case"X":a=a.toString(16).toUpperCase()}a=\/[def]\/.test(h[8])&&h[3]&&a>=0?"+"+a:a,d=h[4]?h[4]=="0"?"0":h[4].charAt(1):" ",v=h[6]-String(a).length,p=h[6]?i(d,v):"",f.push(h[5]?a+p:p+a)}}return f.join("")},t.cache={},t.parse=function(e){var t=e,n=[],r=[],i=0;while(t){if((n=\/^[^\\x25]+\/.exec(t))!==null)r.push(n[0]);else if((n=\/^\\x25{2}\/.exec(t))!==null)r.push("%");else{if((n=\/^\\x25(?:([1-9]\\d*)\\$|\\(([^\\)]+)\\))?(\\+)?(0|'[^$])?(-)?(\\d+)?(?:\\.(\\d+))?([b-fosuxX])\/.exec(t))===null)throw"[sprintf] huh?";if(n[2]){i|=1;var s=[],o=n[2],u=[];if((u=\/^([a-z_][a-z_\\d]*)\/i.exec(o))===null)throw"[sprintf] huh?";s.push(u[1]);while((o=o.substring(u[0].length))!=="")if((u=\/^\\.([a-z_][a-z_\\d]*)\/i.exec(o))!==null)s.push(u[1]);else{if((u=\/^\\[(\\d+)\\]\/.exec(o))===null)throw"[sprintf] huh?";s.push(u[1])}n[2]=s}else i|=2;if(i===3)throw"[sprintf] mixing positional and named placeholders is not (yet) supported";r.push(n)}t=t.substring(n[0].length)}return r};var n=function(e,n,r){return r=n.slice(0),r.splice(0,0,e),t.apply(null,r)};e.sprintf=t,e.vsprintf=n})(typeof exports!="undefined"?exports:window);/;"	f
+i	.\Weather2\rot.js	/^		var i = 0;$/;"	v
+identity	.\Weather2\lodash.js	/^    function identity(value) {$/;"	f
+identity	.\libraries\lodash.js	/^    function identity(value) {$/;"	f
+isSupported	.\Rouge\libraries\rot.js	/^	isSupported: function() {$/;"	m
+isSupported	.\Weather2\rot.js	/^	isSupported: function() {$/;"	m
+iteratee	.\Weather2\lodash.js	/^    function iteratee(func) {$/;"	f
+iteratee	.\libraries\lodash.js	/^    function iteratee(func) {$/;"	f
+julianCycle	.\Weather2\suncalc.js	/^function julianCycle(d, lw) { return Math.round(d - J0 - lw \/ (2 * PI)); }$/;"	f
+kebabCase	.\Weather2\lodash.js	/^    var kebabCase = createCompounder(function(result, word, index) {$/;"	v
+kebabCase	.\libraries\lodash.js	/^    var kebabCase = createCompounder(function(result, word, index) {$/;"	v
+lastTextToken	.\Rouge\libraries\rot.js	/^		var lastTextToken = null;$/;"	v
+lastTextToken	.\Weather2\rot.js	/^		var lastTextToken = null;$/;"	v
+lastTokenWithSpace	.\Rouge\libraries\rot.js	/^		var lastTokenWithSpace = -1;$/;"	v
+lastTokenWithSpace	.\Weather2\rot.js	/^		var lastTokenWithSpace = -1;$/;"	v
+lineLength	.\Rouge\libraries\rot.js	/^		var lineLength = 0;$/;"	v
+lineLength	.\Weather2\rot.js	/^		var lineLength = 0;$/;"	v
+lineWidth	.\Rouge\libraries\rot.js	/^		var lineWidth = 0;$/;"	v
+lineWidth	.\Weather2\rot.js	/^		var lineWidth = 0;$/;"	v
+lodash	.\Weather2\lodash.js	/^    lodash.prototype.at = wrapperAt;$/;"	c
+lodash	.\libraries\lodash.js	/^    lodash.prototype.at = wrapperAt;$/;"	c
+lodash.at	.\Weather2\lodash.js	/^    lodash.prototype.at = wrapperAt;$/;"	m
+lodash.at	.\libraries\lodash.js	/^    lodash.prototype.at = wrapperAt;$/;"	m
+lodash.chain	.\Weather2\lodash.js	/^    lodash.prototype.chain = wrapperChain;$/;"	m
+lodash.chain	.\libraries\lodash.js	/^    lodash.prototype.chain = wrapperChain;$/;"	m
+lodash.commit	.\Weather2\lodash.js	/^    lodash.prototype.commit = wrapperCommit;$/;"	m
+lodash.commit	.\libraries\lodash.js	/^    lodash.prototype.commit = wrapperCommit;$/;"	m
+lodash.first	.\Weather2\lodash.js	/^    lodash.prototype.first = lodash.prototype.head;$/;"	m
+lodash.first	.\libraries\lodash.js	/^    lodash.prototype.first = lodash.prototype.head;$/;"	m
+lodash.next	.\Weather2\lodash.js	/^    lodash.prototype.next = wrapperNext;$/;"	m
+lodash.next	.\libraries\lodash.js	/^    lodash.prototype.next = wrapperNext;$/;"	m
+lodash.plant	.\Weather2\lodash.js	/^    lodash.prototype.plant = wrapperPlant;$/;"	m
+lodash.plant	.\libraries\lodash.js	/^    lodash.prototype.plant = wrapperPlant;$/;"	m
+lodash.reverse	.\Weather2\lodash.js	/^    lodash.prototype.reverse = wrapperReverse;$/;"	m
+lodash.reverse	.\libraries\lodash.js	/^    lodash.prototype.reverse = wrapperReverse;$/;"	m
+lodash.toJSON	.\Weather2\lodash.js	/^    lodash.prototype.toJSON = lodash.prototype.valueOf = lodash.prototype.value = wrapperValue;$/;"	m
+lodash.toJSON	.\libraries\lodash.js	/^    lodash.prototype.toJSON = lodash.prototype.valueOf = lodash.prototype.value = wrapperValue;$/;"	m
+lowerCase	.\Weather2\lodash.js	/^    var lowerCase = createCompounder(function(result, word, index) {$/;"	v
+lowerCase	.\libraries\lodash.js	/^    var lowerCase = createCompounder(function(result, word, index) {$/;"	v
+lowerFirst	.\Weather2\lodash.js	/^    var lowerFirst = createCaseFirst('toLowerCase');$/;"	v
+lowerFirst	.\libraries\lodash.js	/^    var lowerFirst = createCaseFirst('toLowerCase');$/;"	v
+matches	.\Weather2\lodash.js	/^    function matches(source) {$/;"	f
+matches	.\libraries\lodash.js	/^    function matches(source) {$/;"	f
+matchesProperty	.\Weather2\lodash.js	/^    function matchesProperty(path, srcValue) {$/;"	f
+matchesProperty	.\libraries\lodash.js	/^    function matchesProperty(path, srcValue) {$/;"	f
+max	.\Weather2\lodash.js	/^    function max(array) {$/;"	f
+max	.\libraries\lodash.js	/^    function max(array) {$/;"	f
+maxBy	.\Weather2\lodash.js	/^    function maxBy(array, iteratee) {$/;"	f
+maxBy	.\libraries\lodash.js	/^    function maxBy(array, iteratee) {$/;"	f
+mean	.\Weather2\lodash.js	/^    function mean(array) {$/;"	f
+mean	.\libraries\lodash.js	/^    function mean(array) {$/;"	f
+meanBy	.\Weather2\lodash.js	/^    function meanBy(array, iteratee) {$/;"	f
+meanBy	.\libraries\lodash.js	/^    function meanBy(array, iteratee) {$/;"	f
+method	.\Weather2\lodash.js	/^    var method = baseRest(function(path, args) {$/;"	v
+method	.\libraries\lodash.js	/^    var method = baseRest(function(path, args) {$/;"	v
+methodOf	.\Weather2\lodash.js	/^    var methodOf = baseRest(function(object, args) {$/;"	v
+methodOf	.\libraries\lodash.js	/^    var methodOf = baseRest(function(object, args) {$/;"	v
+min	.\Weather2\lodash.js	/^    function min(array) {$/;"	f
+min	.\libraries\lodash.js	/^    function min(array) {$/;"	f
+minBy	.\Weather2\lodash.js	/^    function minBy(array, iteratee) {$/;"	f
+minBy	.\libraries\lodash.js	/^    function minBy(array, iteratee) {$/;"	f
+mixin	.\Weather2\lodash.js	/^    function mixin(object, source, options) {$/;"	f
+mixin	.\libraries\lodash.js	/^    function mixin(object, source, options) {$/;"	f
+moonCoords	.\Weather2\suncalc.js	/^function moonCoords(d) { \/\/ geocentric ecliptic coordinates of the moon$/;"	f
+mousedowned.ended	.\libraries\d3.js	/^      function ended() {$/;"	f
+mousedowned.moved	.\libraries\d3.js	/^      function moved() {$/;"	f
+multiply	.\Weather2\lodash.js	/^    var multiply = createMathOperation(function(multiplier, multiplicand) {$/;"	v
+multiply	.\libraries\lodash.js	/^    var multiply = createMathOperation(function(multiplier, multiplicand) {$/;"	v
+myFunction	.\Rouge\index.html	/^    function myFunction() {$/;"	f
+nedbPlotObsDay	.\readData.js	/^var nedbPlotObsDay = [];$/;"	v
+nedbPlotObslMonth	.\readData.js	/^var nedbPlotObslMonth = [];$/;"	v
+nest.entries	.\libraries\d3.js	/^    nest.entries = function(array) {$/;"	f
+nest.key	.\libraries\d3.js	/^    nest.key = function(d) {$/;"	f
+nest.map	.\libraries\d3.js	/^    nest.map = function(array, mapType) {$/;"	f
+nest.rollup	.\libraries\d3.js	/^    nest.rollup = function(f) {$/;"	f
+nest.sortKeys	.\libraries\d3.js	/^    nest.sortKeys = function(order) {$/;"	f
+nest.sortValues	.\libraries\d3.js	/^    nest.sortValues = function(order) {$/;"	f
+newTextToken.type	.\Rouge\libraries\rot.js	/^			type: ROT.Text.TYPE_TEXT,$/;"	p
+newTextToken.type	.\Weather2\rot.js	/^			type: ROT.Text.TYPE_TEXT,$/;"	p
+noConflict	.\Weather2\lodash.js	/^    function noConflict() {$/;"	f
+noConflict	.\libraries\lodash.js	/^    function noConflict() {$/;"	f
+noop	.\Weather2\lodash.js	/^    function noop() {$/;"	f
+noop	.\libraries\lodash.js	/^    function noop() {$/;"	f
+nthArg	.\Weather2\lodash.js	/^    function nthArg(n) {$/;"	f
+nthArg	.\libraries\lodash.js	/^    function nthArg(n) {$/;"	f
+offset	.\Rouge\libraries\rot.js	/^		var offset = 0;$/;"	v
+offset	.\Weather2\rot.js	/^		var offset = 0;$/;"	v
+onAdd	.\libraries\d3.js	/^    function onAdd() {$/;"	c
+over	.\Weather2\lodash.js	/^    var over = createOver(arrayMap);$/;"	v
+over	.\libraries\lodash.js	/^    var over = createOver(arrayMap);$/;"	v
+overEvery	.\Weather2\lodash.js	/^    var overEvery = createOver(arrayEvery);$/;"	v
+overEvery	.\libraries\lodash.js	/^    var overEvery = createOver(arrayEvery);$/;"	v
+overSome	.\Weather2\lodash.js	/^    var overSome = createOver(arraySome);$/;"	v
+overSome	.\libraries\lodash.js	/^    var overSome = createOver(arraySome);$/;"	v
+pad	.\Weather2\lodash.js	/^    function pad(string, length, chars) {$/;"	f
+pad	.\libraries\lodash.js	/^    function pad(string, length, chars) {$/;"	f
+padEnd	.\Weather2\lodash.js	/^    function padEnd(string, length, chars) {$/;"	f
+padEnd	.\libraries\lodash.js	/^    function padEnd(string, length, chars) {$/;"	f
+padStart	.\Weather2\lodash.js	/^    function padStart(string, length, chars) {$/;"	f
+padStart	.\libraries\lodash.js	/^    function padStart(string, length, chars) {$/;"	f
+parseInt	.\Weather2\lodash.js	/^    function parseInt(string, radix, guard) {$/;"	f
+parseInt	.\libraries\lodash.js	/^    function parseInt(string, radix, guard) {$/;"	f
+part	.\Rouge\libraries\rot.js	/^		var part = str.substring(offset);$/;"	v
+part	.\Weather2\rot.js	/^		var part = str.substring(offset);$/;"	v
+plotDual	.\plot.js	/^function plotDual(dataset, dataset2, title) {$/;"	f
+plotDual2	.\plot.js	/^function plotDual2(dataset, dataset2, title, plotcomb) {$/;"	f
+plotDualMonth	.\plot.js	/^function plotDualMonth(dataset, dataset2, title) {$/;"	f
+plotDualMonth2	.\plot.js	/^function plotDualMonth2(dataset, dataset2, title) {$/;"	f
+plotDualMonth3	.\plot.js	/^function plotDualMonth3(dataset, dataset2, title) {$/;"	f
+plotTemp	.\plot.js	/^function plotTemp(dataset, title) {$/;"	f
+plotTriple	.\plot.js	/^function plotTriple(dataset, dataset2, dataset3, title) {$/;"	f
+property	.\Weather2\lodash.js	/^    function property(path) {$/;"	f
+property	.\libraries\lodash.js	/^    function property(path) {$/;"	f
+propertyOf	.\Weather2\lodash.js	/^    function propertyOf(object) {$/;"	f
+propertyOf	.\libraries\lodash.js	/^    function propertyOf(object) {$/;"	f
+range	.\Weather2\lodash.js	/^    var range = createRange();$/;"	v
+range	.\libraries\lodash.js	/^    var range = createRange();$/;"	v
+rangeRight	.\Weather2\lodash.js	/^    var rangeRight = createRange(true);$/;"	v
+rangeRight	.\libraries\lodash.js	/^    var rangeRight = createRange(true);$/;"	v
+reEmptyStringLeading	.\Weather2\lodash.js	/^  var reEmptyStringLeading = \/\\b__p \\+= '';\/g,$/;"	v
+reEmptyStringLeading	.\libraries\lodash.js	/^  var reEmptyStringLeading = \/\\b__p \\+= '';\/g,$/;"	v
+reEscapedHtml	.\Weather2\lodash.js	/^  var reEscapedHtml = \/&(?:amp|lt|gt|quot|#39|#96);\/g,$/;"	v
+reEscapedHtml	.\libraries\lodash.js	/^  var reEscapedHtml = \/&(?:amp|lt|gt|quot|#39|#96);\/g,$/;"	v
+reTrim	.\Weather2\lodash.js	/^  var reTrim = \/^\\s+|\\s+$\/g,$/;"	v
+reTrim	.\libraries\lodash.js	/^  var reTrim = \/^\\s+|\\s+$\/g,$/;"	v
+removeAll	.\libraries\d3.js	/^    function removeAll() {$/;"	f
+repeat	.\Weather2\lodash.js	/^    function repeat(string, n, guard) {$/;"	f
+repeat	.\libraries\lodash.js	/^    function repeat(string, n, guard) {$/;"	f
+replace	.\Weather2\lodash.js	/^    function replace() {$/;"	f
+replace	.\libraries\lodash.js	/^    function replace() {$/;"	f
+rightAscension	.\Weather2\suncalc.js	/^function rightAscension(l, b) { return atan(sin(l) * cos(e) - tan(b) * sin(e), cos(l)); }$/;"	f
+round	.\Weather2\lodash.js	/^    var round = createRound('round');$/;"	v
+round	.\libraries\lodash.js	/^    var round = createRound('round');$/;"	v
+setter	.\libraries\d3.js	/^        setter = function(keyValue, values) {$/;"	f
+siderealTime	.\Weather2\suncalc.js	/^function siderealTime(d, lw) { return rad * (280.16 + 360.9856235 * d) - lw; }$/;"	f
+snakeCase	.\Weather2\lodash.js	/^    var snakeCase = createCompounder(function(result, word, index) {$/;"	v
+snakeCase	.\libraries\lodash.js	/^    var snakeCase = createCompounder(function(result, word, index) {$/;"	v
+solarMeanAnomaly	.\Weather2\suncalc.js	/^function solarMeanAnomaly(d) { return rad * (357.5291 + 0.98560028 * d); }$/;"	f
+solarTransitJ	.\Weather2\suncalc.js	/^function solarTransitJ(ds, M, L)  { return J2000 + ds + 0.0053 * sin(M) - 0.0069 * sin(2 * L); }$/;"	f
+split	.\Weather2\lodash.js	/^    function split(string, separator, limit) {$/;"	f
+split	.\libraries\lodash.js	/^    function split(string, separator, limit) {$/;"	f
+startCase	.\Weather2\lodash.js	/^    var startCase = createCompounder(function(result, word, index) {$/;"	v
+startCase	.\libraries\lodash.js	/^    var startCase = createCompounder(function(result, word, index) {$/;"	v
+startsWith	.\Weather2\lodash.js	/^    function startsWith(string, target, position) {$/;"	f
+startsWith	.\libraries\lodash.js	/^    function startsWith(string, target, position) {$/;"	f
+stubArray	.\Weather2\lodash.js	/^    function stubArray() {$/;"	f
+stubArray	.\libraries\lodash.js	/^    function stubArray() {$/;"	f
+stubFalse	.\Weather2\lodash.js	/^    function stubFalse() {$/;"	f
+stubFalse	.\libraries\lodash.js	/^    function stubFalse() {$/;"	f
+stubObject	.\Weather2\lodash.js	/^    function stubObject() {$/;"	f
+stubObject	.\libraries\lodash.js	/^    function stubObject() {$/;"	f
+stubString	.\Weather2\lodash.js	/^    function stubString() {$/;"	f
+stubString	.\libraries\lodash.js	/^    function stubString() {$/;"	f
+stubTrue	.\Weather2\lodash.js	/^    function stubTrue() {$/;"	f
+stubTrue	.\libraries\lodash.js	/^    function stubTrue() {$/;"	f
+subtract	.\Weather2\lodash.js	/^    var subtract = createMathOperation(function(minuend, subtrahend) {$/;"	v
+subtract	.\libraries\lodash.js	/^    var subtract = createMathOperation(function(minuend, subtrahend) {$/;"	v
+sum	.\Weather2\lodash.js	/^    function sum(array) {$/;"	f
+sum	.\libraries\lodash.js	/^    function sum(array) {$/;"	f
+sumBy	.\Weather2\lodash.js	/^    function sumBy(array, iteratee) {$/;"	f
+sumBy	.\libraries\lodash.js	/^    function sumBy(array, iteratee) {$/;"	f
+sunCoords	.\Weather2\suncalc.js	/^function sunCoords(d) {$/;"	f
+t	.\Rouge\libraries\sprintf.min.js	/^\/*! sprintf.js | Copyright (c) 2007-2013 Alexandru Marasteanu <hello at alexei dot ro> | 3 clause BSD license *\/(function(e){function r(e){return Object.prototype.toString.call(e).slice(8,-1).toLowerCase()}function i(e,t){for(var n=[];t>0;n[--t]=e);return n.join("")}var t=function(){return t.cache.hasOwnProperty(arguments[0])||(t.cache[arguments[0]]=t.parse(arguments[0])),t.format.call(null,t.cache[arguments[0]],arguments)};t.format=function(e,n){var s=1,o=e.length,u="",a,f=[],l,c,h,p,d,v;for(l=0;l<o;l++){u=r(e[l]);if(u==="string")f.push(e[l]);else if(u==="array"){h=e[l];if(h[2]){a=n[s];for(c=0;c<h[2].length;c++){if(!a.hasOwnProperty(h[2][c]))throw t('[sprintf] property "%s" does not exist',h[2][c]);a=a[h[2][c]]}}else h[1]?a=n[h[1]]:a=n[s++];if(\/[^s]\/.test(h[8])&&r(a)!="number")throw t("[sprintf] expecting number but found %s",r(a));switch(h[8]){case"b":a=a.toString(2);break;case"c":a=String.fromCharCode(a);break;case"d":a=parseInt(a,10);break;case"e":a=h[7]?a.toExponential(h[7]):a.toExponential();break;case"f":a=h[7]?parseFloat(a).toFixed(h[7]):parseFloat(a);break;case"o":a=a.toString(8);break;case"s":a=(a=String(a))&&h[7]?a.substring(0,h[7]):a;break;case"u":a>>>=0;break;case"x":a=a.toString(16);break;case"X":a=a.toString(16).toUpperCase()}a=\/[def]\/.test(h[8])&&h[3]&&a>=0?"+"+a:a,d=h[4]?h[4]=="0"?"0":h[4].charAt(1):" ",v=h[6]-String(a).length,p=h[6]?i(d,v):"",f.push(h[5]?a+p:p+a)}}return f.join("")},t.cache={},t.parse=function(e){var t=e,n=[],r=[],i=0;while(t){if((n=\/^[^\\x25]+\/.exec(t))!==null)r.push(n[0]);else if((n=\/^\\x25{2}\/.exec(t))!==null)r.push("%");else{if((n=\/^\\x25(?:([1-9]\\d*)\\$|\\(([^\\)]+)\\))?(\\+)?(0|'[^$])?(-)?(\\d+)?(?:\\.(\\d+))?([b-fosuxX])\/.exec(t))===null)throw"[sprintf] huh?";if(n[2]){i|=1;var s=[],o=n[2],u=[];if((u=\/^([a-z_][a-z_\\d]*)\/i.exec(o))===null)throw"[sprintf] huh?";s.push(u[1]);while((o=o.substring(u[0].length))!=="")if((u=\/^\\.([a-z_][a-z_\\d]*)\/i.exec(o))!==null)s.push(u[1]);else{if((u=\/^\\[(\\d+)\\]\/.exec(o))===null)throw"[sprintf] huh?";s.push(u[1])}n[2]=s}else i|=2;if(i===3)throw"[sprintf] mixing positional and named placeholders is not (yet) supported";r.push(n)}t=t.substring(n[0].length)}return r};var n=function(e,n,r){return r=n.slice(0),r.splice(0,0,e),t.apply(null,r)};e.sprintf=t,e.vsprintf=n})(typeof exports!="undefined"?exports:window);/;"	f
+template	.\Weather2\lodash.js	/^    function template(string, options, guard) {$/;"	f
+template	.\libraries\lodash.js	/^    function template(string, options, guard) {$/;"	f
+times	.\Weather2\lodash.js	/^    function times(n, iteratee) {$/;"	f
+times	.\Weather2\suncalc.js	/^var times = SunCalc.times = [$/;"	v
+times	.\libraries\lodash.js	/^    function times(n, iteratee) {$/;"	f
+tmp	.\Rouge\libraries\rot.js	/^		tmp.prototype = o;$/;"	c
+tmp	.\Weather2\rot.js	/^		tmp.prototype = o;$/;"	c
+toDays	.\Weather2\suncalc.js	/^function toDays(date)   { return toJulian(date) - J2000; }$/;"	f
+toJulian	.\Weather2\suncalc.js	/^function toJulian(date) { return date.valueOf() \/ dayMs - 0.5 + J1970; }$/;"	f
+toLower	.\Weather2\lodash.js	/^    function toLower(value) {$/;"	f
+toLower	.\libraries\lodash.js	/^    function toLower(value) {$/;"	f
+toPath	.\Weather2\lodash.js	/^    function toPath(value) {$/;"	f
+toPath	.\libraries\lodash.js	/^    function toPath(value) {$/;"	f
+toString	.\Rouge\libraries\sprintf.min.js	/^\/*! sprintf.js | Copyright (c) 2007-2013 Alexandru Marasteanu <hello at alexei dot ro> | 3 clause BSD license *\/(function(e){function r(e){return Object.prototype.toString.call(e).slice(8,-1).toLowerCase()}function i(e,t){for(var n=[];t>0;n[--t]=e);return n.join("")}var t=function(){return t.cache.hasOwnProperty(arguments[0])||(t.cache[arguments[0]]=t.parse(arguments[0])),t.format.call(null,t.cache[arguments[0]],arguments)};t.format=function(e,n){var s=1,o=e.length,u="",a,f=[],l,c,h,p,d,v;for(l=0;l<o;l++){u=r(e[l]);if(u==="string")f.push(e[l]);else if(u==="array"){h=e[l];if(h[2]){a=n[s];for(c=0;c<h[2].length;c++){if(!a.hasOwnProperty(h[2][c]))throw t('[sprintf] property "%s" does not exist',h[2][c]);a=a[h[2][c]]}}else h[1]?a=n[h[1]]:a=n[s++];if(\/[^s]\/.test(h[8])&&r(a)!="number")throw t("[sprintf] expecting number but found %s",r(a));switch(h[8]){case"b":a=a.toString(2);break;case"c":a=String.fromCharCode(a);break;case"d":a=parseInt(a,10);break;case"e":a=h[7]?a.toExponential(h[7]):a.toExponential();break;case"f":a=h[7]?parseFloat(a).toFixed(h[7]):parseFloat(a);break;case"o":a=a.toString(8);break;case"s":a=(a=String(a))&&h[7]?a.substring(0,h[7]):a;break;case"u":a>>>=0;break;case"x":a=a.toString(16);break;case"X":a=a.toString(16).toUpperCase()}a=\/[def]\/.test(h[8])&&h[3]&&a>=0?"+"+a:a,d=h[4]?h[4]=="0"?"0":h[4].charAt(1):" ",v=h[6]-String(a).length,p=h[6]?i(d,v):"",f.push(h[5]?a+p:p+a)}}return f.join("")},t.cache={},t.parse=function(e){var t=e,n=[],r=[],i=0;while(t){if((n=\/^[^\\x25]+\/.exec(t))!==null)r.push(n[0]);else if((n=\/^\\x25{2}\/.exec(t))!==null)r.push("%");else{if((n=\/^\\x25(?:([1-9]\\d*)\\$|\\(([^\\)]+)\\))?(\\+)?(0|'[^$])?(-)?(\\d+)?(?:\\.(\\d+))?([b-fosuxX])\/.exec(t))===null)throw"[sprintf] huh?";if(n[2]){i|=1;var s=[],o=n[2],u=[];if((u=\/^([a-z_][a-z_\\d]*)\/i.exec(o))===null)throw"[sprintf] huh?";s.push(u[1]);while((o=o.substring(u[0].length))!=="")if((u=\/^\\.([a-z_][a-z_\\d]*)\/i.exec(o))!==null)s.push(u[1]);else{if((u=\/^\\[(\\d+)\\]\/.exec(o))===null)throw"[sprintf] huh?";s.push(u[1])}n[2]=s}else i|=2;if(i===3)throw"[sprintf] mixing positional and named placeholders is not (yet) supported";r.push(n)}t=t.substring(n[0].length)}return r};var n=function(e,n,r){return r=n.slice(0),r.splice(0,0,e),t.apply(null,r)};e.sprintf=t,e.vsprintf=n})(typeof exports!="undefined"?exports:window);/;"	m
+toUpper	.\Weather2\lodash.js	/^    function toUpper(value) {$/;"	f
+toUpper	.\libraries\lodash.js	/^    function toUpper(value) {$/;"	f
+touchstarted.ended	.\libraries\d3.js	/^      function ended() {$/;"	f
+touchstarted.moved	.\libraries\d3.js	/^      function moved() {$/;"	f
+touchstarted.relocate	.\libraries\d3.js	/^      function relocate() {$/;"	f
+touchstarted.started	.\libraries\d3.js	/^      function started() {$/;"	f
+trim	.\Weather2\lodash.js	/^    function trim(string, chars, guard) {$/;"	f
+trim	.\libraries\lodash.js	/^    function trim(string, chars, guard) {$/;"	f
+trimEnd	.\Weather2\lodash.js	/^    function trimEnd(string, chars, guard) {$/;"	f
+trimEnd	.\libraries\lodash.js	/^    function trimEnd(string, chars, guard) {$/;"	f
+trimStart	.\Weather2\lodash.js	/^    function trimStart(string, chars, guard) {$/;"	f
+trimStart	.\libraries\lodash.js	/^    function trimStart(string, chars, guard) {$/;"	f
+truncate	.\Weather2\lodash.js	/^    function truncate(string, options) {$/;"	f
+truncate	.\libraries\lodash.js	/^    function truncate(string, options) {$/;"	f
+type	.\Rouge\libraries\rot.js	/^			type: ROT.Text.TYPE_NEWLINE$/;"	p
+type	.\Weather2\rot.js	/^			type: ROT.Text.TYPE_NEWLINE$/;"	p
+unescape	.\Weather2\lodash.js	/^    function unescape(string) {$/;"	f
+unescape	.\libraries\lodash.js	/^    function unescape(string) {$/;"	f
+uniqueId	.\Weather2\lodash.js	/^    function uniqueId(prefix) {$/;"	f
+uniqueId	.\libraries\lodash.js	/^    function uniqueId(prefix) {$/;"	f
+update.enter	.\libraries\d3.js	/^    update.enter = function() {$/;"	f
+update.exit	.\libraries\d3.js	/^    update.exit = function() {$/;"	f
+upperCase	.\Weather2\lodash.js	/^    var upperCase = createCompounder(function(result, word, index) {$/;"	v
+upperCase	.\libraries\lodash.js	/^    var upperCase = createCompounder(function(result, word, index) {$/;"	v
+upperFirst	.\Weather2\lodash.js	/^    var upperFirst = createCaseFirst('toUpperCase');$/;"	v
+upperFirst	.\libraries\lodash.js	/^    var upperFirst = createCaseFirst('toUpperCase');$/;"	v
+var.hue2rgb	.\Rouge\libraries\rot.js	/^			var hue2rgb = function(p, q, t) {$/;"	f
+var.hue2rgb	.\Weather2\rot.js	/^			var hue2rgb = function(p, q, t) {$/;"	f
+var.replacer	.\Rouge\libraries\rot.js	/^	var replacer = function(match, group1, group2, index) {$/;"	f
+var.replacer	.\Weather2\rot.js	/^	var replacer = function(match, group1, group2, index) {$/;"	f
+version	.\libraries\d3.js	/^    version: "3.5.5"$/;"	p
+view.k	.\libraries\d3.js	/^        k: 1$/;"	p
+view.x	.\libraries\d3.js	/^        x: 0,$/;"	p
+view.y	.\libraries\d3.js	/^        y: 0,$/;"	p
+width	.\Rouge\libraries\rot.js	/^		var result = {width:0, height:1};$/;"	p
+width	.\Weather2\rot.js	/^		var result = {width:0, height:1};$/;"	p
+window.onload	.\Rouge\game.js	/^window.onload = function() {$/;"	f
+words	.\Weather2\lodash.js	/^    function words(string, pattern, guard) {$/;"	f
+words	.\libraries\lodash.js	/^    function words(string, pattern, guard) {$/;"	f
+wrapFlags	.\Weather2\lodash.js	/^  var wrapFlags = [$/;"	v
+wrapFlags	.\libraries\lodash.js	/^  var wrapFlags = [$/;"	v
+x	.\libraries\d3.js	/^        x: +_[0],$/;"	p
+x	.\libraries\d3.js	/^        x: view.x,$/;"	p
+zoom.center	.\libraries\d3.js	/^    zoom.center = function(_) {$/;"	f
+zoom.duration	.\libraries\d3.js	/^    zoom.duration = function(_) {$/;"	f
+zoom.event	.\libraries\d3.js	/^    zoom.event = function(g) {$/;"	f
+zoom.scale	.\libraries\d3.js	/^    zoom.scale = function(_) {$/;"	f
+zoom.scaleExtent	.\libraries\d3.js	/^    zoom.scaleExtent = function(_) {$/;"	f
+zoom.size	.\libraries\d3.js	/^    zoom.size = function(_) {$/;"	f
+zoom.translate	.\libraries\d3.js	/^    zoom.translate = function(_) {$/;"	f
+zoom.x	.\libraries\d3.js	/^    zoom.x = function(z) {$/;"	f
+zoom.y	.\libraries\d3.js	/^    zoom.y = function(z) {$/;"	f
