@@ -93,7 +93,7 @@ Game.Mixins.MessageRecipient.init	.\Rouge\assets\entities.js	/^    init: functio
 Game.Mixins.MessageRecipient.name	.\Rouge\assets\entities.js	/^    name: 'MessageRecipient',$/;"	p
 Game.Mixins.MessageRecipient.receiveMessage	.\Rouge\assets\entities.js	/^    receiveMessage: function(message) {$/;"	m
 Game.Mixins.Moveable.name	.\Rouge\assets\entities.js	/^    name: 'Moveable',$/;"	p
-Game.Mixins.Moveable.tryMove	.\Rouge\assets\entities.js	/^    tryMove: function(x, y, map) {$/;"	m
+Game.Mixins.Moveable.tryMove	.\Rouge\assets\entities.js	/^    tryMove: function(x, y, z, map) {$/;"	m
 Game.Mixins.PlayerActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
 Game.Mixins.PlayerActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
 Game.Mixins.PlayerActor.name	.\Rouge\assets\entities.js	/^    name: 'PlayerActor',$/;"	p
@@ -137,7 +137,7 @@ Game.init	.\Rouge\game.js	/^	init: function() {$/;"	m
 Game.init.bindEventToScreen	.\Rouge\game.js	/^	    var bindEventToScreen = function(event) {$/;"	m
 Game.refresh	.\Rouge\game.js	/^	refresh: function() {$/;"	m
 Game.sendMessage	.\Rouge\assets\entities.js	/^Game.sendMessage = function(recipient, message, args) {$/;"	f
-Game.sendMessageNearby	.\Rouge\assets\entities.js	/^Game.sendMessageNearby = function(map, centerX, centerY, message, args) {$/;"	f
+Game.sendMessageNearby	.\Rouge\assets\entities.js	/^Game.sendMessageNearby = function(map, centerX, centerY, centerZ, message, args) {$/;"	f
 Game.switchScreen	.\Rouge\game.js	/^	switchScreen: function(screen) {$/;"	m
 HASH_UNDEFINED	.\Weather2\lodash.js	/^  var HASH_UNDEFINED = '__lodash_hash_undefined__';$/;"	v
 HASH_UNDEFINED	.\libraries\lodash.js	/^  var HASH_UNDEFINED = '__lodash_hash_undefined__';$/;"	v
