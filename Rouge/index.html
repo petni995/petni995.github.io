@@ -62,6 +62,12 @@
         } else if (x == "e") {
           Game._currentScreen.handleInput('keydown', 'return')
           document.getElementById("myInput").value = ""
+        } else if (x == ">") {
+          Game._currentScreen.handleInput('keypress', '>')
+          document.getElementById("myInput").value = ""
+        } else if (x == "<") {
+          Game._currentScreen.handleInput('keypress', '<')
+          document.getElementById("myInput").value = ""
         } else {
           document.getElementById("myInput").value = ""
         }
