@@ -42,23 +42,27 @@ Game.Tile.nullTile = new Game.Tile();
 Game.Tile.floorTile = new Game.Tile({
     character: '.',
     foreground: 'grey',
+    background: 'white',
     walkable: true,
     blocksLight: false
 });
 Game.Tile.wallTile = new Game.Tile({
     character: '#',
     foreground: 'darkgreen',
+    background: 'white',
     diggable: true
 });
 Game.Tile.stairsUpTile = new Game.Tile({
     character: '<',
-    foreground: 'white',
+    foreground: 'black',
+    background: 'white',
     walkable: true,
     blocksLight: false
 });
 Game.Tile.stairsDownTile = new Game.Tile({
     character: '>',
-    foreground: 'white',
+    foreground: 'black',
+    background: 'white',
     walkable: true,
     blocksLight: false
 });

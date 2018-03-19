@@ -6,8 +6,9 @@ Game.Screen.startScreen = {
     exit: function() { console.log("Exited start screen."); },
     render: function(display) {
         // Render our prompt to the screen
-        display.drawText(1,1, "%c{yellow}Javascript Roguelike");
+        display.drawText(1,1, "%c{green}Javascript Roguelike");
         display.drawText(1,2, "Press [Enter] to start!");
+        display.drawText(1,3, "Press [w] to switch to regular colors");
     },
     handleInput: function(inputType, inputData) {
         // When [Enter] is pressed, go to the play screen
@@ -23,6 +24,7 @@ Game.Screen.startScreen = {
 Game.Screen.playScreen = {
   _map: null,
   _player: null,
+  _messagecolor: '%c{black}%b{white}',
   enter: function() {
       // Create a map based on our size parameters
       var width = 100;
@@ -126,11 +128,11 @@ Game.Screen.playScreen = {
             messageY += display.drawText(
                 0,
                 messageY,
-                '%c{white}%b{black}' + messages[i]
+                this._messagecolor + messages[i]
             );
         }
         // Render player HP
-        var stats = '%c{white}%b{black}';
+        var stats = this._messagecolor;
         stats += vsprintf('HP: %d/%d ', [this._player.getHp(), this._player.getMaxHp()]);
         display.drawText(0, screenHeight, stats);
     },

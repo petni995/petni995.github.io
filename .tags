@@ -48,6 +48,7 @@ Game.Entity.setPosition	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setPosi
 Game.Entity.setX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setX = function(x) {$/;"	m
 Game.Entity.setY	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setY = function(y) {$/;"	m
 Game.Entity.setZ	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setZ = function(z) {$/;"	m
+Game.FungusTemplate.background	.\Rouge\assets\entities.js	/^    background: 'white',$/;"	p
 Game.FungusTemplate.character	.\Rouge\assets\entities.js	/^    character: 'F',$/;"	p
 Game.FungusTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'green',$/;"	p
 Game.FungusTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 10,$/;"	p
@@ -107,8 +108,9 @@ Game.Mixins.Sight.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Sight',
 Game.Mixins.Sight.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
 Game.Mixins.Sight.name	.\Rouge\assets\entities.js	/^    name: 'Sight',$/;"	p
 Game.PlayerTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 10,$/;"	p
+Game.PlayerTemplate.background	.\Rouge\assets\entities.js	/^    background: 'white',$/;"	p
 Game.PlayerTemplate.character	.\Rouge\assets\entities.js	/^    character: '@',$/;"	p
-Game.PlayerTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'white',$/;"	p
+Game.PlayerTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'black',$/;"	p
 Game.PlayerTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 40,$/;"	p
 Game.PlayerTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.Moveable, Game.Mixins.PlayerActor,$/;"	p
 Game.PlayerTemplate.sightRadius	.\Rouge\assets\entities.js	/^    sightRadius: 6,$/;"	p
@@ -117,6 +119,7 @@ Game.Screen.loseScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { c
 Game.Screen.loseScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
 Game.Screen.loseScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
 Game.Screen.playScreen._map	.\Rouge\assets\screens.js	/^  _map: null,$/;"	p
+Game.Screen.playScreen._messagecolor	.\Rouge\assets\screens.js	/^  _messagecolor: '%c{black}%b{white}',$/;"	p
 Game.Screen.playScreen._player	.\Rouge\assets\screens.js	/^  _player: null,$/;"	p
 Game.Screen.playScreen.enter	.\Rouge\assets\screens.js	/^  enter: function() {$/;"	m
 Game.Screen.playScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited play screen."); },$/;"	m

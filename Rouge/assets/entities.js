@@ -234,7 +234,8 @@ Game.sendMessageNearby = function(map, centerX, centerY, centerZ, message, args)
 
 Game.PlayerTemplate = {
     character: '@',
-    foreground: 'white',
+    foreground: 'black',
+    background: 'white',
     maxHp: 40,
     attackValue: 10,
     sightRadius: 6,
@@ -248,6 +249,7 @@ Game.FungusTemplate = {
     name: 'fungus',
     character: 'F',
     foreground: 'green',
+    background: 'white',
     maxHp: 10,
     mixins: [Game.Mixins.FungusActor, Game.Mixins.Destructible]
 }
