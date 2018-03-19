@@ -66,12 +66,14 @@ Game.Map.getEngine	.\Rouge\assets\map.js	/^Game.Map.prototype.getEngine = functi
 Game.Map.getEntities	.\Rouge\assets\map.js	/^Game.Map.prototype.getEntities = function() {$/;"	m
 Game.Map.getEntitiesWithinRadius	.\Rouge\assets\map.js	/^Game.Map.prototype.getEntitiesWithinRadius = function(centerX, centerY,$/;"	m
 Game.Map.getEntityAt	.\Rouge\assets\map.js	/^Game.Map.prototype.getEntityAt = function(x, y, z){$/;"	m
+Game.Map.getFov	.\Rouge\assets\map.js	/^Game.Map.prototype.getFov = function(depth) {$/;"	m
 Game.Map.getHeight	.\Rouge\assets\map.js	/^Game.Map.prototype.getHeight = function() {$/;"	m
 Game.Map.getRandomFloorPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.getRandomFloorPosition = function(z) {$/;"	m
 Game.Map.getTile	.\Rouge\assets\map.js	/^Game.Map.prototype.getTile = function(x, y, z) {$/;"	m
 Game.Map.getWidth	.\Rouge\assets\map.js	/^Game.Map.prototype.getWidth = function() {$/;"	m
 Game.Map.isEmptyFloor	.\Rouge\assets\map.js	/^Game.Map.prototype.isEmptyFloor = function(x, y, z) {$/;"	m
 Game.Map.removeEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.removeEntity = function(entity) {$/;"	m
+Game.Map.setupFov	.\Rouge\assets\map.js	/^Game.Map.prototype.setupFov = function() {$/;"	m
 Game.Mixins.Attacker.attack	.\Rouge\assets\entities.js	/^    attack: function(target) {$/;"	m
 Game.Mixins.Attacker.getAttackValue	.\Rouge\assets\entities.js	/^    getAttackValue: function() {$/;"	m
 Game.Mixins.Attacker.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Attacker',$/;"	p
@@ -97,11 +99,16 @@ Game.Mixins.Moveable.tryMove	.\Rouge\assets\entities.js	/^    tryMove: function(
 Game.Mixins.PlayerActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
 Game.Mixins.PlayerActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
 Game.Mixins.PlayerActor.name	.\Rouge\assets\entities.js	/^    name: 'PlayerActor',$/;"	p
+Game.Mixins.Sight.getSightRadius	.\Rouge\assets\entities.js	/^    getSightRadius: function() {$/;"	m
+Game.Mixins.Sight.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Sight',$/;"	p
+Game.Mixins.Sight.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
+Game.Mixins.Sight.name	.\Rouge\assets\entities.js	/^    name: 'Sight',$/;"	p
 Game.PlayerTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 10,$/;"	p
 Game.PlayerTemplate.character	.\Rouge\assets\entities.js	/^    character: '@',$/;"	p
 Game.PlayerTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'white',$/;"	p
 Game.PlayerTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 40,$/;"	p
 Game.PlayerTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.Moveable, Game.Mixins.PlayerActor,$/;"	p
+Game.PlayerTemplate.sightRadius	.\Rouge\assets\entities.js	/^    sightRadius: 6,$/;"	p
 Game.Screen.loseScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered lose screen."); },$/;"	m
 Game.Screen.loseScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited lose screen."); },$/;"	m
 Game.Screen.loseScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
@@ -122,6 +129,7 @@ Game.Screen.winScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { co
 Game.Screen.winScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
 Game.Screen.winScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
 Game.Tile	.\Rouge\assets\tile.js	/^Game.Tile = function(properties) {$/;"	c
+Game.Tile.isBlockingLight	.\Rouge\assets\tile.js	/^Game.Tile.prototype.isBlockingLight = function() {$/;"	m
 Game.Tile.isDiggable	.\Rouge\assets\tile.js	/^Game.Tile.prototype.isDiggable = function() {$/;"	m
 Game.Tile.isWalkable	.\Rouge\assets\tile.js	/^Game.Tile.prototype.isWalkable = function() {$/;"	m
 Game._currentScreen	.\Rouge\game.js	/^	_currentScreen: null,$/;"	p
