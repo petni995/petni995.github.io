@@ -41,14 +41,14 @@ Game.getNeighborPositions = function(x, y) {
 Game.Tile.nullTile = new Game.Tile();
 Game.Tile.floorTile = new Game.Tile({
     character: '.',
-    foreground: 'grey',
+    foreground: '#e6e6e6',
     background: 'white',
     walkable: true,
     blocksLight: false
 });
 Game.Tile.wallTile = new Game.Tile({
     character: '#',
-    foreground: 'darkgreen',
+    foreground: '#009933',
     background: 'white',
     diggable: true
 });

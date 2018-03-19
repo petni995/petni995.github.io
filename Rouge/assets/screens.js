@@ -90,7 +90,7 @@ Game.Screen.playScreen = {
                     // The foreground color becomes dark gray if the tile has been
                     // explored but is not visible
                     var foreground = visibleCells[x + ',' + y] ?
-                        tile.getForeground() : 'darkGray';
+                        tile.getForeground() : '#999999';
                     display.draw(
                         x - topLeftX,
                         y - topLeftY,
