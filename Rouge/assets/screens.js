@@ -8,7 +8,8 @@ Game.Screen.startScreen = {
         // Render our prompt to the screen
         display.drawText(1,1, "%c{green}Javascript Roguelike");
         display.drawText(1,2, "Press [Enter] to start!");
-        display.drawText(1,3, "Press [w] to switch to regular colors");
+        display.drawText(1,3, "Input [w] to switch to regular colors - mobile");
+        display.drawText(1,4, "Input [+] to switch to regular colors - laptop");
     },
     handleInput: function(inputType, inputData) {
         // When [Enter] is pressed, go to the play screen
