@@ -58,6 +58,7 @@ Game.Glyph.getBackground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getBackg
 Game.Glyph.getChar	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getChar = function(){$/;"	m
 Game.Glyph.getForeground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getForeground = function(){$/;"	m
 Game.Map	.\Rouge\assets\map.js	/^Game.Map = function(tiles, player) {$/;"	c
+Game.Map._setupExploredArray	.\Rouge\assets\map.js	/^Game.Map.prototype._setupExploredArray = function() {$/;"	m
 Game.Map.addEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntity = function(entity) {$/;"	m
 Game.Map.addEntityAtRandomPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntityAtRandomPosition = function(entity, z) {$/;"	m
 Game.Map.dig	.\Rouge\assets\map.js	/^Game.Map.prototype.dig = function(x, y, z) {$/;"	m
@@ -72,7 +73,9 @@ Game.Map.getRandomFloorPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.getRa
 Game.Map.getTile	.\Rouge\assets\map.js	/^Game.Map.prototype.getTile = function(x, y, z) {$/;"	m
 Game.Map.getWidth	.\Rouge\assets\map.js	/^Game.Map.prototype.getWidth = function() {$/;"	m
 Game.Map.isEmptyFloor	.\Rouge\assets\map.js	/^Game.Map.prototype.isEmptyFloor = function(x, y, z) {$/;"	m
+Game.Map.isExplored	.\Rouge\assets\map.js	/^Game.Map.prototype.isExplored = function(x, y, z) {$/;"	m
 Game.Map.removeEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.removeEntity = function(entity) {$/;"	m
+Game.Map.setExplored	.\Rouge\assets\map.js	/^Game.Map.prototype.setExplored = function(x, y, z, state) {$/;"	m
 Game.Map.setupFov	.\Rouge\assets\map.js	/^Game.Map.prototype.setupFov = function() {$/;"	m
 Game.Mixins.Attacker.attack	.\Rouge\assets\entities.js	/^    attack: function(target) {$/;"	m
 Game.Mixins.Attacker.getAttackValue	.\Rouge\assets\entities.js	/^    getAttackValue: function() {$/;"	m
