@@ -22,6 +22,12 @@ DIRS	.\Rouge\libraries\rot.js	/^	DIRS: {$/;"	p
 DIRS	.\Weather2\rot.js	/^	DIRS: {$/;"	p
 FUNC_ERROR_TEXT	.\Weather2\lodash.js	/^  var FUNC_ERROR_TEXT = 'Expected a function';$/;"	v
 FUNC_ERROR_TEXT	.\libraries\lodash.js	/^  var FUNC_ERROR_TEXT = 'Expected a function';$/;"	v
+Game.BatTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 4,$/;"	p
+Game.BatTemplate.character	.\Rouge\assets\entities.js	/^    character: 'B',$/;"	p
+Game.BatTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'white',$/;"	p
+Game.BatTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 5,$/;"	p
+Game.BatTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.WanderActor,$/;"	p
+Game.BatTemplate.name	.\Rouge\assets\entities.js	/^    name: 'bat',$/;"	p
 Game.Builder	.\Rouge\assets\builder.js	/^Game.Builder = function(width, height, depth) {$/;"	c
 Game.Builder._canFillRegion	.\Rouge\assets\builder.js	/^Game.Builder.prototype._canFillRegion = function(x, y, z) {$/;"	m
 Game.Builder._connectAllRegions	.\Rouge\assets\builder.js	/^Game.Builder.prototype._connectAllRegions = function() {$/;"	m
@@ -48,6 +54,7 @@ Game.Entity.setPosition	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setPosi
 Game.Entity.setX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setX = function(x) {$/;"	m
 Game.Entity.setY	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setY = function(y) {$/;"	m
 Game.Entity.setZ	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setZ = function(z) {$/;"	m
+Game.Entity.tryMove	.\Rouge\assets\entity.js	/^Game.Entity.prototype.tryMove = function(x, y, z, map) {$/;"	m
 Game.FungusTemplate.background	.\Rouge\assets\entities.js	/^    background: 'white',$/;"	p
 Game.FungusTemplate.character	.\Rouge\assets\entities.js	/^    character: 'F',$/;"	p
 Game.FungusTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'green',$/;"	p
@@ -99,8 +106,6 @@ Game.Mixins.MessageRecipient.getMessages	.\Rouge\assets\entities.js	/^    getMes
 Game.Mixins.MessageRecipient.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
 Game.Mixins.MessageRecipient.name	.\Rouge\assets\entities.js	/^    name: 'MessageRecipient',$/;"	p
 Game.Mixins.MessageRecipient.receiveMessage	.\Rouge\assets\entities.js	/^    receiveMessage: function(message) {$/;"	m
-Game.Mixins.Moveable.name	.\Rouge\assets\entities.js	/^    name: 'Moveable',$/;"	p
-Game.Mixins.Moveable.tryMove	.\Rouge\assets\entities.js	/^    tryMove: function(x, y, z, map) {$/;"	m
 Game.Mixins.PlayerActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
 Game.Mixins.PlayerActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
 Game.Mixins.PlayerActor.name	.\Rouge\assets\entities.js	/^    name: 'PlayerActor',$/;"	p
@@ -108,12 +113,21 @@ Game.Mixins.Sight.getSightRadius	.\Rouge\assets\entities.js	/^    getSightRadius
 Game.Mixins.Sight.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Sight',$/;"	p
 Game.Mixins.Sight.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
 Game.Mixins.Sight.name	.\Rouge\assets\entities.js	/^    name: 'Sight',$/;"	p
+Game.Mixins.WanderActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
+Game.Mixins.WanderActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
+Game.Mixins.WanderActor.name	.\Rouge\assets\entities.js	/^    name: 'WanderActor',$/;"	p
+Game.NewtTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 2,$/;"	p
+Game.NewtTemplate.character	.\Rouge\assets\entities.js	/^    character: ':',$/;"	p
+Game.NewtTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'yellow',$/;"	p
+Game.NewtTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 3,$/;"	p
+Game.NewtTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.WanderActor,$/;"	p
+Game.NewtTemplate.name	.\Rouge\assets\entities.js	/^    name: 'newt',$/;"	p
 Game.PlayerTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 10,$/;"	p
 Game.PlayerTemplate.background	.\Rouge\assets\entities.js	/^    background: 'white',$/;"	p
 Game.PlayerTemplate.character	.\Rouge\assets\entities.js	/^    character: '@',$/;"	p
 Game.PlayerTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'black',$/;"	p
 Game.PlayerTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 40,$/;"	p
-Game.PlayerTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.Moveable, Game.Mixins.PlayerActor,$/;"	p
+Game.PlayerTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.PlayerActor,$/;"	p
 Game.PlayerTemplate.sightRadius	.\Rouge\assets\entities.js	/^    sightRadius: 6,$/;"	p
 Game.Screen.loseScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered lose screen."); },$/;"	m
 Game.Screen.loseScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited lose screen."); },$/;"	m

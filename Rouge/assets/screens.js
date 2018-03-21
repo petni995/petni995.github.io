@@ -101,26 +101,26 @@ Game.Screen.playScreen = {
                 }
             }
         }
-         // Render the entities
-         var entities = this._map.getEntities();
-         for (var i = 0; i < entities.length; i++) {
-             var entity = entities[i];
-             // Only render the entitiy if they would show up on the screen
-             if (entity.getX() >= topLeftX && entity.getY() >= topLeftY &&
-                 entity.getX() < topLeftX + screenWidth &&
-                 entity.getY() < topLeftY + screenHeight &&
-                 entity.getZ() == this._player.getZ()) {
-                 if (visibleCells[entity.getX() + ',' + entity.getY()]) {
-                     display.draw(
-                         entity.getX() - topLeftX,
-                         entity.getY() - topLeftY,
-                         entity.getChar(),
-                         entity.getForeground(),
-                         entity.getBackground()
-                     );
-                 }
-             }
-         }
+        // Render the entities
+        var entities = this._map.getEntities();
+        for (var key in entities) {
+            var entity = entities[key];
+            // Only render the entitiy if they would show up on the screen
+            if (entity.getX() >= topLeftX && entity.getY() >= topLeftY &&
+                entity.getX() < topLeftX + screenWidth &&
+                entity.getY() < topLeftY + screenHeight &&
+                entity.getZ() == this._player.getZ()) {
+                if (visibleCells[entity.getX() + ',' + entity.getY()]) {
+                    display.draw(
+                        entity.getX() - topLeftX,
+                        entity.getY() - topLeftY,
+                        entity.getChar(),
+                        entity.getForeground(),
+                        entity.getBackground()
+                    );
+                }
+            }
+        }
         // Get the messages in the player's queue and render them
         var messages = this._player.getMessages();
         var messageY = 0;
@@ -151,9 +151,9 @@ Game.Screen.playScreen = {
               this.move(-1, 0, 0);
             } else if (inputData.keyCode === ROT.VK_L || inputData=='L') {
               this.move(1, 0, 0);
-            } else if (inputData.keyCode === ROT.VK_J || inputData=='J') {
-              this.move(0, -1, 0);
             } else if (inputData.keyCode === ROT.VK_K || inputData=='K') {
+              this.move(0, -1, 0);
+            } else if (inputData.keyCode === ROT.VK_J || inputData=='J') {
               this.move(0, 1, 0);
             } else if (inputData.keyCode === ROT.VK_Y || inputData=='Y') {
               this.move(-1, -1, 0);
