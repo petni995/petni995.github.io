@@ -133,6 +133,7 @@ Game.Screen.loseScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {
 Game.Screen.loseScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited lose screen."); },$/;"	m
 Game.Screen.loseScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
 Game.Screen.loseScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
+Game.Screen.playScreen._gameEnded	.\Rouge\assets\screens.js	/^  _gameEnded: false,$/;"	p
 Game.Screen.playScreen._map	.\Rouge\assets\screens.js	/^  _map: null,$/;"	p
 Game.Screen.playScreen._messagecolor	.\Rouge\assets\screens.js	/^  _messagecolor: '%c{black}%b{white}',$/;"	p
 Game.Screen.playScreen._player	.\Rouge\assets\screens.js	/^  _player: null,$/;"	p
@@ -141,6 +142,7 @@ Game.Screen.playScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { c
 Game.Screen.playScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
 Game.Screen.playScreen.move	.\Rouge\assets\screens.js	/^    move: function(dX, dY, dZ) {$/;"	m
 Game.Screen.playScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
+Game.Screen.playScreen.setGameEnded	.\Rouge\assets\screens.js	/^    setGameEnded: function(gameEnded) {$/;"	m
 Game.Screen.startScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered start screen."); },$/;"	m
 Game.Screen.startScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited start screen."); },$/;"	m
 Game.Screen.startScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m

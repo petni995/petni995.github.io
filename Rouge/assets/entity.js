@@ -115,29 +115,35 @@ Game.Entity.prototype.tryMove = function(x, y, z, map) {
             this.setPosition(x, y, z);
             Game.sendMessage(this, "You descend to level %d!", [z + 1]);
         }
-    // If an entity was present at the tile
-    } else if (target) {
-        // If we are an attacker, try to attack
-        // the target
-        if (this.hasMixin('Attacker')) {
-            this.attack(target);
+        // If an entity was present at the tile
+        } else if (target) {
+            // An entity can only attack if the entity has the Attacker mixin and
+            // either the entity or the target is the player.
+            if (this.hasMixin('Attacker') &&
+                (this.hasMixin(Game.Mixins.PlayerActor) ||
+                 target.hasMixin(Game.Mixins.PlayerActor))) {
+                this.attack(target);
+                return true;
+            }
+            // If not nothing we can do, but we can't
+            // move to the tile
+            return false;
+        // Check if we can walk on the tile
+        // and if so simply walk onto it
+        } else if (tile.isWalkable()) {
+            // Update the entity's position
+            this.setPosition(x, y, z);
             return true;
-        } else {
+        // Check if the tile is diggable
+        } else if (tile.isDiggable()) {
+            // Only dig if the the entity is the player
+            if (this.hasMixin(Game.Mixins.PlayerActor)) {
+                map.dig(x, y, z);
+                return true;
+            }
             // If not nothing we can do, but we can't
             // move to the tile
             return false;
         }
-    // Check if we can walk on the tile
-    // and if so simply walk onto it
-    } else if (tile.isWalkable()) {
-        // Update the entity's position
-        this.setPosition(x, y, z);
-        return true;
-    // Check if the tile is diggable, and
-    // if so try to dig it
-    } else if (tile.isDiggable()) {
-        map.dig(x, y, z);
-        return true;
-    }
-    return false;
+        return false;
 };
