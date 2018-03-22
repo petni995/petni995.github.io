@@ -66,6 +66,7 @@ Game.Glyph	.\Rouge\assets\glyph.js	/^Game.Glyph = function(properties) {$/;"	c
 Game.Glyph.getBackground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getBackground = function(){$/;"	m
 Game.Glyph.getChar	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getChar = function(){$/;"	m
 Game.Glyph.getForeground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getForeground = function(){$/;"	m
+Game.Item	.\Rouge\assets\item.js	/^Game.Item = function(properties) {$/;"	c
 Game.KoboltTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 6,$/;"	p
 Game.KoboltTemplate.background	.\Rouge\assets\entities.js	/^    background: 'black',$/;"	p
 Game.KoboltTemplate.character	.\Rouge\assets\entities.js	/^    character: 'k',$/;"	p
@@ -77,6 +78,8 @@ Game.Map	.\Rouge\assets\map.js	/^Game.Map = function(tiles, player) {$/;"	c
 Game.Map._setupExploredArray	.\Rouge\assets\map.js	/^Game.Map.prototype._setupExploredArray = function() {$/;"	m
 Game.Map.addEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntity = function(entity) {$/;"	m
 Game.Map.addEntityAtRandomPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntityAtRandomPosition = function(entity, z) {$/;"	m
+Game.Map.addItem	.\Rouge\assets\map.js	/^Game.Map.prototype.addItem = function(x, y, z, item) {$/;"	m
+Game.Map.addItemAtRandomPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.addItemAtRandomPosition = function(item, z) {$/;"	m
 Game.Map.dig	.\Rouge\assets\map.js	/^Game.Map.prototype.dig = function(x, y, z) {$/;"	m
 Game.Map.getDepth	.\Rouge\assets\map.js	/^Game.Map.prototype.getDepth = function() {$/;"	m
 Game.Map.getEngine	.\Rouge\assets\map.js	/^Game.Map.prototype.getEngine = function() {$/;"	m
@@ -85,6 +88,7 @@ Game.Map.getEntitiesWithinRadius	.\Rouge\assets\map.js	/^Game.Map.prototype.getE
 Game.Map.getEntityAt	.\Rouge\assets\map.js	/^Game.Map.prototype.getEntityAt = function(x, y, z){$/;"	m
 Game.Map.getFov	.\Rouge\assets\map.js	/^Game.Map.prototype.getFov = function(depth) {$/;"	m
 Game.Map.getHeight	.\Rouge\assets\map.js	/^Game.Map.prototype.getHeight = function() {$/;"	m
+Game.Map.getItemsAt	.\Rouge\assets\map.js	/^Game.Map.prototype.getItemsAt = function(x, y, z) {$/;"	m
 Game.Map.getRandomFloorPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.getRandomFloorPosition = function(z) {$/;"	m
 Game.Map.getTile	.\Rouge\assets\map.js	/^Game.Map.prototype.getTile = function(x, y, z) {$/;"	m
 Game.Map.getWidth	.\Rouge\assets\map.js	/^Game.Map.prototype.getWidth = function() {$/;"	m
@@ -92,6 +96,7 @@ Game.Map.isEmptyFloor	.\Rouge\assets\map.js	/^Game.Map.prototype.isEmptyFloor = 
 Game.Map.isExplored	.\Rouge\assets\map.js	/^Game.Map.prototype.isExplored = function(x, y, z) {$/;"	m
 Game.Map.removeEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.removeEntity = function(entity) {$/;"	m
 Game.Map.setExplored	.\Rouge\assets\map.js	/^Game.Map.prototype.setExplored = function(x, y, z, state) {$/;"	m
+Game.Map.setItemsAt	.\Rouge\assets\map.js	/^Game.Map.prototype.setItemsAt = function(x, y, z, items) {$/;"	m
 Game.Map.setupFov	.\Rouge\assets\map.js	/^Game.Map.prototype.setupFov = function() {$/;"	m
 Game.Map.updateEntityPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.updateEntityPosition = function(entity, oldX, oldY, oldZ) {$/;"	m
 Game.Mixins.Attacker.attack	.\Rouge\assets\entities.js	/^    attack: function(target) {$/;"	m
