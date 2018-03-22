@@ -23,7 +23,8 @@ DIRS	.\Weather2\rot.js	/^	DIRS: {$/;"	p
 FUNC_ERROR_TEXT	.\Weather2\lodash.js	/^  var FUNC_ERROR_TEXT = 'Expected a function';$/;"	v
 FUNC_ERROR_TEXT	.\libraries\lodash.js	/^  var FUNC_ERROR_TEXT = 'Expected a function';$/;"	v
 Game.BatTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 4,$/;"	p
-Game.BatTemplate.character	.\Rouge\assets\entities.js	/^    character: 'B',$/;"	p
+Game.BatTemplate.background	.\Rouge\assets\entities.js	/^    background: 'black',$/;"	p
+Game.BatTemplate.character	.\Rouge\assets\entities.js	/^    character: 'b',$/;"	p
 Game.BatTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'white',$/;"	p
 Game.BatTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 5,$/;"	p
 Game.BatTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.WanderActor,$/;"	p
@@ -65,6 +66,13 @@ Game.Glyph	.\Rouge\assets\glyph.js	/^Game.Glyph = function(properties) {$/;"	c
 Game.Glyph.getBackground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getBackground = function(){$/;"	m
 Game.Glyph.getChar	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getChar = function(){$/;"	m
 Game.Glyph.getForeground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getForeground = function(){$/;"	m
+Game.KoboltTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 6,$/;"	p
+Game.KoboltTemplate.background	.\Rouge\assets\entities.js	/^    background: 'black',$/;"	p
+Game.KoboltTemplate.character	.\Rouge\assets\entities.js	/^    character: 'k',$/;"	p
+Game.KoboltTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'white',$/;"	p
+Game.KoboltTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 15,$/;"	p
+Game.KoboltTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.WanderActor,$/;"	p
+Game.KoboltTemplate.name	.\Rouge\assets\entities.js	/^    name: 'kobolt',$/;"	p
 Game.Map	.\Rouge\assets\map.js	/^Game.Map = function(tiles, player) {$/;"	c
 Game.Map._setupExploredArray	.\Rouge\assets\map.js	/^Game.Map.prototype._setupExploredArray = function() {$/;"	m
 Game.Map.addEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntity = function(entity) {$/;"	m
@@ -117,18 +125,12 @@ Game.Mixins.WanderActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/
 Game.Mixins.WanderActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
 Game.Mixins.WanderActor.name	.\Rouge\assets\entities.js	/^    name: 'WanderActor',$/;"	p
 Game.NewtTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 2,$/;"	p
+Game.NewtTemplate.background	.\Rouge\assets\entities.js	/^    background: 'black',$/;"	p
 Game.NewtTemplate.character	.\Rouge\assets\entities.js	/^    character: ':',$/;"	p
 Game.NewtTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'yellow',$/;"	p
 Game.NewtTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 3,$/;"	p
 Game.NewtTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.WanderActor,$/;"	p
 Game.NewtTemplate.name	.\Rouge\assets\entities.js	/^    name: 'newt',$/;"	p
-Game.PlayerTemplate.attackValue	.\Rouge\assets\entities.js	/^    attackValue: 10,$/;"	p
-Game.PlayerTemplate.background	.\Rouge\assets\entities.js	/^    background: 'white',$/;"	p
-Game.PlayerTemplate.character	.\Rouge\assets\entities.js	/^    character: '@',$/;"	p
-Game.PlayerTemplate.foreground	.\Rouge\assets\entities.js	/^    foreground: 'black',$/;"	p
-Game.PlayerTemplate.maxHp	.\Rouge\assets\entities.js	/^    maxHp: 40,$/;"	p
-Game.PlayerTemplate.mixins	.\Rouge\assets\entities.js	/^    mixins: [Game.Mixins.PlayerActor,$/;"	p
-Game.PlayerTemplate.sightRadius	.\Rouge\assets\entities.js	/^    sightRadius: 6,$/;"	p
 Game.Screen.loseScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered lose screen."); },$/;"	m
 Game.Screen.loseScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited lose screen."); },$/;"	m
 Game.Screen.loseScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m

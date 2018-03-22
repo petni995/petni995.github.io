@@ -207,6 +207,8 @@ Game.sendMessageNearby = function(map, centerX, centerY, centerZ, message, args)
 // TEMPLATES
 //
 
+globalForegroundColor = "black"
+
 Game.PlayerTemplate = {
     character: '@',
     foreground: 'black',
@@ -231,8 +233,9 @@ Game.FungusTemplate = {
 
 Game.BatTemplate = {
     name: 'bat',
-    character: 'B',
+    character: 'b',
     foreground: 'white',
+    background: 'black',
     maxHp: 5,
     attackValue: 4,
     mixins: [Game.Mixins.WanderActor,
@@ -243,8 +246,20 @@ Game.NewtTemplate = {
     name: 'newt',
     character: ':',
     foreground: 'yellow',
+    background: 'black',
     maxHp: 3,
     attackValue: 2,
+    mixins: [Game.Mixins.WanderActor,
+             Game.Mixins.Attacker, Game.Mixins.Destructible]
+};
+
+Game.KoboltTemplate = {
+    name: 'kobolt',
+    character: 'k',
+    foreground: 'white',
+    background: 'black',
+    maxHp: 15,
+    attackValue: 6,
     mixins: [Game.Mixins.WanderActor,
              Game.Mixins.Attacker, Game.Mixins.Destructible]
 };

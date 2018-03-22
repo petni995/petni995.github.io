@@ -18,7 +18,7 @@ Game.Map = function(tiles, player) {
     // add the player
     this.addEntityAtRandomPosition(player, 0);
     // Add random enemies to each floor.
-    var templates = [Game.FungusTemplate, Game.BatTemplate, Game.NewtTemplate];
+    var templates = [Game.FungusTemplate, Game.BatTemplate, Game.NewtTemplate, Game.KoboltTemplate];
     for (var z = 0; z < this._depth; z++) {
         for (var i = 0; i < 15; i++) {
             // Randomly select a template
