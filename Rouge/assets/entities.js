@@ -221,45 +221,47 @@ Game.PlayerTemplate = {
              Game.Mixins.Sight, Game.Mixins.MessageRecipient]
 };
 
-// Fungus template
-Game.FungusTemplate = {
+// Create our central entity repository
+Game.EntityRepository = new Game.Repository('entities', Game.Entity);
+
+Game.EntityRepository.define('fungus', {
     name: 'fungus',
     character: 'F',
     foreground: 'green',
     background: 'white',
     maxHp: 10,
     mixins: [Game.Mixins.FungusActor, Game.Mixins.Destructible]
-}
+});
 
-Game.BatTemplate = {
+Game.EntityRepository.define('bat', {
     name: 'bat',
     character: 'b',
-    foreground: 'white',
-    background: 'black',
+    foreground: 'black',
+    background: 'white',
     maxHp: 5,
     attackValue: 4,
     mixins: [Game.Mixins.WanderActor,
              Game.Mixins.Attacker, Game.Mixins.Destructible]
-};
+});
 
-Game.NewtTemplate = {
+Game.EntityRepository.define('newt', {
     name: 'newt',
     character: ':',
     foreground: 'yellow',
-    background: 'black',
+    background: 'white',
     maxHp: 3,
     attackValue: 2,
     mixins: [Game.Mixins.WanderActor,
              Game.Mixins.Attacker, Game.Mixins.Destructible]
-};
+});
 
-Game.KoboltTemplate = {
+Game.EntityRepository.define('kobolt', {
     name: 'kobolt',
     character: 'k',
-    foreground: 'white',
-    background: 'black',
+    foreground: 'brown',
+    background: 'white',
     maxHp: 15,
     attackValue: 6,
     mixins: [Game.Mixins.WanderActor,
              Game.Mixins.Attacker, Game.Mixins.Destructible]
-};
+});
