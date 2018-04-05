@@ -103,6 +103,8 @@ function update() {
           display.drawText(14,  4 + i, "[----|%b{#00ffbf}-%b{}-----]");
     } else if (tempD > 5 && tempD <= 10) {
           display.drawText(14,  4 + i, "[----|-%b{#00ff80}-%b{}----]");
+    } else if (tempD > 10 && tempD <= 15) {
+          display.drawText(14,  4 + i, "[----|--%b{#00ff00}-%b{}---]");
     }
 
     // Moln
@@ -206,6 +208,9 @@ function update() {
       plotWS()
     } else if (gustD > 13.9 && gustD <= 17.1 ) {
       display.drawText(53,  4 + i, "[-----%c{yellow}--%c{} ]");
+      plotWS()
+    } else if (gustD > 17.2 && gustD <= 20.7 ) {
+      display.drawText(53,  4 + i, "[-----%c{yellow}--%c{red}-%c{}]");
       plotWS()
     }
 
