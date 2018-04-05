@@ -2,12 +2,12 @@ Game.Screen = {};
 
 // Define our initial start screen
 Game.Screen.startScreen = {
-    enter: function() {    console.log("Entered start screen."); },
+    enter: function() {console.log("Entered start screen."); },
     exit: function() { console.log("Exited start screen."); },
     render: function(display) {
         // Render our prompt to the screen
         display.drawText(1,1, "%c{green}Javascript Roguelike");
-        display.drawText(1,2, "Press [Enter] to start!");
+        display.drawText(1,2, "Press [Enter or e] to start!");
         display.drawText(1,3, "Input [w] to switch to regular colors - mobile");
         display.drawText(1,4, "Input [+] to switch to regular colors - laptop");
     },
@@ -26,6 +26,7 @@ Game.Screen.playScreen = {
   _map: null,
   _player: null,
   _gameEnded: false,
+  _subScreen: null,
   _messagecolor: '%c{black}%b{white}',
   enter: function() {
       // Create a map based on our size parameters
@@ -237,7 +238,7 @@ Game.Screen.winScreen = {
     }
 }
 
-// Define our winning screen
+// Define our losing screen
 Game.Screen.loseScreen = {
     enter: function() {    console.log("Entered lose screen."); },
     exit: function() { console.log("Exited lose screen."); },
@@ -251,3 +252,44 @@ Game.Screen.loseScreen = {
         // Nothing to do here
     }
 }
+
+// Genereal item screen
+
+Game.Screen.ItemListScreen = function(template) {
+    // Set up based on the template
+    this._caption = template['caption'];
+    this._okFunction = template['ok'];
+    // Whether the user can select items at all.
+    this._canSelectItem = template['canSelect'];
+    // Whether the user can select multiple items.
+    this._canSelectMultipleItems = template['canSelectMultipleItems'];
+};
+
+Game.Screen.ItemListScreen.prototype.setup = function(player, items) {
+    this._player = player;
+    // Should be called before switching to the screen.
+    this._items = items;
+    // Clean set of selected indices
+    this._selectedIndices = {};
+};
+
+Game.Screen.ItemListScreen.prototype.render = function(display) {
+    var letters = 'abcdefghijklmnopqrstuvwxyz';
+    // Render the caption in the top row
+    display.drawText(0, 0, this._caption);
+    var row = 0;
+    for (var i = 0; i < this._items.length; i++) {
+        // If we have an item, we want to render it.
+        if (this._items[i]) {
+            // Get the letter matching the item's index
+            var letter = letters.substring(i, i + 1);
+            // If we have selected an item, show a +, else show a dash between
+            // the letter and the item's name.
+            var selectionState = (this._canSelectItem && this._canSelectMultipleItems &&
+                this._selectedIndices[i]) ? '+' : '-';
+            // Render at the correct row and add 2.
+            display.drawText(0, 2 + row, letter + ' ' + selectionState + ' ' + this._items[i].describe());
+            row++;
+        }
+    }
+};

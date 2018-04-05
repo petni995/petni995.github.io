@@ -54,6 +54,8 @@ Game.Glyph.getBackground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getBackg
 Game.Glyph.getChar	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getChar = function(){$/;"	m
 Game.Glyph.getForeground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getForeground = function(){$/;"	m
 Game.Item	.\Rouge\assets\item.js	/^Game.Item = function(properties) {$/;"	c
+Game.Item.describe	.\Rouge\assets\item.js	/^Game.Item.prototype.describe = function() {$/;"	m
+Game.Item.describeA	.\Rouge\assets\item.js	/^Game.Item.prototype.describeA = function(capitalize) {$/;"	m
 Game.Map	.\Rouge\assets\map.js	/^Game.Map = function(tiles, player) {$/;"	c
 Game.Map._setupExploredArray	.\Rouge\assets\map.js	/^Game.Map.prototype._setupExploredArray = function() {$/;"	m
 Game.Map.addEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntity = function(entity) {$/;"	m
@@ -94,6 +96,15 @@ Game.Mixins.FungusActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/
 Game.Mixins.FungusActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
 Game.Mixins.FungusActor.init	.\Rouge\assets\entities.js	/^    init: function() {$/;"	m
 Game.Mixins.FungusActor.name	.\Rouge\assets\entities.js	/^    name: 'FungusActor',$/;"	p
+Game.Mixins.InventoryHolder.addItem	.\Rouge\assets\entities.js	/^    addItem: function(item) {$/;"	m
+Game.Mixins.InventoryHolder.canAddItem	.\Rouge\assets\entities.js	/^    canAddItem: function() {$/;"	m
+Game.Mixins.InventoryHolder.dropItem	.\Rouge\assets\entities.js	/^    dropItem: function(i) {$/;"	m
+Game.Mixins.InventoryHolder.getItem	.\Rouge\assets\entities.js	/^    getItem: function(i) {$/;"	m
+Game.Mixins.InventoryHolder.getItems	.\Rouge\assets\entities.js	/^    getItems: function() {$/;"	m
+Game.Mixins.InventoryHolder.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
+Game.Mixins.InventoryHolder.name	.\Rouge\assets\entities.js	/^    name: 'InventoryHolder',$/;"	p
+Game.Mixins.InventoryHolder.pickupItems	.\Rouge\assets\entities.js	/^    pickupItems: function(indices) {$/;"	m
+Game.Mixins.InventoryHolder.removeItem	.\Rouge\assets\entities.js	/^    removeItem: function(i) {$/;"	m
 Game.Mixins.MessageRecipient.clearMessages	.\Rouge\assets\entities.js	/^    clearMessages: function() {$/;"	m
 Game.Mixins.MessageRecipient.getMessages	.\Rouge\assets\entities.js	/^    getMessages: function() {$/;"	m
 Game.Mixins.MessageRecipient.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
@@ -113,6 +124,9 @@ Game.Repository	.\Rouge\assets\repository.js	/^Game.Repository = function(name, 
 Game.Repository.create	.\Rouge\assets\repository.js	/^Game.Repository.prototype.create = function(name) {$/;"	m
 Game.Repository.createRandom	.\Rouge\assets\repository.js	/^Game.Repository.prototype.createRandom = function() {$/;"	m
 Game.Repository.define	.\Rouge\assets\repository.js	/^Game.Repository.prototype.define = function(name, template) {$/;"	m
+Game.Screen.ItemListScreen	.\Rouge\assets\screens.js	/^Game.Screen.ItemListScreen = function(template) {$/;"	c
+Game.Screen.ItemListScreen.render	.\Rouge\assets\screens.js	/^Game.Screen.ItemListScreen.prototype.render = function(display) {$/;"	m
+Game.Screen.ItemListScreen.setup	.\Rouge\assets\screens.js	/^Game.Screen.ItemListScreen.prototype.setup = function(player, items) {$/;"	m
 Game.Screen.loseScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered lose screen."); },$/;"	m
 Game.Screen.loseScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited lose screen."); },$/;"	m
 Game.Screen.loseScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
@@ -121,13 +135,14 @@ Game.Screen.playScreen._gameEnded	.\Rouge\assets\screens.js	/^  _gameEnded: fals
 Game.Screen.playScreen._map	.\Rouge\assets\screens.js	/^  _map: null,$/;"	p
 Game.Screen.playScreen._messagecolor	.\Rouge\assets\screens.js	/^  _messagecolor: '%c{black}%b{white}',$/;"	p
 Game.Screen.playScreen._player	.\Rouge\assets\screens.js	/^  _player: null,$/;"	p
+Game.Screen.playScreen._subScreen	.\Rouge\assets\screens.js	/^  _subScreen: null,$/;"	p
 Game.Screen.playScreen.enter	.\Rouge\assets\screens.js	/^  enter: function() {$/;"	m
 Game.Screen.playScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited play screen."); },$/;"	m
 Game.Screen.playScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
 Game.Screen.playScreen.move	.\Rouge\assets\screens.js	/^    move: function(dX, dY, dZ) {$/;"	m
 Game.Screen.playScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
 Game.Screen.playScreen.setGameEnded	.\Rouge\assets\screens.js	/^    setGameEnded: function(gameEnded) {$/;"	m
-Game.Screen.startScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {    console.log("Entered start screen."); },$/;"	m
+Game.Screen.startScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {console.log("Entered start screen."); },$/;"	m
 Game.Screen.startScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited start screen."); },$/;"	m
 Game.Screen.startScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
 Game.Screen.startScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
