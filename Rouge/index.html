@@ -68,13 +68,13 @@
           Game._currentScreen.handleInput('keypress', '<')
           document.getElementById("myInput").value = ""
         } else if (x == "i") {
-          Game._currentScreen.handleInput('keypress', 'I')
+          Game._currentScreen.handleInput('keydown', 'I')
           document.getElementById("myInput").value = ""
         } else if (x == "d") {
-          Game._currentScreen.handleInput('keypress', 'D')
+          Game._currentScreen.handleInput('keydown', 'D')
           document.getElementById("myInput").value = ""
         } else if (x == ",") {
-          Game._currentScreen.handleInput('keypress', ',')
+          Game._currentScreen.handleInput('keydown', ',')
           document.getElementById("myInput").value = ""
         } else if (x == "w" && Game._currentScreen == Game.Screen.startScreen) {
           // switch of work mode - turn on mobile mode
@@ -131,7 +131,7 @@
     }
     </script>
 
-    <p>Version 0.03</p>
+    <p>Version 0.04</p>
 
 
   </body>
