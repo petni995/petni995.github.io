@@ -195,9 +195,7 @@ Game.Screen.playScreen = {
                 this.move(-1, 1, 0);
             } else if (inputData.keyCode === ROT.VK_N || inputData=='N') {
                 this.move(1, 1, 0);
-            } else if (inputData.keyCode === ROT.VK_DOWN) {
-                    this.move(0, 1, 0);
-            } else if (inputData.keyCode === ROT.VK_I) {
+            } else if (inputData.keyCode === ROT.VK_I || inputData=='I') {
                 if (this._player.getItems().filter(function(x){return x;}).length === 0) {
                     // If the player has no items, send a message and don't take a turn
                     Game.sendMessage(this._player, "You are not carrying anything!");
@@ -208,7 +206,7 @@ Game.Screen.playScreen = {
                     this.setSubScreen(Game.Screen.inventoryScreen);
                 }
                 return;
-            } else if (inputData.keyCode === ROT.VK_D) {
+            } else if (inputData.keyCode === ROT.VK_D || inputData=='D') {
                 if (this._player.getItems().filter(function(x){return x;}).length === 0) {
                     // If the player has no items, send a message and don't take a turn
                     Game.sendMessage(this._player, "You have nothing to drop!");
@@ -219,7 +217,7 @@ Game.Screen.playScreen = {
                     this.setSubScreen(Game.Screen.dropScreen);
                 }
                 return;
-            } else if (inputData.keyCode === ROT.VK_COMMA) {
+            } else if (inputData.keyCode === ROT.VK_COMMA || inputData==',') {
                 var items = this._map.getItemsAt(this._player.getX(), this._player.getY(), this._player.getZ());
                 // If there are no items, show a message
                 if (!items) {
