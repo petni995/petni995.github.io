@@ -49,6 +49,45 @@ Game.Entity.setX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setX = functio
 Game.Entity.setY	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setY = function(y) {$/;"	m
 Game.Entity.setZ	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setZ = function(z) {$/;"	m
 Game.Entity.tryMove	.\Rouge\assets\entity.js	/^Game.Entity.prototype.tryMove = function(x, y, z, map) {$/;"	m
+Game.EntityMixins.Attacker.attack	.\Rouge\assets\entitymixins.js	/^    attack: function(target) {$/;"	m
+Game.EntityMixins.Attacker.getAttackValue	.\Rouge\assets\entitymixins.js	/^    getAttackValue: function() {$/;"	m
+Game.EntityMixins.Attacker.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Attacker',$/;"	p
+Game.EntityMixins.Attacker.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
+Game.EntityMixins.Attacker.name	.\Rouge\assets\entitymixins.js	/^    name: 'Attacker',$/;"	p
+Game.EntityMixins.Destructible.getDefenseValue	.\Rouge\assets\entitymixins.js	/^  getDefenseValue: function() {$/;"	m
+Game.EntityMixins.Destructible.getHp	.\Rouge\assets\entitymixins.js	/^  getHp: function() {$/;"	m
+Game.EntityMixins.Destructible.getMaxHp	.\Rouge\assets\entitymixins.js	/^  getMaxHp: function() {$/;"	m
+Game.EntityMixins.Destructible.init	.\Rouge\assets\entitymixins.js	/^  init: function(template) {$/;"	m
+Game.EntityMixins.Destructible.name	.\Rouge\assets\entitymixins.js	/^  name: 'Destructible',$/;"	p
+Game.EntityMixins.Destructible.takeDamage	.\Rouge\assets\entitymixins.js	/^  takeDamage: function(attacker, damage) {$/;"	m
+Game.EntityMixins.FungusActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
+Game.EntityMixins.FungusActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
+Game.EntityMixins.FungusActor.init	.\Rouge\assets\entitymixins.js	/^    init: function() {$/;"	m
+Game.EntityMixins.FungusActor.name	.\Rouge\assets\entitymixins.js	/^    name: 'FungusActor',$/;"	p
+Game.EntityMixins.InventoryHolder.addItem	.\Rouge\assets\entitymixins.js	/^    addItem: function(item) {$/;"	m
+Game.EntityMixins.InventoryHolder.canAddItem	.\Rouge\assets\entitymixins.js	/^    canAddItem: function() {$/;"	m
+Game.EntityMixins.InventoryHolder.dropItem	.\Rouge\assets\entitymixins.js	/^    dropItem: function(i) {$/;"	m
+Game.EntityMixins.InventoryHolder.getItem	.\Rouge\assets\entitymixins.js	/^    getItem: function(i) {$/;"	m
+Game.EntityMixins.InventoryHolder.getItems	.\Rouge\assets\entitymixins.js	/^    getItems: function() {$/;"	m
+Game.EntityMixins.InventoryHolder.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
+Game.EntityMixins.InventoryHolder.name	.\Rouge\assets\entitymixins.js	/^    name: 'InventoryHolder',$/;"	p
+Game.EntityMixins.InventoryHolder.pickupItems	.\Rouge\assets\entitymixins.js	/^    pickupItems: function(indices) {$/;"	m
+Game.EntityMixins.InventoryHolder.removeItem	.\Rouge\assets\entitymixins.js	/^    removeItem: function(i) {$/;"	m
+Game.EntityMixins.MessageRecipient.clearMessages	.\Rouge\assets\entitymixins.js	/^    clearMessages: function() {$/;"	m
+Game.EntityMixins.MessageRecipient.getMessages	.\Rouge\assets\entitymixins.js	/^    getMessages: function() {$/;"	m
+Game.EntityMixins.MessageRecipient.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
+Game.EntityMixins.MessageRecipient.name	.\Rouge\assets\entitymixins.js	/^    name: 'MessageRecipient',$/;"	p
+Game.EntityMixins.MessageRecipient.receiveMessage	.\Rouge\assets\entitymixins.js	/^    receiveMessage: function(message) {$/;"	m
+Game.EntityMixins.PlayerActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
+Game.EntityMixins.PlayerActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
+Game.EntityMixins.PlayerActor.name	.\Rouge\assets\entitymixins.js	/^    name: 'PlayerActor',$/;"	p
+Game.EntityMixins.Sight.getSightRadius	.\Rouge\assets\entitymixins.js	/^    getSightRadius: function() {$/;"	m
+Game.EntityMixins.Sight.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Sight',$/;"	p
+Game.EntityMixins.Sight.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
+Game.EntityMixins.Sight.name	.\Rouge\assets\entitymixins.js	/^    name: 'Sight',$/;"	p
+Game.EntityMixins.WanderActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
+Game.EntityMixins.WanderActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
+Game.EntityMixins.WanderActor.name	.\Rouge\assets\entitymixins.js	/^    name: 'WanderActor',$/;"	p
 Game.Glyph	.\Rouge\assets\glyph.js	/^Game.Glyph = function(properties) {$/;"	c
 Game.Glyph.getBackground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getBackground = function(){$/;"	m
 Game.Glyph.getChar	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getChar = function(){$/;"	m
@@ -81,45 +120,6 @@ Game.Map.setExplored	.\Rouge\assets\map.js	/^Game.Map.prototype.setExplored = fu
 Game.Map.setItemsAt	.\Rouge\assets\map.js	/^Game.Map.prototype.setItemsAt = function(x, y, z, items) {$/;"	m
 Game.Map.setupFov	.\Rouge\assets\map.js	/^Game.Map.prototype.setupFov = function() {$/;"	m
 Game.Map.updateEntityPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.updateEntityPosition = function(entity, oldX, oldY, oldZ) {$/;"	m
-Game.Mixins.Attacker.attack	.\Rouge\assets\entities.js	/^    attack: function(target) {$/;"	m
-Game.Mixins.Attacker.getAttackValue	.\Rouge\assets\entities.js	/^    getAttackValue: function() {$/;"	m
-Game.Mixins.Attacker.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Attacker',$/;"	p
-Game.Mixins.Attacker.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
-Game.Mixins.Attacker.name	.\Rouge\assets\entities.js	/^    name: 'Attacker',$/;"	p
-Game.Mixins.Destructible.getDefenseValue	.\Rouge\assets\entities.js	/^  getDefenseValue: function() {$/;"	m
-Game.Mixins.Destructible.getHp	.\Rouge\assets\entities.js	/^  getHp: function() {$/;"	m
-Game.Mixins.Destructible.getMaxHp	.\Rouge\assets\entities.js	/^  getMaxHp: function() {$/;"	m
-Game.Mixins.Destructible.init	.\Rouge\assets\entities.js	/^  init: function(template) {$/;"	m
-Game.Mixins.Destructible.name	.\Rouge\assets\entities.js	/^  name: 'Destructible',$/;"	p
-Game.Mixins.Destructible.takeDamage	.\Rouge\assets\entities.js	/^  takeDamage: function(attacker, damage) {$/;"	m
-Game.Mixins.FungusActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
-Game.Mixins.FungusActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
-Game.Mixins.FungusActor.init	.\Rouge\assets\entities.js	/^    init: function() {$/;"	m
-Game.Mixins.FungusActor.name	.\Rouge\assets\entities.js	/^    name: 'FungusActor',$/;"	p
-Game.Mixins.InventoryHolder.addItem	.\Rouge\assets\entities.js	/^    addItem: function(item) {$/;"	m
-Game.Mixins.InventoryHolder.canAddItem	.\Rouge\assets\entities.js	/^    canAddItem: function() {$/;"	m
-Game.Mixins.InventoryHolder.dropItem	.\Rouge\assets\entities.js	/^    dropItem: function(i) {$/;"	m
-Game.Mixins.InventoryHolder.getItem	.\Rouge\assets\entities.js	/^    getItem: function(i) {$/;"	m
-Game.Mixins.InventoryHolder.getItems	.\Rouge\assets\entities.js	/^    getItems: function() {$/;"	m
-Game.Mixins.InventoryHolder.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
-Game.Mixins.InventoryHolder.name	.\Rouge\assets\entities.js	/^    name: 'InventoryHolder',$/;"	p
-Game.Mixins.InventoryHolder.pickupItems	.\Rouge\assets\entities.js	/^    pickupItems: function(indices) {$/;"	m
-Game.Mixins.InventoryHolder.removeItem	.\Rouge\assets\entities.js	/^    removeItem: function(i) {$/;"	m
-Game.Mixins.MessageRecipient.clearMessages	.\Rouge\assets\entities.js	/^    clearMessages: function() {$/;"	m
-Game.Mixins.MessageRecipient.getMessages	.\Rouge\assets\entities.js	/^    getMessages: function() {$/;"	m
-Game.Mixins.MessageRecipient.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
-Game.Mixins.MessageRecipient.name	.\Rouge\assets\entities.js	/^    name: 'MessageRecipient',$/;"	p
-Game.Mixins.MessageRecipient.receiveMessage	.\Rouge\assets\entities.js	/^    receiveMessage: function(message) {$/;"	m
-Game.Mixins.PlayerActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
-Game.Mixins.PlayerActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
-Game.Mixins.PlayerActor.name	.\Rouge\assets\entities.js	/^    name: 'PlayerActor',$/;"	p
-Game.Mixins.Sight.getSightRadius	.\Rouge\assets\entities.js	/^    getSightRadius: function() {$/;"	m
-Game.Mixins.Sight.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Sight',$/;"	p
-Game.Mixins.Sight.init	.\Rouge\assets\entities.js	/^    init: function(template) {$/;"	m
-Game.Mixins.Sight.name	.\Rouge\assets\entities.js	/^    name: 'Sight',$/;"	p
-Game.Mixins.WanderActor.act	.\Rouge\assets\entities.js	/^    act: function() {$/;"	m
-Game.Mixins.WanderActor.groupName	.\Rouge\assets\entities.js	/^    groupName: 'Actor',$/;"	p
-Game.Mixins.WanderActor.name	.\Rouge\assets\entities.js	/^    name: 'WanderActor',$/;"	p
 Game.Repository	.\Rouge\assets\repository.js	/^Game.Repository = function(name, ctor) {$/;"	c
 Game.Repository.create	.\Rouge\assets\repository.js	/^Game.Repository.prototype.create = function(name) {$/;"	m
 Game.Repository.createRandom	.\Rouge\assets\repository.js	/^Game.Repository.prototype.createRandom = function() {$/;"	m
@@ -169,8 +169,8 @@ Game.getScreenWidth	.\Rouge\game.js	/^	getScreenWidth: function() { return this.
 Game.init	.\Rouge\game.js	/^	init: function() {$/;"	m
 Game.init.bindEventToScreen	.\Rouge\game.js	/^	    var bindEventToScreen = function(event) {$/;"	m
 Game.refresh	.\Rouge\game.js	/^	refresh: function() {$/;"	m
-Game.sendMessage	.\Rouge\assets\entities.js	/^Game.sendMessage = function(recipient, message, args) {$/;"	f
-Game.sendMessageNearby	.\Rouge\assets\entities.js	/^Game.sendMessageNearby = function(map, centerX, centerY, centerZ, message, args) {$/;"	f
+Game.sendMessage	.\Rouge\assets\entitymixins.js	/^Game.sendMessage = function(recipient, message, args) {$/;"	f
+Game.sendMessageNearby	.\Rouge\assets\entitymixins.js	/^Game.sendMessageNearby = function(map, centerX, centerY, centerZ, message, args) {$/;"	f
 Game.switchScreen	.\Rouge\game.js	/^	switchScreen: function(screen) {$/;"	m
 HASH_UNDEFINED	.\Weather2\lodash.js	/^  var HASH_UNDEFINED = '__lodash_hash_undefined__';$/;"	v
 HASH_UNDEFINED	.\libraries\lodash.js	/^  var HASH_UNDEFINED = '__lodash_hash_undefined__';$/;"	v
