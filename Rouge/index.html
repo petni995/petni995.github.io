@@ -43,6 +43,9 @@
         } else if (x == "k") {
           Game._currentScreen.handleInput('keydown', 'K')
           document.getElementById("myInput").value = ""
+        } else if (x == "a") {
+          Game._currentScreen.handleInput('keydown', 'A')
+          document.getElementById("myInput").value = ""
         } else if (x == "h") {
           Game._currentScreen.handleInput('keydown', 'H')
           document.getElementById("myInput").value = ""
@@ -78,6 +81,9 @@
           document.getElementById("myInput").value = ""
         } else if (x == ",") {
           Game._currentScreen.handleInput('keydown', ',')
+          document.getElementById("myInput").value = ""
+        } else if (x == "-") {
+          Game._currentScreen.handleInput('keydown', '-')
           document.getElementById("myInput").value = ""
         } else if (x == "w" && Game._currentScreen == Game.Screen.startScreen) {
           // switch of work mode - turn on mobile mode

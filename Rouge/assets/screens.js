@@ -330,7 +330,7 @@ Game.Screen.ItemListScreen.prototype.setup = function(player, items) {
 };
 
 Game.Screen.ItemListScreen.prototype.render = function(display) {
-    var letters = 'abcdefghijklmnopqrstuvwxyz';
+    var letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     // Render the caption in the top row
     display.drawText(0, 0, this._caption);
     var row = 0;
@@ -369,17 +369,17 @@ Game.Screen.ItemListScreen.prototype.handleInput = function(inputType, inputData
         // enter without any items selected, simply cancel out
         if (inputData.keyCode === ROT.VK_ESCAPE ||
             (inputData.keyCode === ROT.VK_RETURN &&
-                (!this._canSelectItem || Object.keys(this._selectedIndices).length === 0))) {
+                (!this._canSelectItem || Object.keys(this._selectedIndices).length === 0)) || inputData=='-') {
             Game.Screen.playScreen.setSubScreen(undefined);
         // Handle pressing return when items are selected
-        } else if (inputData.keyCode === ROT.VK_RETURN) {
+        } else if (inputData.keyCode === ROT.VK_RETURN || inputData=='+') {
             this.executeOkFunction();
         // Handle pressing a letter if we can select
-        } else if (this._canSelectItem && inputData.keyCode >= ROT.VK_A &&
-            inputData.keyCode <= ROT.VK_Z) {
+      } else if (this._canSelectItem) {
             // Check if it maps to a valid item by subtracting 'a' from the character
             // to know what letter of the alphabet we used.
-            var index = inputData.keyCode - ROT.VK_A;
+            letters = {'A':0,'B':1}
+            var index = letters[inputData];
             if (this._items[index]) {
                 // If multiple selection is allowed, toggle the selection status, else
                 // select the item and exit the screen
@@ -406,7 +406,7 @@ Game.Screen.inventoryScreen = new Game.Screen.ItemListScreen({
 });
 
 Game.Screen.pickupScreen = new Game.Screen.ItemListScreen({
-    caption: 'Choose the items you wish to pickup',
+    caption: "Choose the items you wish to pickup, m: press '-' to exit, '+' to confirm",
     canSelect: true,
     canSelectMultipleItems: true,
     ok: function(selectedItems) {
@@ -420,7 +420,7 @@ Game.Screen.pickupScreen = new Game.Screen.ItemListScreen({
 });
 
 Game.Screen.dropScreen = new Game.Screen.ItemListScreen({
-    caption: 'Choose the item you wish to drop',
+    caption: "Choose the item you wish to drop, m: press '-' to exit, '+' to confirm",
     canSelect: true,
     canSelectMultipleItems: false,
     ok: function(selectedItems) {
