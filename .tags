@@ -47,6 +47,8 @@ Game.Entity.getMap	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getMap = fun
 Game.Entity.getX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getX = function() {$/;"	m
 Game.Entity.getY	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getY   = function() {$/;"	m
 Game.Entity.getZ	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getZ = function() {$/;"	m
+Game.Entity.isAlive	.\Rouge\assets\entity.js	/^Game.Entity.prototype.isAlive = function() {$/;"	m
+Game.Entity.kill	.\Rouge\assets\entity.js	/^Game.Entity.prototype.kill = function(message) {$/;"	m
 Game.Entity.setMap	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setMap = function(map) {$/;"	m
 Game.Entity.setPosition	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setPosition = function(x, y, z) {$/;"	m
 Game.Entity.setX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setX = function(x) {$/;"	m
@@ -82,7 +84,6 @@ Game.EntityMixins.MessageRecipient.getMessages	.\Rouge\assets\entitymixins.js	/^
 Game.EntityMixins.MessageRecipient.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
 Game.EntityMixins.MessageRecipient.name	.\Rouge\assets\entitymixins.js	/^    name: 'MessageRecipient',$/;"	p
 Game.EntityMixins.MessageRecipient.receiveMessage	.\Rouge\assets\entitymixins.js	/^    receiveMessage: function(message) {$/;"	m
-Game.EntityMixins.PlayerActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
 Game.EntityMixins.PlayerActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
 Game.EntityMixins.PlayerActor.name	.\Rouge\assets\entitymixins.js	/^    name: 'PlayerActor',$/;"	p
 Game.EntityMixins.Sight.getSightRadius	.\Rouge\assets\entitymixins.js	/^    getSightRadius: function() {$/;"	m

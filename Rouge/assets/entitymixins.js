@@ -20,14 +20,12 @@ Game.EntityMixins.Sight = {
 Game.EntityMixins.PlayerActor = {
     name: 'PlayerActor',
     groupName: 'Actor',
-    act: function() {
         // Detect if the game is over
-        if (this.getHp() < 1) {
-          Game.Screen.playScreen.setGameEnded(true);
-          // Send a last message to the player
-          Game.sendMessage(this, 'You have died... Press [Enter] to continue!');
-        }
-        // Re-render the screen
+        if (!this.isAlive()) {
+            Game.Screen.playScreen.setGameEnded(true);
+            // Send a last message to the player
+            Game.sendMessage(this, 'Press [Enter] to continue!');
+        }        // Re-render the screen
         Game.refresh();
         // Lock the engine and wait asynchronously
         // for the player to press a key.
@@ -116,12 +114,7 @@ Game.EntityMixins.Destructible = {
       // If have 0 or less HP, then remove ourseles from the map
       if (this._hp <= 0) {
           Game.sendMessage(attacker, 'You kill the %s!', [this.getName()]);
-          // Check if the player died, and if so call their act method to prompt the user.
-          if (this.hasMixin(Game.EntityMixins.PlayerActor)) {
-              this.act();
-          } else {
-              this.getMap().removeEntity(this);
-          }
+          this.kill();
       }
   }
 }
