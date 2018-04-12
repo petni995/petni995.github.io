@@ -162,6 +162,9 @@ Game.Screen.playScreen = {
         var stats = this._messagecolor;
         stats += vsprintf('HP: %d/%d ', [this._player.getHp(), this._player.getMaxHp()]);
         display.drawText(0, screenHeight, stats);
+        // Render hunger state
+        var hungerState = this._player.getHungerState();
+        display.drawText(screenWidth - hungerState.length, screenHeight, hungerState);
     },
     handleInput: function(inputType, inputData) {
             if (inputType === 'keydown') {

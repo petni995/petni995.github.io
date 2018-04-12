@@ -66,6 +66,11 @@ Game.EntityMixins.Destructible.getMaxHp	.\Rouge\assets\entitymixins.js	/^  getMa
 Game.EntityMixins.Destructible.init	.\Rouge\assets\entitymixins.js	/^  init: function(template) {$/;"	m
 Game.EntityMixins.Destructible.name	.\Rouge\assets\entitymixins.js	/^  name: 'Destructible',$/;"	p
 Game.EntityMixins.Destructible.takeDamage	.\Rouge\assets\entitymixins.js	/^  takeDamage: function(attacker, damage) {$/;"	m
+Game.EntityMixins.FoodConsumer.addTurnHunger	.\Rouge\assets\entitymixins.js	/^    addTurnHunger: function() {$/;"	m
+Game.EntityMixins.FoodConsumer.getHungerState	.\Rouge\assets\entitymixins.js	/^    getHungerState: function() {$/;"	m
+Game.EntityMixins.FoodConsumer.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
+Game.EntityMixins.FoodConsumer.modifyFullnessBy	.\Rouge\assets\entitymixins.js	/^    modifyFullnessBy: function(points) {$/;"	m
+Game.EntityMixins.FoodConsumer.name	.\Rouge\assets\entitymixins.js	/^    name: 'FoodConsumer',$/;"	p
 Game.EntityMixins.FungusActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
 Game.EntityMixins.FungusActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
 Game.EntityMixins.FungusActor.init	.\Rouge\assets\entitymixins.js	/^    init: function() {$/;"	m
@@ -84,6 +89,7 @@ Game.EntityMixins.MessageRecipient.getMessages	.\Rouge\assets\entitymixins.js	/^
 Game.EntityMixins.MessageRecipient.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
 Game.EntityMixins.MessageRecipient.name	.\Rouge\assets\entitymixins.js	/^    name: 'MessageRecipient',$/;"	p
 Game.EntityMixins.MessageRecipient.receiveMessage	.\Rouge\assets\entitymixins.js	/^    receiveMessage: function(message) {$/;"	m
+Game.EntityMixins.PlayerActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
 Game.EntityMixins.PlayerActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
 Game.EntityMixins.PlayerActor.name	.\Rouge\assets\entitymixins.js	/^    name: 'PlayerActor',$/;"	p
 Game.EntityMixins.Sight.getSightRadius	.\Rouge\assets\entitymixins.js	/^    getSightRadius: function() {$/;"	m
