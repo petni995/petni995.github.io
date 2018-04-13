@@ -106,6 +106,11 @@ Game.Glyph.getForeground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getForeg
 Game.Item	.\Rouge\assets\item.js	/^Game.Item = function(properties) {$/;"	c
 Game.Item.describe	.\Rouge\assets\item.js	/^Game.Item.prototype.describe = function() {$/;"	m
 Game.Item.describeA	.\Rouge\assets\item.js	/^Game.Item.prototype.describeA = function(capitalize) {$/;"	m
+Game.ItemMixins.Edible.describe	.\Rouge\assets\itemmixins.js	/^    describe: function() {$/;"	m
+Game.ItemMixins.Edible.eat	.\Rouge\assets\itemmixins.js	/^    eat: function(entity) {$/;"	m
+Game.ItemMixins.Edible.hasRemainingConsumptions	.\Rouge\assets\itemmixins.js	/^    hasRemainingConsumptions: function() {$/;"	m
+Game.ItemMixins.Edible.init	.\Rouge\assets\itemmixins.js	/^    init: function(template) {$/;"	m
+Game.ItemMixins.Edible.name	.\Rouge\assets\itemmixins.js	/^    name: 'Edible',$/;"	p
 Game.Map	.\Rouge\assets\map.js	/^Game.Map = function(tiles, player) {$/;"	c
 Game.Map._setupExploredArray	.\Rouge\assets\map.js	/^Game.Map.prototype._setupExploredArray = function() {$/;"	m
 Game.Map.addEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntity = function(entity) {$/;"	m
@@ -1234,6 +1239,8 @@ repeat	.\Weather2\lodash.js	/^    function repeat(string, n, guard) {$/;"	f
 repeat	.\libraries\lodash.js	/^    function repeat(string, n, guard) {$/;"	f
 replace	.\Weather2\lodash.js	/^    function replace() {$/;"	f
 replace	.\libraries\lodash.js	/^    function replace() {$/;"	f
+return.Item	.\Rouge\assets\itemmixins.js	/^            return 'partly eaten ' + Game.Item.prototype.describe.call(this);$/;"	c
+return.Item.describe	.\Rouge\assets\itemmixins.js	/^            return 'partly eaten ' + Game.Item.prototype.describe.call(this);$/;"	m
 rightAscension	.\Weather2\suncalc.js	/^function rightAscension(l, b) { return atan(sin(l) * cos(e) - tan(b) * sin(e), cos(l)); }$/;"	f
 round	.\Weather2\lodash.js	/^    var round = createRound('round');$/;"	v
 round	.\libraries\lodash.js	/^    var round = createRound('round');$/;"	v
