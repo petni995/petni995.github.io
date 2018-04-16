@@ -105,7 +105,9 @@ function update() {
           display.drawText(14,  4 + i, "[----|-%b{#00ff80}-%b{}----]");
     } else if (tempD > 10 && tempD <= 15) {
           display.drawText(14,  4 + i, "[----|--%b{#00ff00}-%b{}---]");
-    }
+    } else if (tempD > 15 && tempD <= 20) {
+              display.drawText(14,  4 + i, "[----|---%b{#bfff00}-%b{}--]");
+        }
 
     // Moln
 
