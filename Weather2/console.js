@@ -1,4 +1,4 @@
-var display = new ROT.Display({width:70, height:60});
+var display = new ROT.Display({width:70, height:56});
 
 display.setOptions({
     fontSize: 16
@@ -22,7 +22,7 @@ var rawDataDebug
 $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
       rawDataDebug = data
 
-      for (var i = 0; i < 50; i++) {
+      for (var i = 0; i < 65; i++) {
         // find temp index
         tindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 't'; });
         tcc_meanindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'tcc_mean'; });
@@ -106,9 +106,10 @@ function update() {
     } else if (tempD > 10 && tempD <= 15) {
           display.drawText(14,  4 + i, "[----|--%b{#00ff00}-%b{}---]");
     } else if (tempD > 15 && tempD <= 20) {
-              display.drawText(14,  4 + i, "[----|---%b{#bfff00}-%b{}--]");
-        }
-
+              display.drawText(14,  4 + i, "[----|---%b{#ffff00}-%b{}--]");
+    } else if (tempD > 20 && tempD <= 25) {
+              display.drawText(14,  4 + i, "[----|----%b{#ffbf00}-%b{}-]");
+    }
     // Moln
 
     molnLD = weatherData[i]['lcc_mean'] + ""
