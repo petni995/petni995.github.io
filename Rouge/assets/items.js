@@ -23,5 +23,16 @@ Game.ItemRepository.define('rock', {
     name: 'rock',
     character: '*',
     foreground: 'brown',
+    background: 'white'
+});
+
+Game.ItemRepository.define('corpse', {
+    name: 'corpse',
+    character: '%',
     background: 'white',
+    foodValue: 75,
+    consumptions: 1,
+    mixins: [Game.ItemMixins.Edible]
+}, {
+    disableRandomCreation: true
 });

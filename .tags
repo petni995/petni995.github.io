@@ -60,6 +60,9 @@ Game.EntityMixins.Attacker.getAttackValue	.\Rouge\assets\entitymixins.js	/^    g
 Game.EntityMixins.Attacker.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Attacker',$/;"	p
 Game.EntityMixins.Attacker.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
 Game.EntityMixins.Attacker.name	.\Rouge\assets\entitymixins.js	/^    name: 'Attacker',$/;"	p
+Game.EntityMixins.CorpseDropper.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
+Game.EntityMixins.CorpseDropper.name	.\Rouge\assets\entitymixins.js	/^    name: 'CorpseDropper',$/;"	p
+Game.EntityMixins.CorpseDropper.tryDropCorpse	.\Rouge\assets\entitymixins.js	/^    tryDropCorpse: function() {$/;"	m
 Game.EntityMixins.Destructible.getDefenseValue	.\Rouge\assets\entitymixins.js	/^  getDefenseValue: function() {$/;"	m
 Game.EntityMixins.Destructible.getHp	.\Rouge\assets\entitymixins.js	/^  getHp: function() {$/;"	m
 Game.EntityMixins.Destructible.getMaxHp	.\Rouge\assets\entitymixins.js	/^  getMaxHp: function() {$/;"	m
@@ -137,9 +140,9 @@ Game.Map.setItemsAt	.\Rouge\assets\map.js	/^Game.Map.prototype.setItemsAt = func
 Game.Map.setupFov	.\Rouge\assets\map.js	/^Game.Map.prototype.setupFov = function() {$/;"	m
 Game.Map.updateEntityPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.updateEntityPosition = function(entity, oldX, oldY, oldZ) {$/;"	m
 Game.Repository	.\Rouge\assets\repository.js	/^Game.Repository = function(name, ctor) {$/;"	c
-Game.Repository.create	.\Rouge\assets\repository.js	/^Game.Repository.prototype.create = function(name) {$/;"	m
+Game.Repository.create	.\Rouge\assets\repository.js	/^Game.Repository.prototype.create = function(name, extraProperties) {$/;"	m
 Game.Repository.createRandom	.\Rouge\assets\repository.js	/^Game.Repository.prototype.createRandom = function() {$/;"	m
-Game.Repository.define	.\Rouge\assets\repository.js	/^Game.Repository.prototype.define = function(name, template) {$/;"	m
+Game.Repository.define	.\Rouge\assets\repository.js	/^Game.Repository.prototype.define = function(name, template, options) {$/;"	m
 Game.Screen.ItemListScreen	.\Rouge\assets\screens.js	/^Game.Screen.ItemListScreen = function(template) {$/;"	c
 Game.Screen.ItemListScreen.executeOkFunction	.\Rouge\assets\screens.js	/^Game.Screen.ItemListScreen.prototype.executeOkFunction = function() {$/;"	m
 Game.Screen.ItemListScreen.handleInput	.\Rouge\assets\screens.js	/^Game.Screen.ItemListScreen.prototype.handleInput = function(inputType, inputData) {$/;"	m

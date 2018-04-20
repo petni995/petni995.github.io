@@ -39,7 +39,8 @@ Game.EntityRepository.define('bat', {
     maxHp: 5,
     attackValue: 4,
     mixins: [Game.EntityMixins.WanderActor,
-             Game.EntityMixins.Attacker, Game.EntityMixins.Destructible]
+             Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
+             Game.EntityMixins.CorpseDropper]
 });
 
 Game.EntityRepository.define('newt', {
@@ -50,7 +51,8 @@ Game.EntityRepository.define('newt', {
     maxHp: 3,
     attackValue: 2,
     mixins: [Game.EntityMixins.WanderActor,
-             Game.EntityMixins.Attacker, Game.EntityMixins.Destructible]
+             Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
+             Game.EntityMixins.CorpseDropper]
 });
 
 Game.EntityRepository.define('kobolt', {
@@ -61,5 +63,6 @@ Game.EntityRepository.define('kobolt', {
     maxHp: 15,
     attackValue: 6,
     mixins: [Game.EntityMixins.WanderActor,
-             Game.EntityMixins.Attacker, Game.EntityMixins.Destructible]
+             Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
+             Game.EntityMixins.CorpseDropper]
 });
