@@ -147,15 +147,16 @@ Game.Map.prototype.removeEntity = function(entity) {
 };
 
 
-Game.Map.prototype.updateEntityPosition = function(entity, oldX, oldY, oldZ) {
-    // Delete the old key if it is the same entity and we have old positions.
-    if (oldX) {
+Game.Map.prototype.updateEntityPosition = function(
+    entity, oldX, oldY, oldZ) {
+    // Delete the old key if it is the same entity
+    // and we have old positions.
+    if (typeof oldX === 'number') {
         var oldKey = oldX + ',' + oldY + ',' + oldZ;
         if (this._entities[oldKey] == entity) {
             delete this._entities[oldKey];
         }
-    }
-    // Make sure the entity's position is within bounds
+    }    // Make sure the entity's position is within bounds
     if (entity.getX() < 0 || entity.getX() >= this._width ||
         entity.getY() < 0 || entity.getY() >= this._height ||
         entity.getZ() < 0 || entity.getZ() >= this._depth) {

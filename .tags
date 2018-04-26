@@ -114,6 +114,12 @@ Game.ItemMixins.Edible.eat	.\Rouge\assets\itemmixins.js	/^    eat: function(enti
 Game.ItemMixins.Edible.hasRemainingConsumptions	.\Rouge\assets\itemmixins.js	/^    hasRemainingConsumptions: function() {$/;"	m
 Game.ItemMixins.Edible.init	.\Rouge\assets\itemmixins.js	/^    init: function(template) {$/;"	m
 Game.ItemMixins.Edible.name	.\Rouge\assets\itemmixins.js	/^    name: 'Edible',$/;"	p
+Game.ItemMixins.Equippable.getAttackValue	.\Rouge\assets\itemmixins.js	/^    getAttackValue: function() {$/;"	m
+Game.ItemMixins.Equippable.getDefenseValue	.\Rouge\assets\itemmixins.js	/^    getDefenseValue: function() {$/;"	m
+Game.ItemMixins.Equippable.init	.\Rouge\assets\itemmixins.js	/^    init: function(template) {$/;"	m
+Game.ItemMixins.Equippable.isWearable	.\Rouge\assets\itemmixins.js	/^    isWearable: function() {$/;"	m
+Game.ItemMixins.Equippable.isWieldable	.\Rouge\assets\itemmixins.js	/^    isWieldable: function() {$/;"	m
+Game.ItemMixins.Equippable.name	.\Rouge\assets\itemmixins.js	/^    name: 'Equippable',$/;"	p
 Game.Map	.\Rouge\assets\map.js	/^Game.Map = function(tiles, player) {$/;"	c
 Game.Map._setupExploredArray	.\Rouge\assets\map.js	/^Game.Map.prototype._setupExploredArray = function() {$/;"	m
 Game.Map.addEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.addEntity = function(entity) {$/;"	m
@@ -138,7 +144,7 @@ Game.Map.removeEntity	.\Rouge\assets\map.js	/^Game.Map.prototype.removeEntity = 
 Game.Map.setExplored	.\Rouge\assets\map.js	/^Game.Map.prototype.setExplored = function(x, y, z, state) {$/;"	m
 Game.Map.setItemsAt	.\Rouge\assets\map.js	/^Game.Map.prototype.setItemsAt = function(x, y, z, items) {$/;"	m
 Game.Map.setupFov	.\Rouge\assets\map.js	/^Game.Map.prototype.setupFov = function() {$/;"	m
-Game.Map.updateEntityPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.updateEntityPosition = function(entity, oldX, oldY, oldZ) {$/;"	m
+Game.Map.updateEntityPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.updateEntityPosition = function($/;"	m
 Game.Repository	.\Rouge\assets\repository.js	/^Game.Repository = function(name, ctor) {$/;"	c
 Game.Repository.create	.\Rouge\assets\repository.js	/^Game.Repository.prototype.create = function(name, extraProperties) {$/;"	m
 Game.Repository.createRandom	.\Rouge\assets\repository.js	/^Game.Repository.prototype.createRandom = function() {$/;"	m
