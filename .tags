@@ -68,7 +68,16 @@ Game.EntityMixins.Destructible.getHp	.\Rouge\assets\entitymixins.js	/^  getHp: f
 Game.EntityMixins.Destructible.getMaxHp	.\Rouge\assets\entitymixins.js	/^  getMaxHp: function() {$/;"	m
 Game.EntityMixins.Destructible.init	.\Rouge\assets\entitymixins.js	/^  init: function(template) {$/;"	m
 Game.EntityMixins.Destructible.name	.\Rouge\assets\entitymixins.js	/^  name: 'Destructible',$/;"	p
-Game.EntityMixins.Destructible.takeDamage	.\Rouge\assets\entitymixins.js	/^  takeDamage: function(attacker, damage) {$/;"	m
+Game.EntityMixins.Destructible.takeDamage	.\Rouge\assets\entitymixins.js	/^    takeDamage: function(attacker, damage) {$/;"	m
+Game.EntityMixins.Equipper.getArmor	.\Rouge\assets\entitymixins.js	/^    getArmor: function() {$/;"	m
+Game.EntityMixins.Equipper.getWeapon	.\Rouge\assets\entitymixins.js	/^    getWeapon: function() {$/;"	m
+Game.EntityMixins.Equipper.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
+Game.EntityMixins.Equipper.name	.\Rouge\assets\entitymixins.js	/^    name: 'Equipper',$/;"	p
+Game.EntityMixins.Equipper.takeOff	.\Rouge\assets\entitymixins.js	/^    takeOff: function() {$/;"	m
+Game.EntityMixins.Equipper.unequip	.\Rouge\assets\entitymixins.js	/^    unequip: function(item) {$/;"	m
+Game.EntityMixins.Equipper.unwield	.\Rouge\assets\entitymixins.js	/^    unwield: function() {$/;"	m
+Game.EntityMixins.Equipper.wear	.\Rouge\assets\entitymixins.js	/^    wear: function(item) {$/;"	m
+Game.EntityMixins.Equipper.wield	.\Rouge\assets\entitymixins.js	/^    wield: function(item) {$/;"	m
 Game.EntityMixins.FoodConsumer.addTurnHunger	.\Rouge\assets\entitymixins.js	/^    addTurnHunger: function() {$/;"	m
 Game.EntityMixins.FoodConsumer.getHungerState	.\Rouge\assets\entitymixins.js	/^    getHungerState: function() {$/;"	m
 Game.EntityMixins.FoodConsumer.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
