@@ -8,7 +8,8 @@ Game.Entity = function(properties) {
     this._z = properties['z'] || 0;
     this._map = null;
     this._alive = true;
-};
+    // Acting speed
+    this._speed = properties['speed'] || 1000;};
 // Make entities inherit all the functionality from dynamic glyphs
 Game.Entity.extend(Game.DynamicGlyph);
 
@@ -136,4 +137,12 @@ Game.Entity.prototype.kill = function(message) {
     } else {
         this.getMap().removeEntity(this);
     }
+};
+
+Game.Entity.prototype.setSpeed = function(speed) {
+    this._speed = speed;
+};
+
+Game.Entity.prototype.getSpeed = function() {
+    return this._speed;
 };

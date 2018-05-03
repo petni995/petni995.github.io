@@ -28,6 +28,7 @@ Game.EntityRepository.define('fungus', {
     character: 'F',
     foreground: 'green',
     background: 'white',
+    speed: 250,
     maxHp: 10,
     mixins: [Game.EntityMixins.FungusActor, Game.EntityMixins.Destructible]
 });
@@ -37,9 +38,12 @@ Game.EntityRepository.define('bat', {
     character: 'b',
     foreground: 'black',
     background: 'white',
+    speed: 2000,
     maxHp: 5,
     attackValue: 4,
-    mixins: [Game.EntityMixins.WanderActor,
+    sightRadius: 7,
+    tasks: ['hunt', 'wander'],
+    mixins: [Game.EntityMixins.TaskActor, Game.EntityMixins.Sight,
              Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
              Game.EntityMixins.CorpseDropper]
 });
@@ -51,7 +55,9 @@ Game.EntityRepository.define('newt', {
     background: 'white',
     maxHp: 3,
     attackValue: 2,
-    mixins: [Game.EntityMixins.WanderActor,
+    sightRadius: 5,
+    tasks: ['hunt', 'wander'],
+    mixins: [Game.EntityMixins.TaskActor, Game.EntityMixins.Sight,
              Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
              Game.EntityMixins.CorpseDropper]
 });
@@ -63,7 +69,23 @@ Game.EntityRepository.define('kobolt', {
     background: 'white',
     maxHp: 15,
     attackValue: 6,
-    mixins: [Game.EntityMixins.WanderActor,
+    sightRadius: 5,
+    tasks: ['hunt', 'wander'],
+    mixins: [Game.EntityMixins.TaskActor, Game.EntityMixins.Sight,
+             Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
+             Game.EntityMixins.CorpseDropper]
+});
+
+Game.EntityRepository.define('orc', {
+    name: 'orc',
+    character: 'o',
+    foreground: 'red',
+    background: 'white',
+    maxHp: 20,
+    attackValue: 10,
+    sightRadius: 5,
+    tasks: ['hunt', 'wander'],
+    mixins: [Game.EntityMixins.TaskActor, Game.EntityMixins.Sight,
              Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
              Game.EntityMixins.CorpseDropper]
 });

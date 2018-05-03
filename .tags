@@ -44,6 +44,7 @@ Game.DynamicGlyph.hasMixin	.\Rouge\assets\dynamicglyph.js	/^Game.DynamicGlyph.pr
 Game.DynamicGlyph.setName	.\Rouge\assets\dynamicglyph.js	/^Game.DynamicGlyph.prototype.setName = function(name) {$/;"	m
 Game.Entity	.\Rouge\assets\entity.js	/^Game.Entity = function(properties) {$/;"	c
 Game.Entity.getMap	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getMap = function() {$/;"	m
+Game.Entity.getSpeed	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getSpeed = function() {$/;"	m
 Game.Entity.getX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getX = function() {$/;"	m
 Game.Entity.getY	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getY   = function() {$/;"	m
 Game.Entity.getZ	.\Rouge\assets\entity.js	/^Game.Entity.prototype.getZ = function() {$/;"	m
@@ -51,6 +52,7 @@ Game.Entity.isAlive	.\Rouge\assets\entity.js	/^Game.Entity.prototype.isAlive = f
 Game.Entity.kill	.\Rouge\assets\entity.js	/^Game.Entity.prototype.kill = function(message) {$/;"	m
 Game.Entity.setMap	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setMap = function(map) {$/;"	m
 Game.Entity.setPosition	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setPosition = function(x, y, z) {$/;"	m
+Game.Entity.setSpeed	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setSpeed = function(speed) {$/;"	m
 Game.Entity.setX	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setX = function(x) {$/;"	m
 Game.Entity.setY	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setY = function(y) {$/;"	m
 Game.Entity.setZ	.\Rouge\assets\entity.js	/^Game.Entity.prototype.setZ = function(z) {$/;"	m
@@ -104,13 +106,18 @@ Game.EntityMixins.MessageRecipient.receiveMessage	.\Rouge\assets\entitymixins.js
 Game.EntityMixins.PlayerActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
 Game.EntityMixins.PlayerActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
 Game.EntityMixins.PlayerActor.name	.\Rouge\assets\entitymixins.js	/^    name: 'PlayerActor',$/;"	p
+Game.EntityMixins.Sight.canSee	.\Rouge\assets\entitymixins.js	/^    canSee: function(entity) {$/;"	m
 Game.EntityMixins.Sight.getSightRadius	.\Rouge\assets\entitymixins.js	/^    getSightRadius: function() {$/;"	m
 Game.EntityMixins.Sight.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Sight',$/;"	p
 Game.EntityMixins.Sight.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
 Game.EntityMixins.Sight.name	.\Rouge\assets\entitymixins.js	/^    name: 'Sight',$/;"	p
-Game.EntityMixins.WanderActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
-Game.EntityMixins.WanderActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
-Game.EntityMixins.WanderActor.name	.\Rouge\assets\entitymixins.js	/^    name: 'WanderActor',$/;"	p
+Game.EntityMixins.TaskActor.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
+Game.EntityMixins.TaskActor.canDoTask	.\Rouge\assets\entitymixins.js	/^    canDoTask: function(task) {$/;"	m
+Game.EntityMixins.TaskActor.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
+Game.EntityMixins.TaskActor.hunt	.\Rouge\assets\entitymixins.js	/^    hunt: function() {$/;"	m
+Game.EntityMixins.TaskActor.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
+Game.EntityMixins.TaskActor.name	.\Rouge\assets\entitymixins.js	/^    name: 'TaskActor',$/;"	p
+Game.EntityMixins.TaskActor.wander	.\Rouge\assets\entitymixins.js	/^    wander: function() {$/;"	m
 Game.Glyph	.\Rouge\assets\glyph.js	/^Game.Glyph = function(properties) {$/;"	c
 Game.Glyph.getBackground	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getBackground = function(){$/;"	m
 Game.Glyph.getChar	.\Rouge\assets\glyph.js	/^Game.Glyph.prototype.getChar = function(){$/;"	m
@@ -144,6 +151,7 @@ Game.Map.getEntityAt	.\Rouge\assets\map.js	/^Game.Map.prototype.getEntityAt = fu
 Game.Map.getFov	.\Rouge\assets\map.js	/^Game.Map.prototype.getFov = function(depth) {$/;"	m
 Game.Map.getHeight	.\Rouge\assets\map.js	/^Game.Map.prototype.getHeight = function() {$/;"	m
 Game.Map.getItemsAt	.\Rouge\assets\map.js	/^Game.Map.prototype.getItemsAt = function(x, y, z) {$/;"	m
+Game.Map.getPlayer	.\Rouge\assets\map.js	/^Game.Map.prototype.getPlayer = function() {$/;"	m
 Game.Map.getRandomFloorPosition	.\Rouge\assets\map.js	/^Game.Map.prototype.getRandomFloorPosition = function(z) {$/;"	m
 Game.Map.getTile	.\Rouge\assets\map.js	/^Game.Map.prototype.getTile = function(x, y, z) {$/;"	m
 Game.Map.getWidth	.\Rouge\assets\map.js	/^Game.Map.prototype.getWidth = function() {$/;"	m
