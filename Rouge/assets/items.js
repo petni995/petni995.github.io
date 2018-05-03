@@ -42,6 +42,7 @@ Game.ItemRepository.define('dagger', {
     name: 'dagger',
     character: ')',
     foreground: 'gray',
+    background: 'white',
     attackValue: 5,
     wieldable: true,
     mixins: [Game.ItemMixins.Equippable]
@@ -52,7 +53,8 @@ Game.ItemRepository.define('dagger', {
 Game.ItemRepository.define('sword', {
     name: 'sword',
     character: ')',
-    foreground: 'white',
+    foreground: 'black',
+    background: 'white',
     attackValue: 10,
     wieldable: true,
     mixins: [Game.ItemMixins.Equippable]
@@ -64,6 +66,7 @@ Game.ItemRepository.define('staff', {
     name: 'staff',
     character: ')',
     foreground: 'yellow',
+    background: 'white',
     attackValue: 5,
     defenseValue: 3,
     wieldable: true,
@@ -77,6 +80,7 @@ Game.ItemRepository.define('tunic', {
     name: 'tunic',
     character: '[',
     foreground: 'green',
+    background: 'white',
     defenseValue: 2,
     wearable: true,
     mixins: [Game.ItemMixins.Equippable]
@@ -87,7 +91,8 @@ Game.ItemRepository.define('tunic', {
 Game.ItemRepository.define('chainmail', {
     name: 'chainmail',
     character: '[',
-    foreground: 'white',
+    foreground: 'black',
+    background: 'white',
     defenseValue: 4,
     wearable: true,
     mixins: [Game.ItemMixins.Equippable]
@@ -99,6 +104,7 @@ Game.ItemRepository.define('platemail', {
     name: 'platemail',
     character: '[',
     foreground: 'aliceblue',
+    background: 'white',
     defenseValue: 6,
     wearable: true,
     mixins: [Game.ItemMixins.Equippable]
@@ -110,6 +116,7 @@ Game.ItemRepository.define('pumpkin', {
     name: 'pumpkin',
     character: '%',
     foreground: 'orange',
+    background: 'white',
     foodValue: 50,
     attackValue: 2,
     defenseValue: 2,

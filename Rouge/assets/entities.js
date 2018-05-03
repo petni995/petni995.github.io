@@ -47,7 +47,7 @@ Game.EntityRepository.define('bat', {
 Game.EntityRepository.define('newt', {
     name: 'newt',
     character: ':',
-    foreground: 'yellow',
+    foreground: 'orange',
     background: 'white',
     maxHp: 3,
     attackValue: 2,
