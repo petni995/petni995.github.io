@@ -179,6 +179,7 @@ Game.Screen.playScreen.move	.\Rouge\assets\screens.js	/^    move: function(dX, d
 Game.Screen.playScreen.render	.\Rouge\assets\screens.js	/^    render: function(display) {$/;"	m
 Game.Screen.playScreen.setGameEnded	.\Rouge\assets\screens.js	/^    setGameEnded: function(gameEnded) {$/;"	m
 Game.Screen.playScreen.setSubScreen	.\Rouge\assets\screens.js	/^  setSubScreen: function(subScreen) {$/;"	m
+Game.Screen.playScreen.showItemsSubScreen	.\Rouge\assets\screens.js	/^  showItemsSubScreen: function(subScreen, items, emptyMessage) {$/;"	m
 Game.Screen.startScreen.enter	.\Rouge\assets\screens.js	/^    enter: function() {console.log("Entered start screen."); },$/;"	m
 Game.Screen.startScreen.exit	.\Rouge\assets\screens.js	/^    exit: function() { console.log("Exited start screen."); },$/;"	m
 Game.Screen.startScreen.handleInput	.\Rouge\assets\screens.js	/^    handleInput: function(inputType, inputData) {$/;"	m
@@ -1140,8 +1141,9 @@ lastTextToken	.\Rouge\libraries\rot.js	/^		var lastTextToken = null;$/;"	v
 lastTextToken	.\Weather2\rot.js	/^		var lastTextToken = null;$/;"	v
 lastTokenWithSpace	.\Rouge\libraries\rot.js	/^		var lastTokenWithSpace = -1;$/;"	v
 lastTokenWithSpace	.\Weather2\rot.js	/^		var lastTokenWithSpace = -1;$/;"	v
-letters.A	.\Rouge\assets\screens.js	/^            letters = {'A':0,'B':1}$/;"	p
-letters.B	.\Rouge\assets\screens.js	/^            letters = {'A':0,'B':1}$/;"	p
+letters.A	.\Rouge\assets\screens.js	/^            letters = {'A':0,'B':1,'C':2}$/;"	p
+letters.B	.\Rouge\assets\screens.js	/^            letters = {'A':0,'B':1,'C':2}$/;"	p
+letters.C	.\Rouge\assets\screens.js	/^            letters = {'A':0,'B':1,'C':2}$/;"	p
 lineLength	.\Rouge\libraries\rot.js	/^		var lineLength = 0;$/;"	v
 lineLength	.\Weather2\rot.js	/^		var lineLength = 0;$/;"	v
 lineWidth	.\Rouge\libraries\rot.js	/^		var lineWidth = 0;$/;"	v

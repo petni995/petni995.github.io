@@ -89,53 +89,11 @@
         } else if (x == "-") {
           Game._currentScreen.handleInput('keydown', '-')
           document.getElementById("myInput").value = ""
-        } else if (x == "w" && Game._currentScreen == Game.Screen.startScreen) {
-          // switch of work mode - turn on mobile mode
-          document.body.style.backgroundColor = 'black'
-          // remove old display
-          var foo = document.getElementById('console');
-          while (foo.firstChild) foo.removeChild(foo.firstChild);
-          //new display
-          Game._display = new ROT.Display({widht: Game._screenWidth, height: Game._screenHeight + 1, bg: "black"});
-          Game._display.setOptions({fontSize: 14});
-          document.getElementById("console").appendChild(Game.getDisplay().getContainer());
-          // setup tiles
-          Game.Tile.floorTile["_background"] = "black"
-          Game.Tile.wallTile["_background"] = "black"
-          Game.Tile.stairsUpTile["_background"] = "black"
-          Game.Tile.stairsUpTile["_foreground"] = "white"
-          Game.Tile.stairsDownTile["_background"] = "black"
-          Game.Tile.stairsDownTile["_foreground"] = "white"
-          Game.PlayerTemplate["background"] = "black"
-          Game.PlayerTemplate["foreground"] = "white"
-          Game.FungusTemplate["background"] = "black"
-          Game.FungusTemplate["foreground"] = "green"
-          Game.Screen.playScreen._messagecolor = '%c{white}%b{black}'
-          Game.switchScreen(Game.Screen.startScreen);
-
+        } else if (x == "w") {
+          Game._currentScreen.handleInput('keydown', 'w')
           document.getElementById("myInput").value = ""
-        } else if (x == "+" && Game._currentScreen == Game.Screen.startScreen) {
-          // switch of work mode - turn on laptop mode
-          document.body.style.backgroundColor = 'black'
-          // remove old display
-          var foo = document.getElementById('console');
-          while (foo.firstChild) foo.removeChild(foo.firstChild);
-          //new display
-          Game._display = new ROT.Display({widht: Game._screenWidth, height: Game._screenHeight + 1, bg: "black"});
-          Game._display.setOptions({fontSize: 18});
-          document.getElementById("console").appendChild(Game.getDisplay().getContainer());
-          // setup tiles
-          Game.Tile.floorTile["_background"] = "black"
-          Game.Tile.wallTile["_background"] = "black"
-          Game.Tile.stairsUpTile["_background"] = "black"
-          Game.Tile.stairsUpTile["_foreground"] = "white"
-          Game.Tile.stairsDownTile["_background"] = "black"
-          Game.Tile.stairsDownTile["_foreground"] = "white"
-          Game.PlayerTemplate["background"] = "black"
-          Game.PlayerTemplate["foreground"] = "white"
-          Game.Screen.playScreen._messagecolor = '%c{white}%b{black}'
-          Game.switchScreen(Game.Screen.startScreen);
-
+        } else if (x == "W") {
+          Game._currentScreen.handleInput('keydown', 'W')
           document.getElementById("myInput").value = ""
         } else {
           document.getElementById("myInput").value = ""
@@ -144,7 +102,7 @@
     }
     </script>
 
-    <p>Version 0.122</p>
+    <p>Version 0.123</p>
 
 
   </body>
