@@ -136,33 +136,49 @@ Game.EntityMixins.AutoExplore = {
         var source = this;
         var z = source.getZ();
 
-        randpos = map.getRandomFloorPosition(z);
 
-        var path = new ROT.Path.AStar(randpos.x, randpos.y, function(x, y) {
+        var explored = true
 
-          return source.getMap().getTile(x, y, z).isWalkable();
-
-        }, {topology: 4});
-        // Once we've gotten the path, we want to move to the second cell that is
-        // passed in the callback (the first is the entity's strting point)
-
-        var count = 500;
-
-        path.compute(source.getX(), source.getY(), function(x, y) {
-
-           setTimeout(function(){
-
-             player.tryMove(x, y, z);
-             map.getEngine().unlock();
-             player.act()
+        while (explored) {
+          randpos = map.getRandomFloorPosition(z);
+          if (map.isExplored(randpos.x, randpos.y, z)) {
+            explored = true
+          } else {
+            explored = false
 
 
+            var path = new ROT.Path.AStar(randpos.x, randpos.y, function(x, y) {
 
-           }, count);
+              return source.getMap().getTile(x, y, z).isWalkable();
 
-           count += 500
+            }, {topology: 4});
+            // Once we've gotten the path, we want to move to the second cell that is
+            // passed in the callback (the first is the entity's strting point)
 
-        });
+            var count = 500;
+
+            path.compute(source.getX(), source.getY(), function(x, y) {
+
+               setTimeout(function(){
+
+                 player.tryMove(x, y, z);
+                 map.getEngine().unlock();
+                 player.act()
+
+
+
+               }, count);
+
+               count += 500
+
+            });
+
+
+          }
+        }
+
+
+
 
     },
 };
