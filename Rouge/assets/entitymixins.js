@@ -116,6 +116,52 @@ Game.EntityMixins.TaskActor = {
     }
 };
 
+
+Game.EntityMixins.AutoExplore = {
+    name: 'AutoExplore',
+    groupName: 'Actor',
+    init: function() {
+
+    },
+    act: function() {
+
+    },
+    explore: function() {
+        var player = this.getMap().getPlayer();
+        var map =this.getMap();
+
+        console.log(player)
+
+        // Generate the path and move to the first tile.
+        var source = this;
+        var z = source.getZ();
+        var path = new ROT.Path.AStar(100, 100, function(x, y) {
+          return true
+        }, {topology: 4});
+        // Once we've gotten the path, we want to move to the second cell that is
+        // passed in the callback (the first is the entity's strting point)
+
+        var count = 1000;
+
+        path.compute(source.getX(), source.getY(), function(x, y) {
+
+           setTimeout(function(){
+
+             player.tryMove(x, y, z);
+             map.getEngine().unlock();
+             player.act()
+
+
+
+           }, count);
+
+           count += 1000
+
+        });
+
+    },
+};
+
 // Main player's actor mixin
 Game.EntityMixins.PlayerActor = {
     name: 'PlayerActor',

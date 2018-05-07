@@ -62,6 +62,11 @@ Game.EntityMixins.Attacker.getAttackValue	.\Rouge\assets\entitymixins.js	/^    g
 Game.EntityMixins.Attacker.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Attacker',$/;"	p
 Game.EntityMixins.Attacker.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
 Game.EntityMixins.Attacker.name	.\Rouge\assets\entitymixins.js	/^    name: 'Attacker',$/;"	p
+Game.EntityMixins.AutoExplore.act	.\Rouge\assets\entitymixins.js	/^    act: function() {$/;"	m
+Game.EntityMixins.AutoExplore.explore	.\Rouge\assets\entitymixins.js	/^    explore: function() {$/;"	m
+Game.EntityMixins.AutoExplore.groupName	.\Rouge\assets\entitymixins.js	/^    groupName: 'Actor',$/;"	p
+Game.EntityMixins.AutoExplore.init	.\Rouge\assets\entitymixins.js	/^    init: function() {$/;"	m
+Game.EntityMixins.AutoExplore.name	.\Rouge\assets\entitymixins.js	/^    name: 'AutoExplore',$/;"	p
 Game.EntityMixins.CorpseDropper.init	.\Rouge\assets\entitymixins.js	/^    init: function(template) {$/;"	m
 Game.EntityMixins.CorpseDropper.name	.\Rouge\assets\entitymixins.js	/^    name: 'CorpseDropper',$/;"	p
 Game.EntityMixins.CorpseDropper.tryDropCorpse	.\Rouge\assets\entitymixins.js	/^    tryDropCorpse: function() {$/;"	m

@@ -17,7 +17,7 @@ Game.PlayerTemplate = {
              Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
              Game.EntityMixins.InventoryHolder, Game.EntityMixins.FoodConsumer,
              Game.EntityMixins.Sight, Game.EntityMixins.MessageRecipient,
-             Game.EntityMixins.Equipper]
+             Game.EntityMixins.Equipper, Game.EntityMixins.AutoExplore]
 };
 
 // Create our central entity repository

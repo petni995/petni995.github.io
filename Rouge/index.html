@@ -83,6 +83,9 @@
         } else if (x == "d") {
           Game._currentScreen.handleInput('keydown', 'D')
           document.getElementById("myInput").value = ""
+        } else if (x == "o") {
+          Game.Screen.playScreen._map._player.explore()
+          document.getElementById("myInput").value = ""
         } else if (x == ",") {
           Game._currentScreen.handleInput('keydown', ',')
           document.getElementById("myInput").value = ""
