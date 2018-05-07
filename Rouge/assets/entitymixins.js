@@ -135,13 +135,18 @@ Game.EntityMixins.AutoExplore = {
         // Generate the path and move to the first tile.
         var source = this;
         var z = source.getZ();
-        var path = new ROT.Path.AStar(100, 100, function(x, y) {
-          return true
+
+        randpos = map.getRandomFloorPosition(z);
+
+        var path = new ROT.Path.AStar(randpos.x, randpos.y, function(x, y) {
+
+          return source.getMap().getTile(x, y, z).isWalkable();
+
         }, {topology: 4});
         // Once we've gotten the path, we want to move to the second cell that is
         // passed in the callback (the first is the entity's strting point)
 
-        var count = 1000;
+        var count = 500;
 
         path.compute(source.getX(), source.getY(), function(x, y) {
 
@@ -155,7 +160,7 @@ Game.EntityMixins.AutoExplore = {
 
            }, count);
 
-           count += 1000
+           count += 500
 
         });
 

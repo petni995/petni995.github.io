@@ -33,16 +33,9 @@ Game.Builder.prototype._generateLevel = function() {
         map[w] = new Array(this._height);
     }
     // Setup the cave generator
-    var generator = new ROT.Map.Cellular(this._width, this._height);
-    generator.randomize(0.5);
-    var totalIterations = 3;
-    // Iteratively smoothen the map
-    for (var i = 0; i < totalIterations - 1; i++) {
-        generator.create();
-    }
-    // Smoothen it one last time and then update our map
+    var generator = new ROT.Map.Digger(this._width, this._height);
     generator.create(function(x,y,v) {
-        if (v === 1) {
+        if (v === 0) {
             map[x][y] = Game.Tile.floorTile;
         } else {
             map[x][y] = Game.Tile.wallTile;
