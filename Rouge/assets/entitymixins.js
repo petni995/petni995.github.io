@@ -163,9 +163,6 @@ Game.EntityMixins.AutoExplore = {
 
                  player.tryMove(x, y, z);
                  map.getEngine().unlock();
-                 player.act()
-
-
 
                }, count);
 
