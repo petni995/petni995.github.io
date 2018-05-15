@@ -155,33 +155,38 @@ Game.EntityMixins.AutoExplore = {
             // Once we've gotten the path, we want to move to the second cell that is
             // passed in the callback (the first is the entity's strting point)
 
-            var count = 500;
+            var interval = 500;
+            var count = 0
 
             path.compute(source.getX(), source.getY(), function(x, y) {
 
-               setTimeout(function(){
+              if (count > 0) {
 
-                var seeEnemy = false
+                setTimeout(function(){
 
-                a = _.reject(Game.Screen.playScreen._map._entities, { '_char': "@" });
+                 var seeEnemy = false
 
-                _.forEach(a, function(value, key) {
-                  if(Game.Screen.playScreen._player.canSee(value)) {
-                    seeEnemy = true
-                  }
-                });
+                 a = _.reject(Game.Screen.playScreen._map._entities, { '_char': "@" });
 
-                if (!seeEnemy) {
+                 _.forEach(a, function(value, key) {
+                   if(Game.Screen.playScreen._player.canSee(value)) {
+                     seeEnemy = true
+                   }
+                 });
 
-                  player.tryMove(x, y, z);
-                  map.getEngine().unlock();
-                } else {
-                  return
-                }
+                 if (!seeEnemy) {
 
-               }, count);
+                   player.tryMove(x, y, z);
+                   map.getEngine().unlock();
+                 } else {
+                   return
+                 }
 
-               count += 500
+                }, interval);
+              }
+
+               interval += 500
+               count++;
 
             });
 
