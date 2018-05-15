@@ -161,8 +161,23 @@ Game.EntityMixins.AutoExplore = {
 
                setTimeout(function(){
 
-                 player.tryMove(x, y, z);
-                 map.getEngine().unlock();
+                var seeEnemy = false
+
+                a = _.reject(Game.Screen.playScreen._map._entities, { '_char': "@" });
+
+                _.forEach(a, function(value, key) {
+                  if(Game.Screen.playScreen._player.canSee(value)) {
+                    seeEnemy = true
+                  }
+                });
+
+                if (!seeEnemy) {
+
+                  player.tryMove(x, y, z);
+                  map.getEngine().unlock();
+                } else {
+                  return
+                }
 
                }, count);
 
