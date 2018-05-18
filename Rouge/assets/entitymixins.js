@@ -155,14 +155,15 @@ Game.EntityMixins.AutoExplore = {
             // Once we've gotten the path, we want to move to the second cell that is
             // passed in the callback (the first is the entity's strting point)
 
-            var interval = 500;
+            var interval = 100;
             var count = 0
+            var timeouts = [];
 
             path.compute(source.getX(), source.getY(), function(x, y) {
 
               if (count > 0) {
 
-                setTimeout(function(){
+                var timedstep = setTimeout(function(){
 
                  var seeEnemy = false
 
@@ -179,13 +180,15 @@ Game.EntityMixins.AutoExplore = {
                    player.tryMove(x, y, z);
                    map.getEngine().unlock();
                  } else {
+                   timeouts.forEach(clearInterval)
                    return
                  }
 
                 }, interval);
+                timeouts.push(timedstep)
               }
 
-               interval += 500
+               interval += 100
                count++;
 
             });
