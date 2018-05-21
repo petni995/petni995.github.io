@@ -239,6 +239,15 @@ Game.Map.prototype.isExplored = function(x, y, z) {
     }
 };
 
+Game.Map.prototype.isNotExplored = function(x, y, z) {
+    // Only return the value if within bounds
+    if (this.getTile(x, y, z) !== Game.Tile.nullTile) {
+        return !this._explored[z][x][y];
+    } else {
+        return false;
+    }
+};
+
 // items
 
 Game.Map.prototype.getItemsAt = function(x, y, z) {
