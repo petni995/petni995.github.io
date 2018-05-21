@@ -132,22 +132,25 @@ Game.EntityMixins.AutoExplore = {
 
         console.log(player)
 
-        // Generate the path and move to the first tile.
         var source = this;
         var z = source.getZ();
 
+        var notexplored = []
 
-        var explored = true
+        for (var x = 0; x < 100; x++) {
+            for (var y = 0; y < 48; y++) {
+                 if (Game.Screen.playScreen._map.isNotExplored(x, y, z)) {
+                   if (Game.Screen.playScreen._map.isEmptyFloor(x, y, z)) {
+                   notexplored.push([x,y])
+                    }
+                 }
+            }
+        }
 
-        while (explored) {
-          randpos = map.getRandomFloorPosition(z);
-          if (map.isExplored(randpos.x, randpos.y, z)) {
-            explored = true
-          } else {
-            explored = false
 
+        if (notexplored.length > 0) {
 
-            var path = new ROT.Path.AStar(randpos.x, randpos.y, function(x, y) {
+            var path = new ROT.Path.AStar(notexplored[0][0], notexplored[0][1], function(x, y) {
 
               return source.getMap().getTile(x, y, z).isWalkable();
 
@@ -194,10 +197,7 @@ Game.EntityMixins.AutoExplore = {
             });
 
 
-          }
         }
-
-
 
 
     },
