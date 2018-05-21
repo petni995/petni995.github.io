@@ -1,4 +1,4 @@
-var display = new ROT.Display({width:70, height:80});
+var display = new ROT.Display({width:70, height:70});
 
 display.setOptions({
     fontSize: 16
@@ -22,7 +22,7 @@ var rawDataDebug
 $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
       rawDataDebug = data
 
-      for (var i = 0; i < 70; i++) {
+      for (var i = 0; i < 65; i++) {
         // find temp index
         tindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 't'; });
         tcc_meanindex = _.findIndex(rawDataDebug.timeSeries[i].parameters, function(o) { return o.name == 'tcc_mean'; });
@@ -74,7 +74,7 @@ var datumChange = ""
 
 function update() {
 
-  for (var i = 0; i < 70; i++) {
+  for (var i = 0; i < 65; i++) {
 
     display.drawText(2,  2 , "Date    temp  tempGraph    Cloud     mm/h   m/s    windGraph  Dir");
     display.drawText(2,  3 , "_________________________________________________________________");
