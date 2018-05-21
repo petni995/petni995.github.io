@@ -197,6 +197,8 @@ Game.EntityMixins.AutoExplore = {
             });
 
 
+        } else {
+          Game.sendMessage(Game.Screen.playScreen._map._player,"Done exploring!")
         }
 
 
