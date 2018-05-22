@@ -71,6 +71,65 @@ Game.EntityMixins.Sight = {
     }
 }
 
+Game.EntityMixins.RestAndHeal = {
+    name: 'RestAndHeal',
+    groupName: 'Actor',
+    init: function() {
+
+    },
+    act: function() {
+
+    },
+    rest: function() {
+        var player = this.getMap().getPlayer();
+        var map =this.getMap();
+
+        var source = this;
+        var x = source.getX();
+        var y = source.getY();
+        var z = source.getZ();
+        var hp = source.getHp();
+        var maxhp = source.getMaxHp();
+        var diff = maxhp - hp
+        var interval = 100;
+
+        for (var i = 0; i < diff; i++) {
+
+
+            var count = 0
+            var timeouts = [];
+
+
+            var timedstep = setTimeout(function(){
+
+                 var seeEnemy = false
+
+                 a = _.reject(Game.Screen.playScreen._map._entities, { '_char': "@" });
+
+                 _.forEach(a, function(value, key) {
+                   if(Game.Screen.playScreen._player.canSee(value)) {
+                     seeEnemy = true
+                   }
+                 });
+
+                 if (!seeEnemy) {
+                   player._hp ++
+                   map.getEngine().unlock();
+                 } else {
+                   timeouts.forEach(clearInterval)
+                   return
+                 }
+
+            }, interval);
+
+            timeouts.push(timedstep)
+            interval += 100
+
+        };
+
+    }
+};
+
 Game.EntityMixins.TaskActor = {
     name: 'TaskActor',
     groupName: 'Actor',
@@ -156,8 +215,6 @@ Game.EntityMixins.AutoExplore = {
     explore: function() {
         var player = this.getMap().getPlayer();
         var map =this.getMap();
-
-        console.log(player)
 
         var source = this;
         var z = source.getZ();

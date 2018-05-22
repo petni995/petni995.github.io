@@ -78,6 +78,9 @@
         } else if (x == "<") {
           Game._currentScreen.handleInput('keypress', '<')
           document.getElementById("myInput").value = ""
+        } else if (x == "5") {
+          Game.Screen.playScreen._map._player.rest()
+          document.getElementById("myInput").value = ""
         } else if (x == "i") {
           Game._currentScreen.handleInput('keydown', 'I')
           document.getElementById("myInput").value = ""
@@ -106,7 +109,9 @@
     }
     </script>
 
-    <p>Version 0.136</p>
+    <p>Version 0.137</p>
+
+    <p>New feature: RestAndHeal</p>
 
 
   </body>
