@@ -497,7 +497,7 @@ Game.EntityMixins.FoodConsumer = {
         // Start halfway to max fullness if no default value
         this._fullness = template['fullness'] || (this._maxFullness / 2);
         // Number of points to decrease fullness by every turn.
-        this._fullnessDepletionRate = template['fullnessDepletionRate'] || 1;
+        this._fullnessDepletionRate = template['fullnessDepletionRate'] || 0.2;
     },
     addTurnHunger: function() {
         // Remove the standard depletion points
