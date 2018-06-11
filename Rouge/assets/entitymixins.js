@@ -207,34 +207,40 @@ Game.EntityMixins.AutoExplore = {
     name: 'AutoExplore',
     groupName: 'Actor',
     init: function() {
-
+      this.exploring = 0;
+      this.notexplored = [];
+      this.timeouts = [];
+      this.goal = [];
     },
     act: function() {
 
     },
     explore: function() {
+        this.exploring = 1
         var player = this.getMap().getPlayer();
         var map =this.getMap();
 
         var source = this;
         var z = source.getZ();
 
-        var notexplored = []
+        source.notexplored = [];
 
         for (var x = 0; x < 100; x++) {
             for (var y = 0; y < 48; y++) {
                  if (Game.Screen.playScreen._map.isNotExplored(x, y, z)) {
                    if (Game.Screen.playScreen._map.isEmptyFloor(x, y, z)) {
-                   notexplored.push([x,y])
+                   source.notexplored.push([x,y])
                     }
                  }
             }
         }
 
+        source.goal[0] = source.notexplored[0][0]
+        source.goal[1] = source.notexplored[0][1]
 
-        if (notexplored.length > 0) {
+        if (source.notexplored.length > 0) {
 
-            var path = new ROT.Path.AStar(notexplored[0][0], notexplored[0][1], function(x, y) {
+            var path = new ROT.Path.AStar(source.goal[0], source.goal[1], function(x, y) {
 
               return source.getMap().getTile(x, y, z).isWalkable();
 
@@ -244,7 +250,6 @@ Game.EntityMixins.AutoExplore = {
 
             var interval = 100;
             var count = 0
-            var timeouts = [];
 
             path.compute(source.getX(), source.getY(), function(x, y) {
 
@@ -259,6 +264,7 @@ Game.EntityMixins.AutoExplore = {
                  _.forEach(a, function(value, key) {
                    if(Game.Screen.playScreen._player.canSee(value)) {
                      seeEnemy = true
+                     source.exploring = 0
                    }
                  });
 
@@ -266,13 +272,20 @@ Game.EntityMixins.AutoExplore = {
 
                    player.tryMove(x, y, z);
                    map.getEngine().unlock();
+                   if (x == source.goal[0] && y == source.goal[1] ) {
+                     source.timeouts.forEach(clearInterval)
+                     source.timeouts = []
+                     Game.Screen.playScreen._map._player.explore()
+                   }
+
                  } else {
-                   timeouts.forEach(clearInterval)
+                   source.timeouts.forEach(clearInterval)
+                   source.timeouts = []
                    return
                  }
 
                 }, interval);
-                timeouts.push(timedstep)
+                source.timeouts.push(timedstep)
               }
 
                interval += 100
@@ -497,7 +510,7 @@ Game.EntityMixins.FoodConsumer = {
         // Start halfway to max fullness if no default value
         this._fullness = template['fullness'] || (this._maxFullness / 2);
         // Number of points to decrease fullness by every turn.
-        this._fullnessDepletionRate = template['fullnessDepletionRate'] || 0.2;
+        this._fullnessDepletionRate = template['fullnessDepletionRate'] || 0.05;
     },
     addTurnHunger: function() {
         // Remove the standard depletion points
