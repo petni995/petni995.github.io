@@ -28,8 +28,8 @@ Game.Screen.playScreen = {
   _messagecolor: '%c{black}%b{white}',
   enter: function() {
       // Create a map based on our size parameters
-      var width = 100;
-      var height = 48;
+      var width = 60;
+      var height = 24;
       var depth = 6;
       // Create our map from the tiles and player
       var tiles = new Game.Builder(width, height, depth).getTiles();
