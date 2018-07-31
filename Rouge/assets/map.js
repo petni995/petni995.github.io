@@ -43,8 +43,13 @@ Game.Map = function(tiles, player) {
         }
         // 10 items per floor
         for (var i = 0; i < 15; i++) {
-            // Add a random entity
+            // Add a random item
             this.addItemAtRandomPosition(Game.ItemRepository.createRandom(), z);
+        }
+        // 30 flowers per floor
+        for (var i = 0; i < 30; i++) {
+            // Add a random item
+            this.addItemAtRandomPosition(Game.FlowersRepository.createRandom(), z);
         }
     }
 };

@@ -124,3 +124,16 @@ Game.ItemRepository.define('pumpkin', {
     wieldable: true,
     mixins: [Game.ItemMixins.Edible, Game.ItemMixins.Equippable]
 });
+
+
+// flowers
+
+Game.FlowersRepository = new Game.Repository('flowers', Game.Item);
+
+Game.FlowersRepository.define('blueweed', {
+    name: 'Blueweed',
+    character: ':',
+    foreground: 'blue',
+    background: 'white',
+    mixins: []
+});

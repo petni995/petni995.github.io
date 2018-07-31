@@ -49,10 +49,10 @@ Game.EntityRepository.define('bat', {
              Game.EntityMixins.CorpseDropper]
 });
 
-Game.EntityRepository.define('newt', {
-    name: 'newt',
-    character: ':',
-    foreground: 'orange',
+Game.EntityRepository.define('wolf', {
+    name: 'wolf',
+    character: 'w',
+    foreground: 'darkgrey',
     background: 'white',
     maxHp: 3,
     attackValue: 2,
