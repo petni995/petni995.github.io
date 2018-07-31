@@ -101,25 +101,27 @@ function update() {
     display.drawText(11,  4 + i, tempD);
 
     if (tempD > -20 && tempD <= -15) {
-          display.drawText(14,  4 + i, "[%b{#0040ff}-%b{}---|------]");
+          display.drawText(14,  4 + i, "[%b{#0040ff}-%b{}---|-------]");
     } else if (tempD > -15 && tempD <= -10) {
-          display.drawText(14,  4 + i, "[-%b{#0080ff}-%b{}--|------]");
+          display.drawText(14,  4 + i, "[-%b{#0080ff}-%b{}--|-------]");
     } else if (tempD > -10 && tempD <= -5) {
-          display.drawText(14,  4 + i, "[--%b{#00bfff}-%b{}-|------]");
+          display.drawText(14,  4 + i, "[--%b{#00bfff}-%b{}-|-------]");
     } else if (tempD > -5 && tempD <= 0) {
-          display.drawText(14,  4 + i, "[---%b{#00ffff}-%b{}|------]");
+          display.drawText(14,  4 + i, "[---%b{#00ffff}-%b{}|-------]");
     } else if (tempD > 0 && tempD <= 5) {
-          display.drawText(14,  4 + i, "[----|%b{#00ffbf}-%b{}-----]");
+          display.drawText(14,  4 + i, "[----|%b{#00ffbf}-%b{}------]");
     } else if (tempD > 5 && tempD <= 10) {
-          display.drawText(14,  4 + i, "[----|-%b{#00ff80}-%b{}----]");
+          display.drawText(14,  4 + i, "[----|-%b{#00ff80}-%b{}-----]");
     } else if (tempD > 10 && tempD <= 15) {
-          display.drawText(14,  4 + i, "[----|--%b{#00ff00}-%b{}---]");
+          display.drawText(14,  4 + i, "[----|--%b{#00ff00}-%b{}----]");
     } else if (tempD > 15 && tempD <= 20) {
-              display.drawText(14,  4 + i, "[----|---%b{#ffff00}-%b{}--]");
+              display.drawText(14,  4 + i, "[----|---%b{#ffff00}-%b{}---]");
     } else if (tempD > 20 && tempD <= 25) {
-              display.drawText(14,  4 + i, "[----|----%b{#ffbf00}-%b{}-]");
+              display.drawText(14,  4 + i, "[----|----%b{#ffbf00}-%b{}--]");
     } else if (tempD > 25 && tempD <= 30) {
-              display.drawText(14,  4 + i, "[----|-----%b{#ff8000}-%b{}]");
+              display.drawText(14,  4 + i, "[----|-----%b{#ff8000}-%b{}-]");
+    } else if (tempD > 30 && tempD <= 35) {
+              display.drawText(14,  4 + i, "[----|------%b{#ff4000}-%b{}]");
     }
 
     // Moln
