@@ -44,7 +44,8 @@ Game.Builder.prototype._generateLevel = function() {
         if (v === 0) {
             map[x][y] = Game.Tile.floorTile;
         } else {
-            map[x][y] = Game.Tile.wallTile;
+            // map[x][y] = Game.Tile.wallTile;
+            map[x][y] = Game.Tile.floorTile;
         }
     });
     return map;

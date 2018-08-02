@@ -36,7 +36,7 @@ Game.Map = function(tiles, player) {
     this.addEntityAtRandomPosition(player, 0);
     // Add random entities and items to each floor.
     for (var z = 0; z < this._depth; z++) {
-        // 15 entities per floor
+        // 10 entities per floor
         for (var i = 0; i < 15; i++) {
             // Add a random entity
             this.addEntityAtRandomPosition(Game.EntityRepository.createRandom(), z);
@@ -50,6 +50,11 @@ Game.Map = function(tiles, player) {
         for (var i = 0; i < 30; i++) {
             // Add a random item
             this.addItemAtRandomPosition(Game.FlowersRepository.createRandom(), z);
+        }
+        // 100 trees per floor
+        for (var i = 0; i < 150; i++) {
+            // Add a random item
+            this.addItemAtRandomPosition(Game.TreesRepository.createRandom(), z);
         }
     }
 };
