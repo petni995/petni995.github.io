@@ -141,12 +141,12 @@ Game.FlowersRepository.define('blueweed', {
 
 // trees
 
-Game.TreesRepository = new Game.Repository('trees', Game.Item);
-
-Game.TreesRepository.define('oak', {
-    name: 'oak',
-    character: 'o',
-    foreground: 'brown',
-    background: 'green',
-    mixins: []
-});
+// Game.TreesRepository = new Game.Repository('trees', Game.Item);
+//
+// Game.TreesRepository.define('oak', {
+//     name: 'oak',
+//     character: 'o',
+//     foreground: 'brown',
+//     background: 'green',
+//     mixins: []
+// });

@@ -51,11 +51,11 @@ Game.Map = function(tiles, player) {
             // Add a random item
             this.addItemAtRandomPosition(Game.FlowersRepository.createRandom(), z);
         }
-        // 100 trees per floor
-        for (var i = 0; i < 150; i++) {
-            // Add a random item
-            this.addItemAtRandomPosition(Game.TreesRepository.createRandom(), z);
-        }
+        // // 100 trees per floor
+        // for (var i = 0; i < 150; i++) {
+        //     // Add a random item
+        //     this.addItemAtRandomPosition(Game.TreesRepository.createRandom(), z);
+        // }
     }
 };
 
