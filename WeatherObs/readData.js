@@ -24,7 +24,7 @@ $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/paramete
         var d = new Date(temp.timeSeries[i].validTime)
         plot3.push({'x': d,'y':Number(temp.timeSeries[i].parameters[1].values[0])})
       }
-      plotTriple(plot1, plot2, plot3, "Temperatur obs and prognos");
+      plotTriple(plot1, plot2, plot3, "Temperatur observation senaste dygnet och prognos");
       });
   });
 });
@@ -45,7 +45,7 @@ $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/paramete
       var d = new Date(observTemp2.value[i].date)
       plot2.push({'x': d,'y':Number(observTemp2.value[i].value)})
     }
-    plotDualMonth(plot1, plot2, "temp latest months - Sthlm");
+    plotDualMonth(plot1, plot2, "Temperatur 3 senaste månaderna");
   });
 });
 
@@ -76,7 +76,7 @@ $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/paramete
         var d = new Date(temp.timeSeries[i].validTime)
         plot3.push({'x': d,'y':Number(temp.timeSeries[i].parameters[4].values[0])})
       }
-      plotTriple(plot1, plot2, plot3, "Vind obs and prognos");
+      plotTriple(plot1, plot2, plot3, "Vind observation och prognos");
       });
   });
 });
@@ -100,7 +100,7 @@ $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/paramete
       var d = new Date(observnedb2.value[i].to)
     nedbPlotObsDay.push({'x': d,'y':Number(observnedb2.value[i].value)})
     }
-    plotDualMonth(nedbPlotObslMonth, nedbPlotObsDay, "nedb");
+    plotDualMonth(nedbPlotObslMonth, nedbPlotObsDay, "Nederbörd observation");
   });
 
 });
@@ -122,6 +122,6 @@ $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/paramete
       var d = new Date(observTemp2.value[i].date)
       plot2.push({'x': d,'y':Number(observTemp2.value[i].value)})
     }
-    plotDualMonth3(plot1, plot2, "snödjup latest months - Sthlm");
+    plotDualMonth3(plot1, plot2, "Snödjup 3 senaste månaderna");
   });
 });
