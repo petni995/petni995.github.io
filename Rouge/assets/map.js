@@ -17,10 +17,8 @@ Game.Map = function(tiles, player) {
         'tunic', 'chainmail', 'platemail','dagger', 'sword', 'staff',
         'tunic', 'chainmail', 'platemail', 'dagger', 'sword', 'staff',
         'tunic', 'chainmail', 'platemail','dagger', 'sword', 'staff',
-        'tunic', 'chainmail', 'platemail', 'dagger', 'sword', 'staff',
-        'tunic', 'chainmail', 'platemail','dagger', 'sword', 'staff',
-        'tunic', 'chainmail', 'platemail', 'dagger', 'sword', 'staff',
-        'tunic', 'chainmail', 'platemail'];
+        'tunic', 'chainmail', 'platemail', 'dagger', 'sword', 'staff'
+        ];
     for (var i = 0; i < templates.length; i++) {
         this.addItemAtRandomPosition(Game.ItemRepository.create(templates[i]),
             Math.floor(this._depth * Math.random()));
@@ -34,13 +32,30 @@ Game.Map = function(tiles, player) {
     // Add the player
     this._player = player;
     this.addEntityAtRandomPosition(player, 0);
-    // Add random entities and items to each floor.
-    for (var z = 0; z < this._depth; z++) {
-        // 10 entities per floor
+
+
+    // Add low level enemies to first floor
+
+    var level1enemyTemplates = ['bat','wolf','bat','wolf','bat','wolf',
+        'bat','wolf','bat','wolf'
+        ];
+
+    for (var i = 0; i < level1enemyTemplates.length; i++) {
+        this.addEntityAtRandomPosition(Game.EntityRepository.create(level1enemyTemplates[i]),
+            0);
+    }
+
+    // 10 random entities for the other floors
+    for (var z = 1; z < this._depth; z++) {
         for (var i = 0; i < 15; i++) {
             // Add a random entity
             this.addEntityAtRandomPosition(Game.EntityRepository.createRandom(), z);
         }
+    }
+
+    // Add random items to each floor.
+
+    for (var z = 0; z < this._depth; z++) {
         // 10 items per floor
         for (var i = 0; i < 15; i++) {
             // Add a random item
@@ -51,11 +66,6 @@ Game.Map = function(tiles, player) {
             // Add a random item
             this.addItemAtRandomPosition(Game.FlowersRepository.createRandom(), z);
         }
-        // // 100 trees per floor
-        // for (var i = 0; i < 150; i++) {
-        //     // Add a random item
-        //     this.addItemAtRandomPosition(Game.TreesRepository.createRandom(), z);
-        // }
     }
 };
 
