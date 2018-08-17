@@ -45,8 +45,19 @@ Game.Map = function(tiles, player) {
             0);
     }
 
+    // Add enemies to second floor
+
+    var level2enemyTemplates = ['kobolt','wolf','kobolt','wolf','kobolt','wolf',
+        'kobolt','wolf','kobolt','wolf'
+        ];
+
+    for (var i = 0; i < level2enemyTemplates.length; i++) {
+        this.addEntityAtRandomPosition(Game.EntityRepository.create(level2enemyTemplates[i]),
+            1);
+    }
+
     // 10 random entities for the other floors
-    for (var z = 1; z < this._depth; z++) {
+    for (var z = 2; z < this._depth; z++) {
         for (var i = 0; i < 15; i++) {
             // Add a random entity
             this.addEntityAtRandomPosition(Game.EntityRepository.createRandom(), z);
