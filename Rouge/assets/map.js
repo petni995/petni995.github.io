@@ -34,15 +34,12 @@ Game.Map = function(tiles, player) {
     this.addEntityAtRandomPosition(player, 0);
 
 
-    // Add low level enemies to first floor
+    // New auto system for adding enemies (first floor test)
+    // Nästa steg: bryt upp i delar och få till normal dist på level
 
-    var level1enemyTemplates = ['bat','wolf','bat','wolf','bat','wolf',
-        'bat','wolf','bat','wolf'
-        ];
-
-    for (var i = 0; i < level1enemyTemplates.length; i++) {
-        this.addEntityAtRandomPosition(Game.EntityRepository.create(level1enemyTemplates[i]),
-            0);
+    for (var i = 0; i < _.random(7, 15); i++) {
+        this.addEntityAtRandomPosition(Game.EntityRepository.create(
+          _.filter(Game.EntityRepository._templates, { 'level': 1})[_.random(0,_.filter(Game.EntityRepository._templates, { 'level': 1}).length-1)].name),0)
     }
 
     // Add enemies to second floor
