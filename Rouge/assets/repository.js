@@ -40,3 +40,16 @@ Game.Repository.prototype.createRandom = function() {
     // Pick a random key and create an object based off of it.
     return this.create(Object.keys(this._randomTemplates).random());
 };
+
+// Create a random level specific object
+
+Game.Repository.prototype.createRandomLevel = function(level) {
+
+    // Filter for level this lowest can show up on
+    var levelSpecEnt = _.filter(this._randomTemplates, { 'level': level})
+
+    // Pick a random one and create an object based off of it.
+    var selectedEntity = levelSpecEnt[_.random(0,levelSpecEnt.length - 1)]
+
+    return this.create(selectedEntity.name);
+};

@@ -38,19 +38,7 @@ Game.Map = function(tiles, player) {
     // Nästa steg: bryt upp i delar och få till normal dist på level
 
     for (var i = 0; i < _.random(7, 15); i++) {
-        this.addEntityAtRandomPosition(Game.EntityRepository.create(
-          _.filter(Game.EntityRepository._templates, { 'level': 1})[_.random(0,_.filter(Game.EntityRepository._templates, { 'level': 1}).length-1)].name),0)
-    }
-
-    // Add enemies to second floor
-
-    var level2enemyTemplates = ['kobolt','wolf','kobolt','wolf','kobolt','wolf',
-        'kobolt','wolf','kobolt','wolf'
-        ];
-
-    for (var i = 0; i < level2enemyTemplates.length; i++) {
-        this.addEntityAtRandomPosition(Game.EntityRepository.create(level2enemyTemplates[i]),
-            1);
+      this.addEntityAtRandomPosition(Game.EntityRepository.createRandomLevel(1),0)
     }
 
     // 10 random entities for the other floors
