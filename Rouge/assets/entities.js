@@ -95,3 +95,18 @@ Game.EntityRepository.define('orc', {
              Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
              Game.EntityMixins.CorpseDropper]
 });
+
+Game.EntityRepository.define('orc', {
+    name: 'orc warrior',
+    character: 'o',
+    foreground: 'orange',
+    background: 'white',
+    level: 4,
+    maxHp: 30,
+    attackValue: 13,
+    sightRadius: 5,
+    tasks: ['hunt', 'wander'],
+    mixins: [Game.EntityMixins.TaskActor, Game.EntityMixins.Sight,
+             Game.EntityMixins.Attacker, Game.EntityMixins.Destructible,
+             Game.EntityMixins.CorpseDropper]
+});
