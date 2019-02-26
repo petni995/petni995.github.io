@@ -17,7 +17,7 @@ $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/paramete
       var d = new Date(observTemp2.value[i].date)
       plot2.push({'x': d,'y':Number(observTemp2.value[i].value)})
     }
-    $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
+    $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
       var plot3 = []
       var temp = data
       for (var i = 0; i < temp.timeSeries.length; i++) {
@@ -69,7 +69,7 @@ $.getJSON( "https://opendata-download-metobs.smhi.se/api/version/latest/paramete
       var d = new Date(observTemp2.value[i].date)
       plot2.push({'x': d,'y':Number(observTemp2.value[i].value)})
     }
-    $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
+    $.getJSON( "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/18.054399/lat/59.342007/data.json", function( data ) {
       var plot3 = []
       var temp = data
       for (var i = 0; i < temp.timeSeries.length; i++) {
