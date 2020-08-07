@@ -1,0 +1,14 @@
+{
+  "name": "@d3/drag-zoom",
+  "main": "a2bc740ddf3aa7cc@172.js",
+  "version": "172.0.0",
+  "homepage": "https://observablehq.com/@d3/drag-zoom",
+  "author": {
+    "name": "D3",
+    "url": "https://observablehq.com/@d3"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
